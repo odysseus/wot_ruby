@@ -379,7 +379,7 @@
         "tier": 9,
         "type": "AT-SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 3400000,
         "baseHitpoints": 1280,
@@ -401,231 +401,95 @@
             20,
             5
           ],
-          "viewRange": 410
-        },
-        "gunArc": 360,
-        "turrets": {
-          "turret_1_waffentrager_iv": {
-            "name": "Waffenträger auf Pz. IV für 12.8 cm",
-            "tier": 9,
-            "viewRange": 410,
-            "traverseSpeed": 18,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 100,
-            "additionalHP": 320,
-            "availableGuns": {
-              "_128mm_k44_l55": {
-                "name": "12,8 cm Kanone 44 L/55",
-                "tier": 10,
-                "rateOfFire": 6.0,
-                "accuracy": 0.35,
-                "aimTime": 2.1,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 7795.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 310000,
-                "dispersion": {
-                  "turretRotation": 0.12,
-                  "afterShot": 4.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    246,
-                    490,
-                    1070,
-                    false
-                  ],
-                  [
-                    311,
-                    490,
-                    12,
-                    true
-                  ],
-                  [
-                    65,
-                    630,
-                    935,
-                    false
-                  ]
-                ],
-                "penetration": 246,
-                "damage": 490,
-                "damagePerMinute": 2940.0,
-                "modScore": 28046.25
+          "viewRange": 410,
+          "availableGuns": {
+            "_150mm_rohr_l29_5": {
+              "name": "15 cm Pak L/29.5",
+              "tier": 10,
+              "rateOfFire": 3.75,
+              "accuracy": 0.4,
+              "aimTime": 2.5,
+              "gunDepression": -5,
+              "gunElevation": 15,
+              "weight": 5625.0,
+              "stockModule": true,
+              "topModule": false,
+              "cost": 330000,
+              "dispersion": {
+                "turretRotation": 0.16,
+                "afterShot": 5.0,
+                "gunDamaged": 2.0
               },
-              "_128mm_k44_2_l61": {
-                "name": "12,8 cm Kanone L/61",
-                "tier": 10,
-                "rateOfFire": 5.504587155963303,
-                "accuracy": 0.33,
-                "aimTime": 2.1,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 8300.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 339000,
-                "dispersion": {
-                  "turretRotation": 0.12,
-                  "afterShot": 4.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    276,
-                    560,
-                    1260,
-                    false
-                  ],
-                  [
-                    352,
-                    560,
-                    11,
-                    true
-                  ],
-                  [
-                    65,
-                    700,
-                    1055,
-                    false
-                  ]
+              "shells": [
+                [
+                  215,
+                  750,
+                  1260,
+                  false
                 ],
-                "penetration": 276,
-                "damage": 560,
-                "damagePerMinute": 3082.5688073394494,
-                "modScore": 30947.603211009176
-              }
+                [
+                  334,
+                  750,
+                  15,
+                  true
+                ],
+                [
+                  85,
+                  950,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 215,
+              "damage": 750,
+              "damagePerMinute": 2812.5,
+              "modScore": 29631.25
             },
-            "modScore": 65500.0
-          },
-          "turret_2_waffentrager_iv": {
-            "name": "Waffenträger auf Pz. IV für 15 cm",
-            "tier": 9,
-            "viewRange": 410,
-            "traverseSpeed": 18,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 100,
-            "additionalHP": 320,
-            "availableGuns": {
-              "_150mm_rohr_l29_5": {
-                "name": "15 cm Pak L/29.5",
-                "tier": 10,
-                "rateOfFire": 3.75,
-                "accuracy": 0.4,
-                "aimTime": 2.5,
-                "gunDepression": -5,
-                "gunElevation": 15,
-                "weight": 5625.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 330000,
-                "dispersion": {
-                  "turretRotation": 0.16,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    215,
-                    750,
-                    1260,
-                    false
-                  ],
-                  [
-                    334,
-                    750,
-                    15,
-                    true
-                  ],
-                  [
-                    85,
-                    950,
-                    1120,
-                    false
-                  ]
-                ],
-                "penetration": 215,
-                "damage": 750,
-                "damagePerMinute": 2812.5,
-                "modScore": 29631.25
+            "_150mm_rohr_l38": {
+              "name": "15 cm Pak L/38",
+              "tier": 10,
+              "rateOfFire": 3.75,
+              "accuracy": 0.38,
+              "aimTime": 2.5,
+              "gunDepression": -5,
+              "gunElevation": 15,
+              "weight": 6100.0,
+              "stockModule": false,
+              "topModule": true,
+              "cost": 340000,
+              "dispersion": {
+                "turretRotation": 0.16,
+                "afterShot": 5.0,
+                "gunDamaged": 2.0
               },
-              "_150mm_rohr_l38": {
-                "name": "15 cm Pak L/38",
-                "tier": 10,
-                "rateOfFire": 3.75,
-                "accuracy": 0.38,
-                "aimTime": 2.5,
-                "gunDepression": -5,
-                "gunElevation": 15,
-                "weight": 6100.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 340000,
-                "dispersion": {
-                  "turretRotation": 0.16,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    235,
-                    750,
-                    1260,
-                    false
-                  ],
-                  [
-                    334,
-                    750,
-                    15,
-                    true
-                  ],
-                  [
-                    85,
-                    950,
-                    1120,
-                    false
-                  ]
+              "shells": [
+                [
+                  235,
+                  750,
+                  1260,
+                  false
                 ],
-                "penetration": 235,
-                "damage": 750,
-                "damagePerMinute": 2812.5,
-                "modScore": 30743.75
-              }
-            },
-            "modScore": 65500.0
+                [
+                  334,
+                  750,
+                  15,
+                  true
+                ],
+                [
+                  85,
+                  950,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 235,
+              "damage": 750,
+              "damagePerMinute": 2812.5,
+              "modScore": 30743.75
+            }
           }
         },
+        "gunArc": 360,
         "engines": {
           "maybach_hl90": {
             "name": "Maybach HL 90",
@@ -727,7 +591,7 @@
         "tier": 9,
         "type": "AT-SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 3400000,
         "baseHitpoints": 1280,
@@ -749,231 +613,95 @@
             20,
             5
           ],
-          "viewRange": 410
-        },
-        "gunArc": 360,
-        "turrets": {
-          "turret_1_waffentrager_iv": {
-            "name": "Waffenträger auf Pz. IV für 12.8 cm",
-            "tier": 9,
-            "viewRange": 410,
-            "traverseSpeed": 18,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 100,
-            "additionalHP": 320,
-            "availableGuns": {
-              "_128mm_k44_l55": {
-                "name": "12,8 cm Kanone 44 L/55",
-                "tier": 10,
-                "rateOfFire": 6.0,
-                "accuracy": 0.35,
-                "aimTime": 2.1,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 7795.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 310000,
-                "dispersion": {
-                  "turretRotation": 0.12,
-                  "afterShot": 4.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    246,
-                    490,
-                    1070,
-                    false
-                  ],
-                  [
-                    311,
-                    490,
-                    12,
-                    true
-                  ],
-                  [
-                    65,
-                    630,
-                    935,
-                    false
-                  ]
-                ],
-                "penetration": 246,
-                "damage": 490,
-                "damagePerMinute": 2940.0,
-                "modScore": 28046.25
+          "viewRange": 410,
+          "availableGuns": {
+            "_150mm_rohr_l29_5": {
+              "name": "15 cm Pak L/29.5",
+              "tier": 10,
+              "rateOfFire": 3.75,
+              "accuracy": 0.4,
+              "aimTime": 2.5,
+              "gunDepression": -5,
+              "gunElevation": 15,
+              "weight": 5625.0,
+              "stockModule": true,
+              "topModule": false,
+              "cost": 330000,
+              "dispersion": {
+                "turretRotation": 0.16,
+                "afterShot": 5.0,
+                "gunDamaged": 2.0
               },
-              "_128mm_k44_2_l61": {
-                "name": "12,8 cm Kanone L/61",
-                "tier": 10,
-                "rateOfFire": 5.504587155963303,
-                "accuracy": 0.33,
-                "aimTime": 2.1,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 8300.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 339000,
-                "dispersion": {
-                  "turretRotation": 0.12,
-                  "afterShot": 4.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    276,
-                    560,
-                    1260,
-                    false
-                  ],
-                  [
-                    352,
-                    560,
-                    11,
-                    true
-                  ],
-                  [
-                    65,
-                    700,
-                    1055,
-                    false
-                  ]
+              "shells": [
+                [
+                  215,
+                  750,
+                  1260,
+                  false
                 ],
-                "penetration": 276,
-                "damage": 560,
-                "damagePerMinute": 3082.5688073394494,
-                "modScore": 30947.603211009176
-              }
+                [
+                  334,
+                  750,
+                  15,
+                  true
+                ],
+                [
+                  85,
+                  950,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 215,
+              "damage": 750,
+              "damagePerMinute": 2812.5,
+              "modScore": 29631.25
             },
-            "modScore": 65500.0
-          },
-          "turret_2_waffentrager_iv": {
-            "name": "Waffenträger auf Pz. IV für 15 cm",
-            "tier": 9,
-            "viewRange": 410,
-            "traverseSpeed": 18,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 100,
-            "additionalHP": 320,
-            "availableGuns": {
-              "_150mm_rohr_l29_5": {
-                "name": "15 cm Pak L/29.5",
-                "tier": 10,
-                "rateOfFire": 3.75,
-                "accuracy": 0.4,
-                "aimTime": 2.5,
-                "gunDepression": -5,
-                "gunElevation": 15,
-                "weight": 5625.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 330000,
-                "dispersion": {
-                  "turretRotation": 0.16,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    215,
-                    750,
-                    1260,
-                    false
-                  ],
-                  [
-                    334,
-                    750,
-                    15,
-                    true
-                  ],
-                  [
-                    85,
-                    950,
-                    1120,
-                    false
-                  ]
-                ],
-                "penetration": 215,
-                "damage": 750,
-                "damagePerMinute": 2812.5,
-                "modScore": 29631.25
+            "_150mm_rohr_l38": {
+              "name": "15 cm Pak L/38",
+              "tier": 10,
+              "rateOfFire": 3.75,
+              "accuracy": 0.38,
+              "aimTime": 2.5,
+              "gunDepression": -5,
+              "gunElevation": 15,
+              "weight": 6100.0,
+              "stockModule": false,
+              "topModule": true,
+              "cost": 340000,
+              "dispersion": {
+                "turretRotation": 0.16,
+                "afterShot": 5.0,
+                "gunDamaged": 2.0
               },
-              "_150mm_rohr_l38": {
-                "name": "15 cm Pak L/38",
-                "tier": 10,
-                "rateOfFire": 3.75,
-                "accuracy": 0.38,
-                "aimTime": 2.5,
-                "gunDepression": -5,
-                "gunElevation": 15,
-                "weight": 6100.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 340000,
-                "dispersion": {
-                  "turretRotation": 0.16,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    235,
-                    750,
-                    1260,
-                    false
-                  ],
-                  [
-                    334,
-                    750,
-                    15,
-                    true
-                  ],
-                  [
-                    85,
-                    950,
-                    1120,
-                    false
-                  ]
+              "shells": [
+                [
+                  235,
+                  750,
+                  1260,
+                  false
                 ],
-                "penetration": 235,
-                "damage": 750,
-                "damagePerMinute": 2812.5,
-                "modScore": 30743.75
-              }
-            },
-            "modScore": 65500.0
+                [
+                  334,
+                  750,
+                  15,
+                  true
+                ],
+                [
+                  85,
+                  950,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 235,
+              "damage": 750,
+              "damagePerMinute": 2812.5,
+              "modScore": 30743.75
+            }
           }
         },
+        "gunArc": 360,
         "engines": {
           "maybach_hl90": {
             "name": "Maybach HL 90",

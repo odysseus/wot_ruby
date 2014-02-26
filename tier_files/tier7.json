@@ -12023,7 +12023,7 @@
         "tier": 7,
         "type": "SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 1440000,
         "baseHitpoints": 280,
@@ -12045,129 +12045,47 @@
             20,
             5
           ],
-          "viewRange": 370
-        },
-        "gunArc": 39,
-        "turrets": {
-          "turret_1_gb29_crusader_5inch": {
-            "name": "#gb:turret_1_gb29_crusader_5inch",
-            "tier": 7,
-            "viewRange": 370,
-            "traverseSpeed": 14,
-            "frontArmor": [
-              12,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 100,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_4.5inch_spg_howitzer": {
-                "name": "Q.F. 4.5-in. Howitzer",
-                "tier": 5,
-                "rateOfFire": 5.0,
-                "accuracy": 0.72,
-                "aimTime": 4.5,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 463.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 43000,
-                "dispersion": {
-                  "turretRotation": 0.38,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    57,
-                    450,
-                    250,
-                    false
-                  ]
+          "viewRange": 370,
+          "availableGuns": {
+            "_5.5inch_spg_gun": {
+              "name": "B.L. 5.5-in. Gun",
+              "tier": 7,
+              "rateOfFire": 2.142857142857143,
+              "accuracy": 0.72,
+              "aimTime": 6.5,
+              "gunDepression": -5,
+              "gunElevation": 45,
+              "weight": 1869.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 88000,
+              "dispersion": {
+                "turretRotation": 0.46,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  70,
+                  900,
+                  700,
+                  false
                 ],
-                "penetration": 57,
-                "damage": 450,
-                "damagePerMinute": 2250.0,
-                "modScore": 10167.5
-              }
-            },
-            "modScore": 53500.0
-          },
-          "turret_2_gb29_crusader_5inch": {
-            "name": "#gb:turret_2_gb29_crusader_5inch",
-            "tier": 7,
-            "viewRange": 370,
-            "traverseSpeed": 14,
-            "frontArmor": [
-              12,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 100,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_5.5inch_spg_gun": {
-                "name": "B.L. 5.5-in. Gun",
-                "tier": 7,
-                "rateOfFire": 2.142857142857143,
-                "accuracy": 0.72,
-                "aimTime": 6.5,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 1869.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 88000,
-                "dispersion": {
-                  "turretRotation": 0.46,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    70,
-                    900,
-                    700,
-                    false
-                  ],
-                  [
-                    75,
-                    900,
-                    12,
-                    true
-                  ]
-                ],
-                "penetration": 70,
-                "damage": 900,
-                "damagePerMinute": 1928.5714285714284,
-                "modScore": 16667.85714285714
-              }
-            },
-            "modScore": 53500.0
+                [
+                  75,
+                  900,
+                  12,
+                  true
+                ]
+              ],
+              "penetration": 70,
+              "damage": 900,
+              "damagePerMinute": 1928.5714285714284,
+              "modScore": 16667.85714285714
+            }
           }
         },
+        "gunArc": 39,
         "engines": {
           "nuffield_liberty_mkiv": {
             "name": "Nuffield Liberty Mk. III",
@@ -12703,7 +12621,7 @@
         "tier": 7,
         "type": "SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 1370000,
         "baseHitpoints": 280,
@@ -12725,183 +12643,95 @@
             10,
             5
           ],
-          "viewRange": 360
-        },
-        "gunArc": 8,
-        "turrets": {
-          "turret_1_su14_1": {
-            "name": "SU-14-2",
-            "tier": 7,
-            "viewRange": 360,
-            "traverseSpeed": 12,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 1200,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_152mm_howitzer_ml-20_mod_1931": {
-                "name": "152 mm Howitzer ML-20 mod. 1931",
-                "tier": 6,
-                "rateOfFire": 2.3076923076923075,
-                "accuracy": 0.8,
-                "aimTime": 7.0,
-                "gunDepression": 0,
-                "gunElevation": 45,
-                "weight": 2363.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 64830,
-                "dispersion": {
-                  "turretRotation": 0.44,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    88,
-                    910,
-                    810,
-                    false
-                  ],
-                  [
-                    250,
-                    700,
-                    15,
-                    true
-                  ]
-                ],
-                "penetration": 88,
-                "damage": 910,
-                "damagePerMinute": 2100.0,
-                "modScore": 16720.0
-              }
-            },
-            "modScore": 53000.0
-          },
-          "turret_2_su14_1": {
-            "name": "SU-14-2",
-            "tier": 7,
-            "viewRange": 360,
-            "traverseSpeed": 12,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 1200,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_152mm_br-2": {
-                "name": "152 mm BR-2",
-                "tier": 7,
-                "rateOfFire": 2.2222222222222223,
-                "accuracy": 0.76,
-                "aimTime": 7.0,
-                "gunDepression": 0,
-                "gunElevation": 60,
-                "weight": 5720.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 92000,
-                "dispersion": {
-                  "turretRotation": 0.52,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    88,
-                    950,
-                    1120,
-                    false
-                  ],
-                  [
-                    246,
-                    750,
-                    12,
-                    true
-                  ],
-                  [
-                    90,
-                    950,
-                    13,
-                    true
-                  ]
-                ],
-                "penetration": 88,
-                "damage": 950,
-                "damagePerMinute": 2111.1111111111113,
-                "modScore": 18086.666666666668
+          "viewRange": 360,
+          "availableGuns": {
+            "_152mm_br-2": {
+              "name": "152 mm BR-2",
+              "tier": 7,
+              "rateOfFire": 2.2222222222222223,
+              "accuracy": 0.76,
+              "aimTime": 7.0,
+              "gunDepression": 0,
+              "gunElevation": 60,
+              "weight": 5720.0,
+              "stockModule": true,
+              "topModule": false,
+              "cost": 92000,
+              "dispersion": {
+                "turretRotation": 0.52,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
               },
-              "_203mm_b-4": {
-                "name": "203 mm B-4",
-                "tier": 9,
-                "rateOfFire": 1.0810810810810811,
-                "accuracy": 0.88,
-                "aimTime": 8.0,
-                "gunDepression": 0,
-                "gunElevation": 60,
-                "weight": 5200.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 235000,
-                "dispersion": {
-                  "turretRotation": 0.64,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    102,
-                    1850,
-                    1910,
-                    false
-                  ],
-                  [
-                    260,
-                    1450,
-                    1845,
-                    false
-                  ],
-                  [
-                    102,
-                    1850,
-                    20,
-                    true
-                  ]
+              "shells": [
+                [
+                  88,
+                  950,
+                  1120,
+                  false
                 ],
-                "penetration": 102,
-                "damage": 1850,
-                "damagePerMinute": 2000.0,
-                "modScore": 32180.0
-              }
+                [
+                  246,
+                  750,
+                  12,
+                  true
+                ],
+                [
+                  90,
+                  950,
+                  13,
+                  true
+                ]
+              ],
+              "penetration": 88,
+              "damage": 950,
+              "damagePerMinute": 2111.1111111111113,
+              "modScore": 18086.666666666668
             },
-            "modScore": 53000.0
+            "_203mm_b-4": {
+              "name": "203 mm B-4",
+              "tier": 9,
+              "rateOfFire": 1.0810810810810811,
+              "accuracy": 0.88,
+              "aimTime": 8.0,
+              "gunDepression": 0,
+              "gunElevation": 60,
+              "weight": 5200.0,
+              "stockModule": false,
+              "topModule": true,
+              "cost": 235000,
+              "dispersion": {
+                "turretRotation": 0.64,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  102,
+                  1850,
+                  1910,
+                  false
+                ],
+                [
+                  260,
+                  1450,
+                  1845,
+                  false
+                ],
+                [
+                  102,
+                  1850,
+                  20,
+                  true
+                ]
+              ],
+              "penetration": 102,
+              "damage": 1850,
+              "damagePerMinute": 2000.0,
+              "modScore": 32180.0
+            }
           }
         },
+        "gunArc": 8,
         "engines": {
           "m-17f": {
             "name": "M-17T",

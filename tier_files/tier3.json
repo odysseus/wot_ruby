@@ -10046,7 +10046,7 @@
         "tier": 3,
         "type": "SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 49000,
         "baseHitpoints": 112,
@@ -10068,141 +10068,53 @@
             38,
             5
           ],
-          "viewRange": 330
-        },
-        "gunArc": 40,
-        "turrets": {
-          "turret_1_gb27_sexton": {
-            "name": "Sexton II",
-            "tier": 3,
-            "viewRange": 330,
-            "traverseSpeed": 16,
-            "frontArmor": [
-              19,
-              5
-            ],
-            "sideArmor": [
-              12,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 200,
-            "additionalHP": 28,
-            "availableGuns": {
-              "_18_pdr_spg_gun": {
-                "name": "Q.F. 18-Pr.",
-                "tier": 3,
-                "rateOfFire": 5.454545454545454,
-                "accuracy": 0.78,
-                "aimTime": 5.5,
-                "gunDepression": -5,
-                "gunElevation": 37,
-                "weight": 457.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 10500,
-                "dispersion": {
-                  "turretRotation": 0.48,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    42,
-                    260,
-                    72,
-                    false
-                  ],
-                  [
-                    65,
-                    170,
-                    56,
-                    false
-                  ]
+          "viewRange": 330,
+          "availableGuns": {
+            "oqf_25pdr_gun_mk_ii": {
+              "name": "Q.F. 25-Pr. Gun/How.",
+              "tier": 4,
+              "rateOfFire": 5.0,
+              "accuracy": 0.76,
+              "aimTime": 5.5,
+              "gunDepression": -9,
+              "gunElevation": 40,
+              "weight": 510.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 28500,
+              "dispersion": {
+                "turretRotation": 0.44,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  44,
+                  280,
+                  83,
+                  false
                 ],
-                "penetration": 42,
-                "damage": 260,
-                "damagePerMinute": 1418.181818181818,
-                "modScore": 2994.772727272728
-              }
-            },
-            "modScore": 31500.0
-          },
-          "turret_2_gb27_sexton": {
-            "name": "Sexton II",
-            "tier": 3,
-            "viewRange": 330,
-            "traverseSpeed": 16,
-            "frontArmor": [
-              19,
-              5
-            ],
-            "sideArmor": [
-              12,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 200,
-            "additionalHP": 28,
-            "availableGuns": {
-              "oqf_25pdr_gun_mk_ii": {
-                "name": "Q.F. 25-Pr. Gun/How.",
-                "tier": 4,
-                "rateOfFire": 5.0,
-                "accuracy": 0.76,
-                "aimTime": 5.5,
-                "gunDepression": -9,
-                "gunElevation": 40,
-                "weight": 510.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 28500,
-                "dispersion": {
-                  "turretRotation": 0.44,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    44,
-                    280,
-                    83,
-                    false
-                  ],
-                  [
-                    92,
-                    180,
-                    7,
-                    true
-                  ],
-                  [
-                    71,
-                    180,
-                    83,
-                    false
-                  ]
+                [
+                  92,
+                  180,
+                  7,
+                  true
                 ],
-                "penetration": 44,
-                "damage": 280,
-                "damagePerMinute": 1400.0,
-                "modScore": 4060.0
-              }
-            },
-            "modScore": 31500.0
+                [
+                  71,
+                  180,
+                  83,
+                  false
+                ]
+              ],
+              "penetration": 44,
+              "damage": 280,
+              "damagePerMinute": 1400.0,
+              "modScore": 4060.0
+            }
           }
         },
+        "gunArc": 40,
         "engines": {
           "wright_continental_r-975c1": {
             "name": "Wright Continental R-975C1",

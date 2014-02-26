@@ -13302,7 +13302,7 @@
         "tier": 6,
         "type": "SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 930000,
         "baseHitpoints": 224,
@@ -13324,135 +13324,41 @@
             25,
             5
           ],
-          "viewRange": 310
-        },
-        "gunArc": 31,
-        "turrets": {
-          "turret_1_gb77_fv304": {
-            "name": "FV304",
-            "tier": 6,
-            "viewRange": 310,
-            "traverseSpeed": 20,
-            "frontArmor": [
-              25,
-              5
-            ],
-            "sideArmor": [
-              10,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 100,
-            "additionalHP": 56,
-            "availableGuns": {
-              "oqf_25pdr_gun_mk_ii": {
-                "name": "Q.F. 25-Pr. Gun/How.",
-                "tier": 4,
-                "rateOfFire": 6.976744186046512,
-                "accuracy": 0.66,
-                "aimTime": 4.5,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 510.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 28500,
-                "dispersion": {
-                  "turretRotation": 0.36,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    44,
-                    280,
-                    83,
-                    false
-                  ],
-                  [
-                    92,
-                    180,
-                    7,
-                    true
-                  ],
-                  [
-                    71,
-                    180,
-                    83,
-                    false
-                  ]
-                ],
-                "penetration": 44,
-                "damage": 280,
-                "damagePerMinute": 1953.4883720930231,
-                "modScore": 6052.732558139534
-              }
-            },
-            "modScore": 45500.0
-          },
-          "turret_2_gb77_fv304": {
-            "name": "#gb:turret_2_gb77_fv304",
-            "tier": 6,
-            "viewRange": 310,
-            "traverseSpeed": 20,
-            "frontArmor": [
-              25,
-              5
-            ],
-            "sideArmor": [
-              10,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 100,
-            "additionalHP": 56,
-            "availableGuns": {
-              "_4.5inch_spg_howitzer": {
-                "name": "Q.F. 4.5-in. Howitzer",
-                "tier": 5,
-                "rateOfFire": 5.0,
-                "accuracy": 0.7,
-                "aimTime": 4.5,
-                "gunDepression": -1,
-                "gunElevation": 45,
-                "weight": 463.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 43000,
-                "dispersion": {
-                  "turretRotation": 0.36,
-                  "afterShot": 5.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    57,
-                    450,
-                    250,
-                    false
-                  ]
-                ],
-                "penetration": 57,
-                "damage": 450,
-                "damagePerMinute": 2250.0,
-                "modScore": 10230.0
-              }
-            },
-            "modScore": 45500.0
+          "viewRange": 310,
+          "availableGuns": {
+            "_4.5inch_spg_howitzer": {
+              "name": "Q.F. 4.5-in. Howitzer",
+              "tier": 5,
+              "rateOfFire": 5.0,
+              "accuracy": 0.7,
+              "aimTime": 4.5,
+              "gunDepression": -1,
+              "gunElevation": 45,
+              "weight": 463.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 43000,
+              "dispersion": {
+                "turretRotation": 0.36,
+                "afterShot": 5.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  57,
+                  450,
+                  250,
+                  false
+                ]
+              ],
+              "penetration": 57,
+              "damage": 450,
+              "damagePerMinute": 2250.0,
+              "modScore": 10230.0
+            }
           }
         },
+        "gunArc": 31,
         "engines": {
           "rolls_royce_meteorite_v8": {
             "name": "Rolls-Royce Meteorite V8",

@@ -558,7 +558,7 @@
         "tier": 5,
         "type": "AT-SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 380000,
         "baseHitpoints": 280,
@@ -580,189 +580,53 @@
             14,
             5
           ],
-          "viewRange": 380
-        },
-        "gunArc": 10,
-        "turrets": {
-          "turret_1_pz_sfl_ivc": {
-            "name": "Pz.Sfl. IVc Flak 37",
-            "tier": 5,
-            "viewRange": 380,
-            "traverseSpeed": 26,
-            "frontArmor": [
-              12,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 100,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_75mm_flak_l60": {
-                "name": "7,5 cm Flak L/60",
-                "tier": 6,
-                "rateOfFire": 15.0,
-                "accuracy": 0.35,
-                "aimTime": 1.7,
-                "gunDepression": -5,
-                "gunElevation": 85,
-                "weight": 1250.0,
-                "stockModule": true,
-                "topModule": false,
-                "cost": 53000,
-                "dispersion": {
-                  "turretRotation": 0.08,
-                  "afterShot": 3.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    139,
-                    135,
-                    109,
-                    false
-                  ],
-                  [
-                    174,
-                    135,
-                    7,
-                    true
-                  ],
-                  [
-                    38,
-                    175,
-                    98,
-                    false
-                  ]
-                ],
-                "penetration": 139,
-                "damage": 135,
-                "damagePerMinute": 2025.0,
-                "modScore": 13571.25
+          "viewRange": 380,
+          "availableGuns": {
+            "_88mm_flak_41_l74": {
+              "name": "8,8 cm Flak 41 L/74",
+              "tier": 8,
+              "rateOfFire": 8.0,
+              "accuracy": 0.32,
+              "aimTime": 2.3,
+              "gunDepression": -5,
+              "gunElevation": 90,
+              "weight": 4905.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 112180,
+              "dispersion": {
+                "turretRotation": 0.16,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
               },
-              "_88mm_flak_37_l56": {
-                "name": "8,8 cm Flak 37 L/56",
-                "tier": 7,
-                "rateOfFire": 8.823529411764707,
-                "accuracy": 0.35,
-                "aimTime": 1.9,
-                "gunDepression": -5,
-                "gunElevation": 85,
-                "weight": 2065.0,
-                "stockModule": false,
-                "topModule": true,
-                "cost": 66000,
-                "dispersion": {
-                  "turretRotation": 0.12,
-                  "afterShot": 3.5,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    132,
-                    220,
-                    252,
-                    false
-                  ],
-                  [
-                    171,
-                    220,
-                    8,
-                    true
-                  ],
-                  [
-                    44,
-                    270,
-                    252,
-                    false
-                  ]
+              "shells": [
+                [
+                  194,
+                  240,
+                  252,
+                  false
                 ],
-                "penetration": 132,
-                "damage": 220,
-                "damagePerMinute": 1941.1764705882354,
-                "modScore": 14808.014705882353
-              }
-            },
-            "modScore": 44000.0
-          },
-          "turret_2_pz_sfl_ivc": {
-            "name": "Pz.Sfl. IVc Flak 41",
-            "tier": 5,
-            "viewRange": 380,
-            "traverseSpeed": 26,
-            "frontArmor": [
-              12,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 100,
-            "additionalHP": 70,
-            "availableGuns": {
-              "_88mm_flak_41_l74": {
-                "name": "8,8 cm Flak 41 L/74",
-                "tier": 8,
-                "rateOfFire": 8.0,
-                "accuracy": 0.32,
-                "aimTime": 2.3,
-                "gunDepression": -5,
-                "gunElevation": 90,
-                "weight": 4905.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 112180,
-                "dispersion": {
-                  "turretRotation": 0.16,
-                  "afterShot": 4.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    194,
-                    240,
-                    252,
-                    false
-                  ],
-                  [
-                    237,
-                    240,
-                    11,
-                    true
-                  ],
-                  [
-                    44,
-                    295,
-                    252,
-                    false
-                  ]
+                [
+                  237,
+                  240,
+                  11,
+                  true
                 ],
-                "penetration": 194,
-                "damage": 240,
-                "damagePerMinute": 1920.0,
-                "modScore": 18710.0
-              }
-            },
-            "modScore": 44000.0
+                [
+                  44,
+                  295,
+                  252,
+                  false
+                ]
+              ],
+              "penetration": 194,
+              "damage": 240,
+              "damagePerMinute": 1920.0,
+              "modScore": 18710.0
+            }
           }
         },
+        "gunArc": 10,
         "engines": {
           "maybach_hl90": {
             "name": "Maybach HL 90",

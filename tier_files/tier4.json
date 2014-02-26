@@ -10275,7 +10275,7 @@
         "tier": 4,
         "type": "SPG",
         "premiumTank": false,
-        "turreted": true,
+        "turreted": false,
         "experienceNeeded": 0,
         "cost": 124000,
         "baseHitpoints": 136,
@@ -10297,135 +10297,47 @@
             15,
             5
           ],
-          "viewRange": 340
-        },
-        "gunArc": 60,
-        "turrets": {
-          "turret_1_amx_ob_am105": {
-            "name": "AMX 13 F3 AM",
-            "tier": 5,
-            "viewRange": 340,
-            "traverseSpeed": 10,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": true,
-            "topModule": false,
-            "cost": 0,
-            "additionalHP": 34,
-            "availableGuns": {
-              "canon_de_105_defa_4767_mod": {
-                "name": "105 mm D.E.F.A. 4767 modifié",
-                "tier": 4,
-                "rateOfFire": 4.0,
-                "accuracy": 0.77,
-                "aimTime": 5.5,
-                "gunDepression": -5,
-                "gunElevation": 45,
-                "weight": 490.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 28000,
-                "dispersion": {
-                  "turretRotation": 0.42,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    53,
-                    410,
-                    128,
-                    false
-                  ],
-                  [
-                    104,
-                    350,
-                    10,
-                    true
-                  ]
+          "viewRange": 340,
+          "availableGuns": {
+            "canon_de_105_mle_1930_schneider_am": {
+              "name": "105 mm obusier mle. 1950",
+              "tier": 5,
+              "rateOfFire": 3.75,
+              "accuracy": 0.74,
+              "aimTime": 5.5,
+              "gunDepression": 0,
+              "gunElevation": 45,
+              "weight": 550.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 52000,
+              "dispersion": {
+                "turretRotation": 0.46,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  60,
+                  445,
+                  190,
+                  false
                 ],
-                "penetration": 53,
-                "damage": 410,
-                "damagePerMinute": 1640.0,
-                "modScore": 6811.25
-              }
-            },
-            "modScore": 42000.0
-          },
-          "turret_2_amx_ob_am105": {
-            "name": "AMX 13 F3 AM",
-            "tier": 5,
-            "viewRange": 340,
-            "traverseSpeed": 10,
-            "frontArmor": [
-              10,
-              5
-            ],
-            "sideArmor": [
-              0,
-              5
-            ],
-            "rearArmor": [
-              0,
-              5
-            ],
-            "weight": 100,
-            "stockModule": false,
-            "topModule": true,
-            "cost": 0,
-            "additionalHP": 34,
-            "availableGuns": {
-              "canon_de_105_mle_1930_schneider_am": {
-                "name": "105 mm obusier mle. 1950",
-                "tier": 5,
-                "rateOfFire": 3.75,
-                "accuracy": 0.74,
-                "aimTime": 5.5,
-                "gunDepression": 0,
-                "gunElevation": 45,
-                "weight": 550.0,
-                "stockModule": true,
-                "topModule": true,
-                "cost": 52000,
-                "dispersion": {
-                  "turretRotation": 0.46,
-                  "afterShot": 6.0,
-                  "gunDamaged": 2.0
-                },
-                "shells": [
-                  [
-                    60,
-                    445,
-                    190,
-                    false
-                  ],
-                  [
-                    223,
-                    330,
-                    10,
-                    true
-                  ]
-                ],
-                "penetration": 60,
-                "damage": 445,
-                "damagePerMinute": 1668.75,
-                "modScore": 8465.625
-              }
-            },
-            "modScore": 42000.0
+                [
+                  223,
+                  330,
+                  10,
+                  true
+                ]
+              ],
+              "penetration": 60,
+              "damage": 445,
+              "damagePerMinute": 1668.75,
+              "modScore": 8465.625
+            }
           }
         },
+        "gunArc": 60,
         "engines": {
           "amx_b_270": {
             "name": "AMX B 270",
