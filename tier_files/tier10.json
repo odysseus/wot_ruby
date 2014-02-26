@@ -1,0 +1,5133 @@
+{
+  "tier10": {
+    "AT-SPG": {
+      "FrAT-STGAMX50Foch(155).json": {
+        "name": "AMX 50 Foch (155)",
+        "nation": "france",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1480,
+        "speedLimit": 50.0,
+        "reverseSpeed": 13.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 57.6,
+        "hull": {
+          "frontArmor": [
+            180,
+            5
+          ],
+          "sideArmor": [
+            40,
+            5
+          ],
+          "rearArmor": [
+            40,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_155mm_sa_58_ac": {
+              "name": "155 mm AC SA58",
+              "tier": 10,
+              "rateOfFire": 1.2,
+              "accuracy": 0.36,
+              "aimTime": 3.0,
+              "gunDepression": -5,
+              "gunElevation": 12,
+              "weight": 5000.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 375000,
+              "dispersion": {
+                "turretRotation": 0.2,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  293,
+                  750,
+                  1560,
+                  false
+                ],
+                [
+                  395,
+                  750,
+                  17,
+                  true
+                ],
+                [
+                  90,
+                  1100,
+                  1090,
+                  false
+                ]
+              ],
+              "penetration": 293,
+              "damage": 750,
+              "damagePerMinute": 900.0,
+              "modScore": 30557.5
+            }
+          }
+        },
+        "gunArc": 12,
+        "engines": {
+          "saurer": {
+            "name": "Saurer",
+            "tier": 9,
+            "horsepower": 1000,
+            "firechance": 0.15,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 99800,
+            "modScore": 95000.0
+          }
+        },
+        "radios": {
+          "scr_619": {
+            "name": "SCR 619",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_amx_50fosh_155_2": {
+            "name": "AMX 50 Foch (155)",
+            "tier": 10,
+            "loadLimit": 59.56,
+            "traverseSpeed": 30,
+            "weight": 11000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.4",
+              "1.6",
+              "2.4"
+            ],
+            "dispersion": 0.2,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5478.0
+          }
+        }
+      },
+      "GerAT-STGJagdpanzerE100.json": {
+        "name": "Jagdpanzer E 100",
+        "nation": "germany",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1760,
+        "speedLimit": 30.0,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 133.94,
+        "hull": {
+          "frontArmor": [
+            200,
+            5
+          ],
+          "sideArmor": [
+            120,
+            5
+          ],
+          "rearArmor": [
+            150,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_170mm_pak_k72": {
+              "name": "17 cm Pak",
+              "tier": 10,
+              "rateOfFire": 2.3346303501945527,
+              "accuracy": 0.35,
+              "aimTime": 2.7,
+              "gunDepression": -6,
+              "gunElevation": 17,
+              "weight": 7680.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 365000,
+              "dispersion": {
+                "turretRotation": 0.2,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  299,
+                  1050,
+                  2200,
+                  false
+                ],
+                [
+                  420,
+                  1050,
+                  18,
+                  true
+                ],
+                [
+                  85,
+                  1400,
+                  1430,
+                  false
+                ]
+              ],
+              "penetration": 299,
+              "damage": 1050,
+              "damagePerMinute": 2451.3618677042805,
+              "modScore": 37985.79280155642
+            }
+          }
+        },
+        "gunArc": 16,
+        "engines": {
+          "maybach_hl_234p60": {
+            "name": "Maybach Neues Projekt",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.15,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 135000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_jagdpz_e100": {
+            "name": "Jagdpanzer E 100",
+            "tier": 10,
+            "loadLimit": 150.0,
+            "traverseSpeed": 20,
+            "weight": 30000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.3"
+            ],
+            "dispersion": 0.18,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 10000.0
+          }
+        }
+      },
+      "GerAT-STGWaffenträgerAufE100.json": {
+        "name": "Waffenträger auf E 100",
+        "nation": "germany",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1600,
+        "speedLimit": 40.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 100,
+        "hull": {
+          "frontArmor": [
+            200,
+            5
+          ],
+          "sideArmor": [
+            120,
+            5
+          ],
+          "rearArmor": [
+            150,
+            5
+          ],
+          "viewRange": 420
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_waffentrager_e100": {
+            "name": "Waffenträger auf E 100",
+            "tier": 10,
+            "viewRange": 420,
+            "traverseSpeed": 22,
+            "frontArmor": [
+              20,
+              5
+            ],
+            "sideArmor": [
+              10,
+              5
+            ],
+            "rearArmor": [
+              8,
+              5
+            ],
+            "weight": 10000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100,
+            "additionalHP": 400,
+            "availableGuns": {
+              "_128mm_k44_2_l61": {
+                "name": "12,8 cm Kanone L/61",
+                "tier": 10,
+                "rateOfFire": 1.0,
+                "accuracy": 0.29,
+                "aimTime": 1.5,
+                "gunDepression": -5,
+                "gunElevation": 15,
+                "weight": 8300.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 339000,
+                "dispersion": {
+                  "turretRotation": 0.25,
+                  "afterShot": 2.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    276,
+                    560,
+                    1260,
+                    false
+                  ],
+                  [
+                    352,
+                    560,
+                    11,
+                    true
+                  ],
+                  [
+                    65,
+                    700,
+                    1055,
+                    false
+                  ]
+                ],
+                "penetration": 276,
+                "damage": 560,
+                "damagePerMinute": 560.0,
+                "modScore": 27798.75
+              },
+              "_150mm_rohr_l38": {
+                "name": "15 cm Pak L/38",
+                "tier": 10,
+                "rateOfFire": 1.2,
+                "accuracy": 0.34,
+                "aimTime": 1.9,
+                "gunDepression": -5,
+                "gunElevation": 15,
+                "weight": 6100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 340000,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    235,
+                    750,
+                    1260,
+                    false
+                  ],
+                  [
+                    334,
+                    750,
+                    15,
+                    true
+                  ],
+                  [
+                    85,
+                    950,
+                    1120,
+                    false
+                  ]
+                ],
+                "penetration": 235,
+                "damage": 750,
+                "damagePerMinute": 900.0,
+                "modScore": 28510.0
+              }
+            },
+            "modScore": 71000.0
+          }
+        },
+        "engines": {
+          "maybach_hl_234p60": {
+            "name": "Maybach Neues Projekt",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.15,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 135000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_waffentrager_e100": {
+            "name": "Waffenträger auf E 100",
+            "tier": 10,
+            "loadLimit": 150.0,
+            "traverseSpeed": 26,
+            "weight": 42000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1",
+              "1.2",
+              "2.1"
+            ],
+            "dispersion": 0.16,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 10000.0
+          }
+        }
+      },
+      "UkAT-STG_FV215b(183).json": {
+        "name": "FV215b (183)",
+        "nation": "gb",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1600,
+        "speedLimit": 34.3,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 60,
+        "hull": {
+          "frontArmor": [
+            152,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            76,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 90,
+        "turrets": {
+          "turret_1_gb48_fv215b_183": {
+            "name": "FV215b",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 16,
+            "frontArmor": [
+              254,
+              5
+            ],
+            "sideArmor": [
+              101,
+              5
+            ],
+            "rearArmor": [
+              76,
+              5
+            ],
+            "weight": 17000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 400,
+            "availableGuns": {
+              "_183mm_at_gun": {
+                "name": "183 mm L4",
+                "tier": 10,
+                "rateOfFire": 2.0,
+                "accuracy": 0.4,
+                "aimTime": 3.4,
+                "gunDepression": -5,
+                "gunElevation": 15,
+                "weight": 5400.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 335000,
+                "dispersion": {
+                  "turretRotation": 0.4,
+                  "afterShot": 6.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    310,
+                    1150,
+                    2250,
+                    false
+                  ],
+                  [
+                    275,
+                    1750,
+                    20,
+                    true
+                  ],
+                  [
+                    92,
+                    1750,
+                    1900,
+                    false
+                  ]
+                ],
+                "penetration": 310,
+                "damage": 1150,
+                "damagePerMinute": 2300.0,
+                "modScore": 39085.0
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "rolls_royse_meteor_mk12": {
+            "name": "Rolls-Royce Meteor Mk. 12",
+            "tier": 10,
+            "horsepower": 800,
+            "firechance": 0.2,
+            "weight": 744,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 50000,
+            "modScore": 90000.0
+          }
+        },
+        "radios": {
+          "c45": {
+            "name": "SR C45",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 45600,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_gb48_fv215b_183": {
+            "name": "FV215b",
+            "tier": 10,
+            "loadLimit": 64.0,
+            "traverseSpeed": 32,
+            "weight": 12000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.2",
+              "1.4",
+              "2.4"
+            ],
+            "dispersion": 0.26,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5700.0
+          }
+        }
+      },
+      "USAT-STGT110E3.json": {
+        "name": "T110E3",
+        "nation": "usa",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1640,
+        "speedLimit": 24.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 74.73,
+        "hull": {
+          "frontArmor": [
+            305,
+            5
+          ],
+          "sideArmor": [
+            76,
+            5
+          ],
+          "rearArmor": [
+            38,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_155mm_at_gun_t7e2": {
+              "name": "155 mm AT Gun T7E2",
+              "tier": 10,
+              "rateOfFire": 3.5294117647058822,
+              "accuracy": 0.36,
+              "aimTime": 2.5,
+              "gunDepression": -8,
+              "gunElevation": 16,
+              "weight": 3371.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 335000,
+              "dispersion": {
+                "turretRotation": 0.08,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  295,
+                  750,
+                  1650,
+                  false
+                ],
+                [
+                  375,
+                  750,
+                  13,
+                  true
+                ],
+                [
+                  90,
+                  1100,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 295,
+              "damage": 750,
+              "damagePerMinute": 2647.0588235294117,
+              "modScore": 33708.08823529412
+            }
+          }
+        },
+        "gunArc": 16,
+        "engines": {
+          "aoi-1490": {
+            "name": "Continental AOI-1490",
+            "tier": 10,
+            "horsepower": 875,
+            "firechance": 0.2,
+            "weight": 1200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100000,
+            "modScore": 93750.0
+          }
+        },
+        "radios": {
+          "an_vrc-3": {
+            "name": "AN/VRC-3",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_t110e3": {
+            "name": "T110E3",
+            "tier": 10,
+            "loadLimit": 78.0,
+            "traverseSpeed": 24,
+            "weight": 8000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.5",
+              "1.7",
+              "3"
+            ],
+            "dispersion": 0.22,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 6400.0
+          }
+        }
+      },
+      "USAT-STGT110E4.json": {
+        "name": "T110E4",
+        "nation": "usa",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1600,
+        "speedLimit": 35.0,
+        "reverseSpeed": 10.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 64.03,
+        "hull": {
+          "frontArmor": [
+            254,
+            5
+          ],
+          "sideArmor": [
+            76,
+            5
+          ],
+          "rearArmor": [
+            38,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 180,
+        "turrets": {
+          "turret_1_t110e4": {
+            "name": "T110E4",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 18,
+            "frontArmor": [
+              203,
+              5
+            ],
+            "sideArmor": [
+              152,
+              5
+            ],
+            "rearArmor": [
+              152,
+              5
+            ],
+            "weight": 20000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 400,
+            "availableGuns": {
+              "_155mm_at_gun_t7e2": {
+                "name": "155 mm AT Gun T7E2",
+                "tier": 10,
+                "rateOfFire": 3.076923076923077,
+                "accuracy": 0.37,
+                "aimTime": 2.9,
+                "gunDepression": -6,
+                "gunElevation": 12,
+                "weight": 3371.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 335000,
+                "dispersion": {
+                  "turretRotation": 0.24,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    295,
+                    750,
+                    1650,
+                    false
+                  ],
+                  [
+                    375,
+                    750,
+                    13,
+                    true
+                  ],
+                  [
+                    90,
+                    1100,
+                    1120,
+                    false
+                  ]
+                ],
+                "penetration": 295,
+                "damage": 750,
+                "damagePerMinute": 2307.6923076923076,
+                "modScore": 32827.78846153846
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "aoi-1490": {
+            "name": "Continental AOI-1490",
+            "tier": 10,
+            "horsepower": 875,
+            "firechance": 0.2,
+            "weight": 1200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100000,
+            "modScore": 93750.0
+          }
+        },
+        "radios": {
+          "an_vrc-3": {
+            "name": "AN/VRC-3",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_t110e4": {
+            "name": "T110E4",
+            "tier": 10,
+            "loadLimit": 67.0,
+            "traverseSpeed": 26,
+            "weight": 8000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.4",
+              "1.6",
+              "2.7"
+            ],
+            "dispersion": 0.2,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5850.0
+          }
+        }
+      },
+      "USSRAt-STGObject 263.json": {
+        "name": "Object 263",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1520,
+        "speedLimit": 55.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 60.01,
+        "hull": {
+          "frontArmor": [
+            250,
+            5
+          ],
+          "sideArmor": [
+            80,
+            5
+          ],
+          "rearArmor": [
+            50,
+            5
+          ],
+          "viewRange": 410,
+          "availableGuns": {
+            "_130mm_s-70a": {
+              "name": "130 mm S-70A",
+              "tier": 10,
+              "rateOfFire": 5.454545454545454,
+              "accuracy": 0.32,
+              "aimTime": 2.5,
+              "gunDepression": -4,
+              "gunElevation": 18,
+              "weight": 2980.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 295000,
+              "dispersion": {
+                "turretRotation": 0.08,
+                "afterShot": 3.5,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  290,
+                  550,
+                  1118,
+                  false
+                ],
+                [
+                  330,
+                  550,
+                  11,
+                  true
+                ],
+                [
+                  75,
+                  750,
+                  978,
+                  false
+                ]
+              ],
+              "penetration": 290,
+              "damage": 550,
+              "damagePerMinute": 3000.0,
+              "modScore": 31100.0
+            }
+          }
+        },
+        "gunArc": 14,
+        "engines": {
+          "m-50t": {
+            "name": "M-50T",
+            "tier": 10,
+            "horsepower": 1050,
+            "firechance": 0.15,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 102500.0
+          }
+        },
+        "radios": {
+          "_10rk-26": {
+            "name": "10RK-26",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_object263": {
+            "name": "Object 263",
+            "tier": 10,
+            "loadLimit": 62.5,
+            "traverseSpeed": 32,
+            "weight": 11000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.2",
+              "1.4",
+              "2.3"
+            ],
+            "dispersion": 0.17,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5625.0
+          }
+        }
+      },
+      "USSRAT-STGObject268.json": {
+        "name": "Object 268",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "AT-SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 48.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 50.97,
+        "hull": {
+          "frontArmor": [
+            187,
+            5
+          ],
+          "sideArmor": [
+            100,
+            5
+          ],
+          "rearArmor": [
+            50,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_152mm_m64": {
+              "name": "152 mm M64",
+              "tier": 10,
+              "rateOfFire": 3.6363636363636362,
+              "accuracy": 0.33,
+              "aimTime": 2.7,
+              "gunDepression": -5,
+              "gunElevation": 15,
+              "weight": 6500.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 300000,
+              "dispersion": {
+                "turretRotation": 0.08,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  303,
+                  750,
+                  1650,
+                  false
+                ],
+                [
+                  395,
+                  750,
+                  17,
+                  true
+                ],
+                [
+                  90,
+                  1100,
+                  1120,
+                  false
+                ]
+              ],
+              "penetration": 303,
+              "damage": 750,
+              "damagePerMinute": 2727.272727272727,
+              "modScore": 34172.15909090909
+            }
+          }
+        },
+        "gunArc": 12,
+        "engines": {
+          "v-16fn": {
+            "name": "V-16FN",
+            "tier": 10,
+            "horsepower": 800,
+            "firechance": 0.12,
+            "weight": 1024,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 84200,
+            "modScore": 90000.0
+          }
+        },
+        "radios": {
+          "r113m": {
+            "name": "R-113M",
+            "tier": 10,
+            "signalRange": 730,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 52200,
+            "modScore": 61500.0
+          }
+        },
+        "suspensions": {
+          "chassis_object268": {
+            "name": "Object 268",
+            "tier": 10,
+            "loadLimit": 53.9,
+            "traverseSpeed": 28,
+            "weight": 10000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2"
+            ],
+            "dispersion": 0.21,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5195.0
+          }
+        }
+      }
+    },
+    "heavyTank": {
+      "ChinaHvyTnk113.json": {
+        "name": "113",
+        "nation": "china",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1840,
+        "speedLimit": 50.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 45,
+        "hull": {
+          "frontArmor": [
+            120,
+            5
+          ],
+          "sideArmor": [
+            90,
+            5
+          ],
+          "rearArmor": [
+            70,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_ch22_113": {
+            "name": "113",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 26,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              160,
+              5
+            ],
+            "rearArmor": [
+              80,
+              5
+            ],
+            "weight": 12000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 61100,
+            "additionalHP": 460,
+            "availableGuns": {
+              "_122-mm_60-122t": {
+                "name": "122 mm 60-122T",
+                "tier": 10,
+                "rateOfFire": 5.504587155963303,
+                "accuracy": 0.36,
+                "aimTime": 2.7,
+                "gunDepression": -4,
+                "gunElevation": 18,
+                "weight": 2757.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 300000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    249,
+                    440,
+                    1065,
+                    false
+                  ],
+                  [
+                    340,
+                    440,
+                    12,
+                    true
+                  ],
+                  [
+                    68,
+                    530,
+                    630,
+                    false
+                  ]
+                ],
+                "penetration": 249,
+                "damage": 440,
+                "damagePerMinute": 2422.018348623853,
+                "modScore": 26135.52752293578
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "_v-2-54sc": {
+            "name": "V-2-54SC",
+            "tier": 10,
+            "horsepower": 750,
+            "firechance": 0.12,
+            "weight": 1045,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 25000,
+            "modScore": 87500.0
+          }
+        },
+        "radios": {
+          "a-220b_1": {
+            "name": "A-220B",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_ch22_113": {
+            "name": "113",
+            "tier": 10,
+            "loadLimit": 48.0,
+            "traverseSpeed": 36,
+            "weight": 10000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.3",
+              "1.4",
+              "2.7"
+            ],
+            "dispersion": 0.19,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 61350,
+            "modScore": 4900.0
+          }
+        }
+      },
+      "FrHvyTnkAMX50B.json": {
+        "name": "AMX 50 B",
+        "nation": "france",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1680,
+        "speedLimit": 65.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 62.21,
+        "hull": {
+          "frontArmor": [
+            170,
+            5
+          ],
+          "sideArmor": [
+            30,
+            5
+          ],
+          "rearArmor": [
+            30,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_amx_50_68t": {
+            "name": "AMX 50 B",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 36,
+            "frontArmor": [
+              100,
+              5
+            ],
+            "sideArmor": [
+              50,
+              5
+            ],
+            "rearArmor": [
+              30,
+              5
+            ],
+            "weight": 17500,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 420,
+            "availableGuns": {
+              "_120mm_sa_46": {
+                "name": "120 mm SA46",
+                "tier": 10,
+                "rateOfFire": 2.0,
+                "accuracy": 0.35,
+                "aimTime": 3.0,
+                "gunDepression": -8,
+                "gunElevation": 12,
+                "weight": 3580.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 339000,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    257,
+                    400,
+                    1060,
+                    false
+                  ],
+                  [
+                    325,
+                    400,
+                    12,
+                    true
+                  ],
+                  [
+                    65,
+                    515,
+                    900,
+                    false
+                  ]
+                ],
+                "penetration": 257,
+                "damage": 400,
+                "damagePerMinute": 800.0,
+                "modScore": 23298.75
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "maybach_hl_295_f": {
+            "name": "Maybach HL 295 F",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.15,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 123000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "scr_619": {
+            "name": "SCR 619",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_amx_50_68t": {
+            "name": "AMX 50 B",
+            "tier": 10,
+            "loadLimit": 68.0,
+            "traverseSpeed": 36,
+            "weight": 11000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.3",
+              "1.4",
+              "2.3"
+            ],
+            "dispersion": 0.18,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5900.0
+          }
+        }
+      },
+      "GerHvyTnkE-100.json": {
+        "name": "E 100",
+        "nation": "germany",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 2160,
+        "speedLimit": 30.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 129.69,
+        "hull": {
+          "frontArmor": [
+            200,
+            5
+          ],
+          "sideArmor": [
+            120,
+            5
+          ],
+          "rearArmor": [
+            150,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_2_e-100": {
+            "name": "E 100",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 20,
+            "frontArmor": [
+              250,
+              5
+            ],
+            "sideArmor": [
+              150,
+              5
+            ],
+            "rearArmor": [
+              150,
+              5
+            ],
+            "weight": 58000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 540,
+            "availableGuns": {
+              "_128mm_kwk44_l55": {
+                "name": "12,8 cm Kw.K. 44 L/55",
+                "tier": 10,
+                "rateOfFire": 4.195804195804196,
+                "accuracy": 0.38,
+                "aimTime": 2.9,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 3480.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 310000,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    246,
+                    490,
+                    1070,
+                    false
+                  ],
+                  [
+                    311,
+                    490,
+                    12,
+                    true
+                  ],
+                  [
+                    65,
+                    630,
+                    935,
+                    false
+                  ]
+                ],
+                "penetration": 246,
+                "damage": 490,
+                "damagePerMinute": 2055.944055944056,
+                "modScore": 25946.416083916083
+              },
+              "_150mm_kwk44_l38": {
+                "name": "15 cm Kw.K. L/38",
+                "tier": 10,
+                "rateOfFire": 3.0,
+                "accuracy": 0.4,
+                "aimTime": 2.9,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 3650.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 340000,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    235,
+                    750,
+                    1260,
+                    false
+                  ],
+                  [
+                    334,
+                    750,
+                    15,
+                    true
+                  ],
+                  [
+                    85,
+                    950,
+                    1120,
+                    false
+                  ]
+                ],
+                "penetration": 235,
+                "damage": 750,
+                "damagePerMinute": 2250.0,
+                "modScore": 29497.5
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "maybach_hl_234p60": {
+            "name": "Maybach Neues Projekt",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.15,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 135000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_e-100": {
+            "name": "E 100",
+            "tier": 10,
+            "loadLimit": 150.0,
+            "traverseSpeed": 22,
+            "weight": 30000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1",
+              "1.2",
+              "2.1"
+            ],
+            "dispersion": 0.21,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 10000.0
+          }
+        }
+      },
+      "GerhvyTnkMaus.json": {
+        "name": "Maus",
+        "nation": "germany",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 2400,
+        "speedLimit": 20.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 188.98,
+        "hull": {
+          "frontArmor": [
+            200,
+            5
+          ],
+          "sideArmor": [
+            185,
+            5
+          ],
+          "rearArmor": [
+            160,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "mausturm": {
+            "name": "Maus",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 16,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              210,
+              5
+            ],
+            "rearArmor": [
+              210,
+              5
+            ],
+            "weight": 58000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 600,
+            "availableGuns": {
+              "_128mm_kwk44_l55": {
+                "name": "12,8 cm Kw.K. 44 L/55",
+                "tier": 10,
+                "rateOfFire": 4.026845637583892,
+                "accuracy": 0.38,
+                "aimTime": 2.9,
+                "gunDepression": -8,
+                "gunElevation": 24,
+                "weight": 3480.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 310000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    246,
+                    490,
+                    1070,
+                    false
+                  ],
+                  [
+                    311,
+                    490,
+                    12,
+                    true
+                  ],
+                  [
+                    65,
+                    630,
+                    935,
+                    false
+                  ]
+                ],
+                "penetration": 246,
+                "damage": 490,
+                "damagePerMinute": 1973.1543624161072,
+                "modScore": 25822.231543624162
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "mb507": {
+            "name": "DB 603 A2",
+            "tier": 10,
+            "horsepower": 1750,
+            "firechance": 0.12,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 137500.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "mausketten": {
+            "name": "Maus",
+            "tier": 10,
+            "loadLimit": 192.9,
+            "traverseSpeed": 15,
+            "weight": 37250,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.1"
+            ],
+            "dispersion": 0.22,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 12145.0
+          }
+        }
+      },
+      "GerHvyTnkVK72_01(K).json": {
+        "name": "VK 72.01 (K)",
+        "nation": "germany",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": true,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 22500,
+        "baseHitpoints": 2000,
+        "speedLimit": 43.0,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 120,
+        "hull": {
+          "frontArmor": [
+            200,
+            5
+          ],
+          "sideArmor": [
+            160,
+            5
+          ],
+          "rearArmor": [
+            120,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_vk7201": {
+            "name": "VK 72.01 (K)",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 18,
+            "frontArmor": [
+              200,
+              5
+            ],
+            "sideArmor": [
+              160,
+              5
+            ],
+            "rearArmor": [
+              120,
+              5
+            ],
+            "weight": 40000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 500,
+            "availableGuns": {
+              "_150mm_kwk44_l38_a": {
+                "name": "15 cm Kw.K. L/38",
+                "tier": 10,
+                "rateOfFire": 2.727272727272727,
+                "accuracy": 0.4,
+                "aimTime": 3.4,
+                "gunDepression": -7,
+                "gunElevation": 17,
+                "weight": 3650.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 340000,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    235,
+                    750,
+                    1260,
+                    false
+                  ],
+                  [
+                    334,
+                    750,
+                    15,
+                    true
+                  ],
+                  [
+                    85,
+                    950,
+                    1120,
+                    false
+                  ]
+                ],
+                "penetration": 235,
+                "damage": 750,
+                "damagePerMinute": 2045.4545454545453,
+                "modScore": 28765.681818181816
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "mb517": {
+            "name": "MB 517",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.12,
+            "weight": 920,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_vk7201": {
+            "name": "VK 72.01 (K)",
+            "tier": 10,
+            "loadLimit": 130.0,
+            "traverseSpeed": 24,
+            "weight": 24000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.2",
+              "2.3"
+            ],
+            "dispersion": 0.23,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 9000.0
+          }
+        }
+      },
+      "UkHvyTnkFV215b.json": {
+        "name": "FV215b",
+        "nation": "gb",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 2000,
+        "speedLimit": 34.3,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 70,
+        "hull": {
+          "frontArmor": [
+            152,
+            5
+          ],
+          "sideArmor": [
+            101,
+            5
+          ],
+          "rearArmor": [
+            76,
+            5
+          ],
+          "viewRange": 410
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_gb13_fv215b": {
+            "name": "FV215",
+            "tier": 10,
+            "viewRange": 410,
+            "traverseSpeed": 34,
+            "frontArmor": [
+              254,
+              5
+            ],
+            "sideArmor": [
+              152,
+              5
+            ],
+            "rearArmor": [
+              101,
+              5
+            ],
+            "weight": 16500,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 500,
+            "availableGuns": {
+              "_120mm_gun_l1a1": {
+                "name": "120 mm Gun L1A1",
+                "tier": 10,
+                "rateOfFire": 6.8965517241379315,
+                "accuracy": 0.33,
+                "aimTime": 1.7,
+                "gunDepression": -7,
+                "gunElevation": 15,
+                "weight": 2850.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 300000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    259,
+                    400,
+                    1060,
+                    false
+                  ],
+                  [
+                    326,
+                    400,
+                    11,
+                    true
+                  ],
+                  [
+                    120,
+                    515,
+                    1200,
+                    false
+                  ]
+                ],
+                "penetration": 259,
+                "damage": 400,
+                "damagePerMinute": 2758.6206896551726,
+                "modScore": 27509.18103448276
+              }
+            },
+            "modScore": 70500.0
+          }
+        },
+        "engines": {
+          "rolls_royce_griffon": {
+            "name": "Rolls-Royce Griffon",
+            "tier": 10,
+            "horsepower": 950,
+            "firechance": 0.2,
+            "weight": 952,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100000,
+            "modScore": 97500.0
+          }
+        },
+        "radios": {
+          "c45": {
+            "name": "SR C45",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 45600,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_gb13_fv215b": {
+            "name": "FV215",
+            "tier": 10,
+            "loadLimit": 73.0,
+            "traverseSpeed": 38,
+            "weight": 12000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1",
+              "1.2",
+              "2"
+            ],
+            "dispersion": 0.1,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 6150.0
+          }
+        }
+      },
+      "USHvyTnkT110E5.json": {
+        "name": "T110E5",
+        "nation": "usa",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1760,
+        "speedLimit": 37.0,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 53.76,
+        "hull": {
+          "frontArmor": [
+            254,
+            5
+          ],
+          "sideArmor": [
+            76,
+            5
+          ],
+          "rearArmor": [
+            38,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_2_t110": {
+            "name": "T53",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 32,
+            "frontArmor": [
+              203,
+              5
+            ],
+            "sideArmor": [
+              127,
+              5
+            ],
+            "rearArmor": [
+              70,
+              5
+            ],
+            "weight": 11000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 440,
+            "availableGuns": {
+              "_120mm_gun_m58": {
+                "name": "120 mm Gun M58",
+                "tier": 10,
+                "rateOfFire": 6.0,
+                "accuracy": 0.35,
+                "aimTime": 2.0,
+                "gunDepression": -8,
+                "gunElevation": 15,
+                "weight": 3100.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 310000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    258,
+                    400,
+                    1060,
+                    false
+                  ],
+                  [
+                    340,
+                    400,
+                    11,
+                    true
+                  ],
+                  [
+                    60,
+                    515,
+                    900,
+                    false
+                  ]
+                ],
+                "penetration": 258,
+                "damage": 400,
+                "damagePerMinute": 2400.0,
+                "modScore": 26601.25
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "aoi-1490": {
+            "name": "Continental AOI-1490",
+            "tier": 10,
+            "horsepower": 875,
+            "firechance": 0.2,
+            "weight": 1200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100000,
+            "modScore": 93750.0
+          }
+        },
+        "radios": {
+          "an_vrc-3": {
+            "name": "AN/VRC-3",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_t110": {
+            "name": "T110E27",
+            "tier": 10,
+            "loadLimit": 60.05,
+            "traverseSpeed": 30,
+            "weight": 8000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.2",
+              "1.3",
+              "2.4"
+            ],
+            "dispersion": 0.18,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5502.5
+          }
+        }
+      },
+      "USHvyTnkT57.json": {
+        "name": "T57 Heavy Tank",
+        "nation": "usa",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1800,
+        "speedLimit": 35.4,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 54.43,
+        "hull": {
+          "frontArmor": [
+            203,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            38,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_t57_58": {
+            "name": "T169",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 36,
+            "frontArmor": [
+              127,
+              5
+            ],
+            "sideArmor": [
+              137,
+              5
+            ],
+            "rearArmor": [
+              50,
+              5
+            ],
+            "weight": 14500,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 450,
+            "availableGuns": {
+              "_120mm_gun_t179": {
+                "name": "120 mm Gun T179",
+                "tier": 10,
+                "rateOfFire": 2.4,
+                "accuracy": 0.35,
+                "aimTime": 2.7,
+                "gunDepression": -8,
+                "gunElevation": 12,
+                "weight": 2849.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 310000,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    258,
+                    400,
+                    1060,
+                    false
+                  ],
+                  [
+                    340,
+                    400,
+                    11,
+                    true
+                  ],
+                  [
+                    60,
+                    515,
+                    900,
+                    false
+                  ]
+                ],
+                "penetration": 258,
+                "damage": 400,
+                "damagePerMinute": 960.0,
+                "modScore": 23846.25
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "continental_av_1790_5c": {
+            "name": "Continental AV-1790-5C",
+            "tier": 10,
+            "horsepower": 810,
+            "firechance": 0.2,
+            "weight": 1159,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 99000,
+            "modScore": 90500.0
+          }
+        },
+        "radios": {
+          "an_vrc-3": {
+            "name": "AN/VRC-3",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_t57_58": {
+            "name": "T97",
+            "tier": 10,
+            "loadLimit": 58.0,
+            "traverseSpeed": 30,
+            "weight": 11000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.2",
+              "1.3",
+              "2.4"
+            ],
+            "dispersion": 0.2,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5400.0
+          }
+        }
+      },
+      "USSrHvyTnkIS-4.json": {
+        "name": "IS-4",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 2000,
+        "speedLimit": 43.0,
+        "reverseSpeed": 14.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 60.02,
+        "hull": {
+          "frontArmor": [
+            140,
+            5
+          ],
+          "sideArmor": [
+            160,
+            5
+          ],
+          "rearArmor": [
+            100,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_710_mod_5": {
+            "name": "IS-4M",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 22,
+            "frontArmor": [
+              250,
+              5
+            ],
+            "sideArmor": [
+              200,
+              5
+            ],
+            "rearArmor": [
+              170,
+              5
+            ],
+            "weight": 14200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 61100,
+            "additionalHP": 500,
+            "availableGuns": {
+              "_122-mm_d-25t_with_wedges_shutter": {
+                "name": "122 mm D-25T",
+                "tier": 8,
+                "rateOfFire": 5.454545454545454,
+                "accuracy": 0.46,
+                "aimTime": 2.9,
+                "gunDepression": -6,
+                "gunElevation": 16,
+                "weight": 2590.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 125140,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    175,
+                    390,
+                    1025,
+                    false
+                  ],
+                  [
+                    217,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    61,
+                    465,
+                    608,
+                    false
+                  ]
+                ],
+                "penetration": 175,
+                "damage": 390,
+                "damagePerMinute": 2127.272727272727,
+                "modScore": 19325.909090909092
+              },
+              "_122mm_m62-t2": {
+                "name": "122 mm M62-T2",
+                "tier": 10,
+                "rateOfFire": 5.0,
+                "accuracy": 0.38,
+                "aimTime": 2.9,
+                "gunDepression": -6,
+                "gunElevation": 16,
+                "weight": 3397.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 335000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    258,
+                    440,
+                    1065,
+                    false
+                  ],
+                  [
+                    340,
+                    440,
+                    13,
+                    true
+                  ],
+                  [
+                    68,
+                    530,
+                    630,
+                    false
+                  ]
+                ],
+                "penetration": 258,
+                "damage": 440,
+                "damagePerMinute": 2200.0,
+                "modScore": 26042.5
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "v-12": {
+            "name": "V-12",
+            "tier": 10,
+            "horsepower": 750,
+            "firechance": 0.15,
+            "weight": 1024,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 128000,
+            "modScore": 87500.0
+          }
+        },
+        "radios": {
+          "_10rk-26": {
+            "name": "10RK-26",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "is-4": {
+            "name": "IS-4M",
+            "tier": 10,
+            "loadLimit": 66.3,
+            "traverseSpeed": 26,
+            "weight": 11000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.2",
+              "1.6",
+              "2.7"
+            ],
+            "dispersion": 0.25,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 61350,
+            "modScore": 5815.0
+          }
+        }
+      },
+      "USSRHvyTnkIS-7.json": {
+        "name": "IS-7",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "heavyTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1720,
+        "speedLimit": 59.6,
+        "reverseSpeed": 15.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 68.19,
+        "hull": {
+          "frontArmor": [
+            150,
+            5
+          ],
+          "sideArmor": [
+            150,
+            5
+          ],
+          "rearArmor": [
+            100,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "is-7": {
+            "name": "IS-7",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 25,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              185,
+              5
+            ],
+            "rearArmor": [
+              94,
+              5
+            ],
+            "weight": 14200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 430,
+            "availableGuns": {
+              "_130mm_s-70": {
+                "name": "130 mm S-70",
+                "tier": 10,
+                "rateOfFire": 4.37956204379562,
+                "accuracy": 0.4,
+                "aimTime": 3.4,
+                "gunDepression": -6,
+                "gunElevation": 18,
+                "weight": 2980.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 297000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    250,
+                    490,
+                    1118,
+                    false
+                  ],
+                  [
+                    303,
+                    490,
+                    12,
+                    true
+                  ],
+                  [
+                    68,
+                    640,
+                    978,
+                    false
+                  ]
+                ],
+                "penetration": 250,
+                "damage": 490,
+                "damagePerMinute": 2145.985401459854,
+                "modScore": 25803.97810218978
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "m-50t": {
+            "name": "M-50T",
+            "tier": 10,
+            "horsepower": 1050,
+            "firechance": 0.15,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 102500.0
+          }
+        },
+        "radios": {
+          "_10rk-26": {
+            "name": "10RK-26",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "is-7": {
+            "name": "IS-7",
+            "tier": 10,
+            "loadLimit": 70.95,
+            "traverseSpeed": 28,
+            "weight": 11000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.3",
+              "1.8",
+              "3.1"
+            ],
+            "dispersion": 0.21,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 6047.5
+          }
+        }
+      }
+    },
+    "mediumTank": {
+      "ChinaMedTnk121.json": {
+        "name": "121",
+        "nation": "china",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 56.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 39,
+        "hull": {
+          "frontArmor": [
+            120,
+            5
+          ],
+          "sideArmor": [
+            80,
+            5
+          ],
+          "rearArmor": [
+            60,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_ch19_121": {
+            "name": "121",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 40,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              130,
+              5
+            ],
+            "rearArmor": [
+              60,
+              5
+            ],
+            "weight": 10000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 390,
+            "availableGuns": {
+              "_122-mm_60-122tg": {
+                "name": "122 mm 60-122TG",
+                "tier": 10,
+                "rateOfFire": 6.25,
+                "accuracy": 0.35,
+                "aimTime": 2.7,
+                "gunDepression": -3,
+                "gunElevation": 15,
+                "weight": 2800.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 185140,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    258,
+                    440,
+                    1065,
+                    false
+                  ],
+                  [
+                    340,
+                    440,
+                    12,
+                    true
+                  ],
+                  [
+                    68,
+                    530,
+                    630,
+                    false
+                  ]
+                ],
+                "penetration": 258,
+                "damage": 440,
+                "damagePerMinute": 2750.0,
+                "modScore": 27131.25
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "_12150l7": {
+            "name": "12150L7",
+            "tier": 10,
+            "horsepower": 580,
+            "firechance": 0.12,
+            "weight": 935,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 25000,
+            "modScore": 79000.0
+          }
+        },
+        "radios": {
+          "a-220b_1": {
+            "name": "A-220B",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_ch19_121": {
+            "name": "121",
+            "tier": 10,
+            "loadLimit": 42.0,
+            "traverseSpeed": 50,
+            "weight": 7700,
+            "pivot": "false",
+            "terrainResistance": [
+              "0.8",
+              "0.9",
+              "1.8"
+            ],
+            "dispersion": 0.14,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4600.0
+          }
+        }
+      },
+      "FrMedTnkBat-Chatillon25t.json": {
+        "name": "Bat.-Châtillon 25 t",
+        "nation": "france",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1440,
+        "speedLimit": 65.0,
+        "reverseSpeed": 23.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 24.48,
+        "hull": {
+          "frontArmor": [
+            60,
+            5
+          ],
+          "sideArmor": [
+            40,
+            5
+          ],
+          "rearArmor": [
+            30,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_bat_chatillon25t": {
+            "name": "Batignolles-Châtillon 25 t",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 38,
+            "frontArmor": [
+              50,
+              5
+            ],
+            "sideArmor": [
+              30,
+              5
+            ],
+            "rearArmor": [
+              15,
+              5
+            ],
+            "weight": 5700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 37000,
+            "additionalHP": 360,
+            "availableGuns": {
+              "_90mm_f3": {
+                "name": "90 mm F3",
+                "tier": 7,
+                "rateOfFire": 2.5,
+                "accuracy": 0.38,
+                "aimTime": 2.7,
+                "gunDepression": -6,
+                "gunElevation": 11,
+                "weight": 2200.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 87000,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    170,
+                    240,
+                    255,
+                    false
+                  ],
+                  [
+                    248,
+                    240,
+                    12,
+                    true
+                  ],
+                  [
+                    45,
+                    320,
+                    255,
+                    false
+                  ]
+                ],
+                "penetration": 170,
+                "damage": 240,
+                "damagePerMinute": 600.0,
+                "modScore": 14317.5
+              },
+              "_100mm_sa_47": {
+                "name": "100 mm SA47",
+                "tier": 8,
+                "rateOfFire": 1.6666666666666667,
+                "accuracy": 0.36,
+                "aimTime": 2.7,
+                "gunDepression": -6,
+                "gunElevation": 11,
+                "weight": 3000.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 127550,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    232,
+                    300,
+                    1030,
+                    false
+                  ],
+                  [
+                    263,
+                    300,
+                    10,
+                    true
+                  ],
+                  [
+                    50,
+                    400,
+                    650,
+                    false
+                  ]
+                ],
+                "penetration": 232,
+                "damage": 300,
+                "damagePerMinute": 500.0,
+                "modScore": 19010.0
+              },
+              "_105mm_cn_105_57": {
+                "name": "105 mm mle. 57 (D. 1504)",
+                "tier": 10,
+                "rateOfFire": 1.5,
+                "accuracy": 0.38,
+                "aimTime": 2.7,
+                "gunDepression": -6,
+                "gunElevation": 11,
+                "weight": 3000.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 325000,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    259,
+                    390,
+                    1200,
+                    false
+                  ],
+                  [
+                    330,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    53,
+                    480,
+                    680,
+                    false
+                  ]
+                ],
+                "penetration": 259,
+                "damage": 390,
+                "damagePerMinute": 585.0,
+                "modScore": 23092.5
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "hispano-suiza_hs110": {
+            "name": "Hispano-Suiza HS 110",
+            "tier": 10,
+            "horsepower": 720,
+            "firechance": 0.1,
+            "weight": 1426,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 94250,
+            "modScore": 86000.0
+          }
+        },
+        "radios": {
+          "scr_528": {
+            "name": "SCR 528F",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_bat_chatillon25t_2": {
+            "name": "Batignolles-Châtillon 25 t",
+            "tier": 10,
+            "loadLimit": 28.0,
+            "traverseSpeed": 42,
+            "weight": 4100,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.9",
+              "1",
+              "1.6"
+            ],
+            "dispersion": 0.17,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 68200,
+            "modScore": 3900.0
+          }
+        }
+      },
+      "GerMedTnk-E50Ausf-M.json": {
+        "name": "E 50 Ausf. M",
+        "nation": "germany",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1640,
+        "speedLimit": 60.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 62.31,
+        "hull": {
+          "frontArmor": [
+            150,
+            5
+          ],
+          "sideArmor": [
+            80,
+            5
+          ],
+          "rearArmor": [
+            80,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_e50_ausf_m": {
+            "name": "E 50 Ausf. M",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 30,
+            "frontArmor": [
+              185,
+              5
+            ],
+            "sideArmor": [
+              80,
+              5
+            ],
+            "rearArmor": [
+              80,
+              5
+            ],
+            "weight": 14100,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 410,
+            "availableGuns": {
+              "_105mm_kwk45_l52_ausf_k": {
+                "name": "10,5 cm Kw.K. L/52 Ausf. K",
+                "tier": 10,
+                "rateOfFire": 6.25,
+                "accuracy": 0.3,
+                "aimTime": 2.1,
+                "gunDepression": -8,
+                "gunElevation": 20,
+                "weight": 3000.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 225600,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    270,
+                    390,
+                    1200,
+                    false
+                  ],
+                  [
+                    330,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    60,
+                    510,
+                    1211,
+                    false
+                  ]
+                ],
+                "penetration": 270,
+                "damage": 390,
+                "damagePerMinute": 2437.5,
+                "modScore": 27208.75
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "maybach_hl_235": {
+            "name": "Maybach HL 235",
+            "tier": 10,
+            "horsepower": 1200,
+            "firechance": 0.12,
+            "weight": 750,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 123000,
+            "modScore": 110000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_e50_ausf_m": {
+            "name": "E 50 Ausf. M",
+            "tier": 10,
+            "loadLimit": 67.0,
+            "traverseSpeed": 44,
+            "weight": 9000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.3"
+            ],
+            "dispersion": 0.14,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5850.0
+          }
+        }
+      },
+      "GerMedTnkLeopard1.json": {
+        "name": "Leopard 1",
+        "nation": "germany",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 65.0,
+        "reverseSpeed": 23.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 40,
+        "hull": {
+          "frontArmor": [
+            70,
+            5
+          ],
+          "sideArmor": [
+            35,
+            5
+          ],
+          "rearArmor": [
+            25,
+            5
+          ],
+          "viewRange": 410
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_leopard1": {
+            "name": "Leopard 1",
+            "tier": 10,
+            "viewRange": 410,
+            "traverseSpeed": 36,
+            "frontArmor": [
+              52,
+              5
+            ],
+            "sideArmor": [
+              60,
+              5
+            ],
+            "rearArmor": [
+              60,
+              5
+            ],
+            "weight": 7718,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 390,
+            "availableGuns": {
+              "_105mm_bk_l7a3_l51": {
+                "name": "10,5 cm Bordkanone L7A3",
+                "tier": 10,
+                "rateOfFire": 6.666666666666667,
+                "accuracy": 0.3,
+                "aimTime": 1.9,
+                "gunDepression": -9,
+                "gunElevation": 20,
+                "weight": 1282.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 290000,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    268,
+                    390,
+                    1200,
+                    false
+                  ],
+                  [
+                    330,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    53,
+                    480,
+                    880,
+                    false
+                  ]
+                ],
+                "penetration": 268,
+                "damage": 390,
+                "damagePerMinute": 2600.0,
+                "modScore": 27517.5
+              }
+            },
+            "modScore": 70500.0
+          }
+        },
+        "engines": {
+          "mb-838_cam-500_1": {
+            "name": "MTU MB 838 CaM 500A",
+            "tier": 10,
+            "horsepower": 830,
+            "firechance": 0.1,
+            "weight": 1700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 95000,
+            "modScore": 91500.0
+          }
+        },
+        "radios": {
+          "sem25_1": {
+            "name": "SEM 25A",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 50,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 55000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_leopard1": {
+            "name": "Leopard 1",
+            "tier": 10,
+            "loadLimit": 42.0,
+            "traverseSpeed": 54,
+            "weight": 10000,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.8",
+              "0.9",
+              "1.8"
+            ],
+            "dispersion": 0.18,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4600.0
+          }
+        }
+      },
+      "JpnMedTnkSTB-1.json": {
+        "name": "STB-1",
+        "nation": "japan",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 53.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 37.4,
+        "hull": {
+          "frontArmor": [
+            110,
+            5
+          ],
+          "sideArmor": [
+            35,
+            5
+          ],
+          "rearArmor": [
+            25,
+            5
+          ],
+          "viewRange": 410
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_st_b1": {
+            "name": "STB-1",
+            "tier": 10,
+            "viewRange": 410,
+            "traverseSpeed": 42,
+            "frontArmor": [
+              132,
+              5
+            ],
+            "sideArmor": [
+              132,
+              5
+            ],
+            "rearArmor": [
+              37,
+              5
+            ],
+            "weight": 9000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "additionalHP": 390,
+            "availableGuns": {
+              "_105mm_rifled_gun": {
+                "name": "105 mm Rifled Gun",
+                "tier": 10,
+                "rateOfFire": 7.5,
+                "accuracy": 0.36,
+                "aimTime": 2.3,
+                "gunDepression": -10,
+                "gunElevation": 13,
+                "weight": 1150.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 290000,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    258,
+                    390,
+                    1200,
+                    false
+                  ],
+                  [
+                    330,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    53,
+                    480,
+                    880,
+                    false
+                  ]
+                ],
+                "penetration": 258,
+                "damage": 390,
+                "damagePerMinute": 2925.0,
+                "modScore": 26952.5
+              }
+            },
+            "modScore": 70500.0
+          }
+        },
+        "engines": {
+          "_mitsubishi_10zf21wt": {
+            "name": "Mitsubishi 10ZF21WT",
+            "tier": 10,
+            "horsepower": 750,
+            "firechance": 0.12,
+            "weight": 2200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 87500.0
+          }
+        },
+        "radios": {
+          "_type67": {
+            "name": "Type 67",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 370,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 55000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_st_b1": {
+            "name": "STB-1",
+            "tier": 10,
+            "loadLimit": 40.0,
+            "traverseSpeed": 52,
+            "weight": 12500,
+            "pivot": "true",
+            "terrainResistance": [
+              "1",
+              "1.1",
+              "2.2"
+            ],
+            "dispersion": 0.16,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4500.0
+          }
+        }
+      },
+      "UKMedTnkFV4202.json": {
+        "name": "FV4202",
+        "nation": "gb",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 40.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 40,
+        "hull": {
+          "frontArmor": [
+            121,
+            5
+          ],
+          "sideArmor": [
+            51,
+            5
+          ],
+          "rearArmor": [
+            32,
+            5
+          ],
+          "viewRange": 410
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_gb70_fv4202_105": {
+            "name": "FV4202",
+            "tier": 10,
+            "viewRange": 410,
+            "traverseSpeed": 40,
+            "frontArmor": [
+              196,
+              5
+            ],
+            "sideArmor": [
+              196,
+              5
+            ],
+            "rearArmor": [
+              35,
+              5
+            ],
+            "weight": 8500,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 390,
+            "availableGuns": {
+              "_105mm_gun_l7": {
+                "name": "105 mm Royal Ordnance L7A1",
+                "tier": 10,
+                "rateOfFire": 6.451612903225806,
+                "accuracy": 0.32,
+                "aimTime": 2.1,
+                "gunDepression": -10,
+                "gunElevation": 20,
+                "weight": 1282.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 290000,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    268,
+                    390,
+                    1200,
+                    false
+                  ],
+                  [
+                    210,
+                    480,
+                    13,
+                    true
+                  ],
+                  [
+                    105,
+                    480,
+                    950,
+                    false
+                  ]
+                ],
+                "penetration": 268,
+                "damage": 390,
+                "damagePerMinute": 2516.1290322580644,
+                "modScore": 27159.1935483871
+              }
+            },
+            "modScore": 70500.0
+          }
+        },
+        "engines": {
+          "rolls_royse_meteor_mkivd": {
+            "name": "Rolls-Royce Meteor M120A",
+            "tier": 10,
+            "horsepower": 810,
+            "firechance": 0.2,
+            "weight": 744,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 50000,
+            "modScore": 90500.0
+          }
+        },
+        "radios": {
+          "c45": {
+            "name": "SR C45",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 45600,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_gb70_fv4202_105": {
+            "name": "FV4202",
+            "tier": 10,
+            "loadLimit": 42.5,
+            "traverseSpeed": 50,
+            "weight": 8500,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.7",
+              "0.8",
+              "1.6"
+            ],
+            "dispersion": 0.18,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4625.0
+          }
+        }
+      },
+      "USMedTnkM48A1Patton.json": {
+        "name": "M48A1 Patton",
+        "nation": "usa",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1600,
+        "speedLimit": 45.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 47.17,
+        "hull": {
+          "frontArmor": [
+            110,
+            5
+          ],
+          "sideArmor": [
+            76,
+            5
+          ],
+          "rearArmor": [
+            35,
+            5
+          ],
+          "viewRange": 420
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_m48a1": {
+            "name": "M87",
+            "tier": 10,
+            "viewRange": 420,
+            "traverseSpeed": 40,
+            "frontArmor": [
+              177,
+              5
+            ],
+            "sideArmor": [
+              76,
+              5
+            ],
+            "rearArmor": [
+              50,
+              5
+            ],
+            "weight": 8200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 400,
+            "availableGuns": {
+              "_90mm_gun_m41": {
+                "name": "90 mm Gun M41",
+                "tier": 8,
+                "rateOfFire": 9.523809523809524,
+                "accuracy": 0.36,
+                "aimTime": 2.0,
+                "gunDepression": -9,
+                "gunElevation": 19,
+                "weight": 2300.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 95500,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    173,
+                    240,
+                    255,
+                    false
+                  ],
+                  [
+                    263,
+                    240,
+                    11,
+                    true
+                  ],
+                  [
+                    45,
+                    320,
+                    255,
+                    false
+                  ]
+                ],
+                "penetration": 173,
+                "damage": 240,
+                "damagePerMinute": 2285.714285714286,
+                "modScore": 18286.071428571428
+              },
+              "_105mm_gun_t5e1m2": {
+                "name": "105 mm Gun T5E1M2",
+                "tier": 9,
+                "rateOfFire": 6.8181818181818175,
+                "accuracy": 0.4,
+                "aimTime": 2.0,
+                "gunDepression": -9,
+                "gunElevation": 19,
+                "weight": 2400.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 219000,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    218,
+                    390,
+                    1000,
+                    false
+                  ],
+                  [
+                    265,
+                    390,
+                    10,
+                    true
+                  ],
+                  [
+                    53,
+                    480,
+                    680,
+                    false
+                  ]
+                ],
+                "penetration": 218,
+                "damage": 390,
+                "damagePerMinute": 2659.090909090909,
+                "modScore": 23958.636363636364
+              },
+              "_105mm_gun_m68": {
+                "name": "105 mm Gun M68",
+                "tier": 10,
+                "rateOfFire": 6.8181818181818175,
+                "accuracy": 0.36,
+                "aimTime": 2.0,
+                "gunDepression": -9,
+                "gunElevation": 19,
+                "weight": 2850.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 325000,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    268,
+                    390,
+                    1000,
+                    false
+                  ],
+                  [
+                    330,
+                    390,
+                    12,
+                    true
+                  ],
+                  [
+                    53,
+                    480,
+                    680,
+                    false
+                  ]
+                ],
+                "penetration": 268,
+                "damage": 390,
+                "damagePerMinute": 2659.090909090909,
+                "modScore": 27333.636363636364
+              }
+            },
+            "modScore": 71000.0
+          }
+        },
+        "engines": {
+          "continental_av-1790-7b": {
+            "name": "Continental AV-1790-7B",
+            "tier": 10,
+            "horsepower": 810,
+            "firechance": 0.12,
+            "weight": 1171,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 100000,
+            "modScore": 90500.0
+          }
+        },
+        "radios": {
+          "an-vrc-7": {
+            "name": "AN/VRC-7",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 100,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_m48a1": {
+            "name": "T97E2",
+            "tier": 10,
+            "loadLimit": 50.35,
+            "traverseSpeed": 50,
+            "weight": 8000,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.8",
+              "0.9",
+              "1.8"
+            ],
+            "dispersion": 0.1,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 5017.5
+          }
+        }
+      },
+      "USSRMedTnkObject140.json": {
+        "name": "Object 140",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1520,
+        "speedLimit": 55.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 36,
+        "hull": {
+          "frontArmor": [
+            100,
+            5
+          ],
+          "sideArmor": [
+            80,
+            5
+          ],
+          "rearArmor": [
+            55,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_object_140": {
+            "name": "Object 140",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 40,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              187,
+              5
+            ],
+            "rearArmor": [
+              65,
+              5
+            ],
+            "weight": 8200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 52000,
+            "additionalHP": 380,
+            "availableGuns": {
+              "_100mm_d54_ts": {
+                "name": "100 mm U-8TS",
+                "tier": 10,
+                "rateOfFire": 9.090909090909092,
+                "accuracy": 0.35,
+                "aimTime": 2.1,
+                "gunDepression": -6,
+                "gunElevation": 17,
+                "weight": 2800.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 242700,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    264,
+                    320,
+                    1100,
+                    false
+                  ],
+                  [
+                    330,
+                    320,
+                    12,
+                    true
+                  ],
+                  [
+                    50,
+                    420,
+                    1170,
+                    false
+                  ]
+                ],
+                "penetration": 264,
+                "damage": 320,
+                "damagePerMinute": 2909.0909090909095,
+                "modScore": 26394.886363636364
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "td-12": {
+            "name": "TD-12",
+            "tier": 10,
+            "horsepower": 580,
+            "firechance": 0.12,
+            "weight": 1000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 79000.0
+          }
+        },
+        "radios": {
+          "r113m": {
+            "name": "R-113M",
+            "tier": 10,
+            "signalRange": 730,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 52200,
+            "modScore": 61500.0
+          }
+        },
+        "suspensions": {
+          "chassis_object_140": {
+            "name": "Object 140",
+            "tier": 10,
+            "loadLimit": 39.0,
+            "traverseSpeed": 54,
+            "weight": 12000,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.55",
+              "0.65",
+              "1.5"
+            ],
+            "dispersion": 0.08,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 31700,
+            "modScore": 4450.0
+          }
+        }
+      },
+      "USSRMedTnkObject430.json": {
+        "name": "Object 430",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1520,
+        "speedLimit": 55.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 35.3,
+        "hull": {
+          "frontArmor": [
+            120,
+            5
+          ],
+          "sideArmor": [
+            80,
+            5
+          ],
+          "rearArmor": [
+            40,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_object_430": {
+            "name": "Object 430",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 40,
+            "frontArmor": [
+              248,
+              5
+            ],
+            "sideArmor": [
+              185,
+              5
+            ],
+            "rearArmor": [
+              63,
+              5
+            ],
+            "weight": 8200,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "additionalHP": 380,
+            "availableGuns": {
+              "_100mm_d54_ts": {
+                "name": "100 mm U-8TS",
+                "tier": 10,
+                "rateOfFire": 8.695652173913043,
+                "accuracy": 0.35,
+                "aimTime": 2.3,
+                "gunDepression": -1,
+                "gunElevation": 16,
+                "weight": 2800.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 242700,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    264,
+                    320,
+                    1100,
+                    false
+                  ],
+                  [
+                    330,
+                    320,
+                    12,
+                    true
+                  ],
+                  [
+                    50,
+                    420,
+                    1170,
+                    false
+                  ]
+                ],
+                "penetration": 264,
+                "damage": 320,
+                "damagePerMinute": 2782.608695652174,
+                "modScore": 26035.16304347826
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "_5td": {
+            "name": "5TD",
+            "tier": 10,
+            "horsepower": 580,
+            "firechance": 0.1,
+            "weight": 1050,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 79000.0
+          }
+        },
+        "radios": {
+          "r113m": {
+            "name": "R-113M",
+            "tier": 10,
+            "signalRange": 730,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 52200,
+            "modScore": 61500.0
+          }
+        },
+        "suspensions": {
+          "chassis_object_430": {
+            "name": "Object 430",
+            "tier": 10,
+            "loadLimit": 39.0,
+            "traverseSpeed": 52,
+            "weight": 12000,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.6",
+              "0.7",
+              "1.6"
+            ],
+            "dispersion": 0.14,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4450.0
+          }
+        }
+      },
+      "USSRMedTnkObject907.json": {
+        "name": "Object 907",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": true,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 22500,
+        "baseHitpoints": 1600,
+        "speedLimit": 55.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 0,
+        "hull": {
+          "frontArmor": [
+            100,
+            5
+          ],
+          "sideArmor": [
+            85,
+            5
+          ],
+          "rearArmor": [
+            45,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_100mm_d54_m": {
+              "name": "100 mm D-54TS",
+              "tier": 10,
+              "rateOfFire": 8.450704225352114,
+              "accuracy": 0.36,
+              "aimTime": 2.3,
+              "gunDepression": -5,
+              "gunElevation": 16,
+              "weight": 2557.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 242700,
+              "dispersion": {
+                "turretRotation": 0.12,
+                "afterShot": 4.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  219,
+                  320,
+                  1230,
+                  false
+                ],
+                [
+                  330,
+                  320,
+                  12,
+                  true
+                ],
+                [
+                  50,
+                  420,
+                  1170,
+                  false
+                ]
+              ],
+              "penetration": 219,
+              "damage": 320,
+              "damagePerMinute": 2704.2253521126763,
+              "modScore": 23523.838028169015
+            }
+          }
+        },
+        "gunArc": 360,
+        "engines": {
+          "v-12-5u": {
+            "name": "V-12-5U",
+            "tier": 10,
+            "horsepower": 610,
+            "firechance": 0.1,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 80500.0
+          }
+        },
+        "radios": {
+          "r123a": {
+            "name": "R-123",
+            "tier": 10,
+            "signalRange": 850,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 67500.0
+          }
+        },
+        "suspensions": {
+          "chassis_object_907": {
+            "name": "Object 907",
+            "tier": 10,
+            "loadLimit": 39.0,
+            "traverseSpeed": 54,
+            "weight": 7000,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.6",
+              "0.7",
+              "1.5"
+            ],
+            "dispersion": 0.12,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4450.0
+          }
+        }
+      },
+      "USSRMedTnkT-62A.json": {
+        "name": "T-62A",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 1560,
+        "speedLimit": 50.0,
+        "reverseSpeed": 20.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 37,
+        "hull": {
+          "frontArmor": [
+            102,
+            5
+          ],
+          "sideArmor": [
+            75,
+            5
+          ],
+          "rearArmor": [
+            45,
+            5
+          ],
+          "viewRange": 400
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_t62a": {
+            "name": "T-62A",
+            "tier": 10,
+            "viewRange": 400,
+            "traverseSpeed": 48,
+            "frontArmor": [
+              240,
+              5
+            ],
+            "sideArmor": [
+              161,
+              5
+            ],
+            "rearArmor": [
+              65,
+              5
+            ],
+            "weight": 8000,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 66000,
+            "additionalHP": 390,
+            "availableGuns": {
+              "_100mm_d54_ts": {
+                "name": "100 mm U-8TS",
+                "tier": 10,
+                "rateOfFire": 9.090909090909092,
+                "accuracy": 0.34,
+                "aimTime": 2.0,
+                "gunDepression": -5,
+                "gunElevation": 17,
+                "weight": 2800.0,
+                "stockModule": true,
+                "topModule": true,
+                "cost": 242700,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    264,
+                    320,
+                    1100,
+                    false
+                  ],
+                  [
+                    330,
+                    320,
+                    12,
+                    true
+                  ],
+                  [
+                    50,
+                    420,
+                    1170,
+                    false
+                  ]
+                ],
+                "penetration": 264,
+                "damage": 320,
+                "damagePerMinute": 2909.0909090909095,
+                "modScore": 26511.136363636364
+              }
+            },
+            "modScore": 70000.0
+          }
+        },
+        "engines": {
+          "v-55": {
+            "name": "V-55",
+            "tier": 10,
+            "horsepower": 580,
+            "firechance": 0.1,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 79000.0
+          }
+        },
+        "radios": {
+          "r123": {
+            "name": "R-123",
+            "tier": 10,
+            "signalRange": 850,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 67500.0
+          }
+        },
+        "suspensions": {
+          "chassis_t62a": {
+            "name": "T-62A",
+            "tier": 10,
+            "loadLimit": 39.8,
+            "traverseSpeed": 56,
+            "weight": 7800,
+            "pivot": "true",
+            "terrainResistance": [
+              "0.5",
+              "0.6",
+              "1.4"
+            ],
+            "dispersion": 0.1,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 82500,
+            "modScore": 4490.0
+          }
+        }
+      }
+    },
+    "SPG": {
+      "FrSPG_Bat-Chatillon_155_58.json": {
+        "name": "Bat.-Châtillon 155 58",
+        "nation": "france",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 392,
+        "speedLimit": 62.0,
+        "reverseSpeed": 14.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 35,
+        "hull": {
+          "frontArmor": [
+            50,
+            5
+          ],
+          "sideArmor": [
+            30,
+            5
+          ],
+          "rearArmor": [
+            20,
+            5
+          ],
+          "viewRange": 380,
+          "availableGuns": {
+            "canon_de_155mm": {
+              "name": "Canon de 155 mm",
+              "tier": 9,
+              "rateOfFire": 0.75,
+              "accuracy": 0.68,
+              "aimTime": 5.5,
+              "gunDepression": 0,
+              "gunElevation": 45,
+              "weight": 4352.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 225000,
+              "dispersion": {
+                "turretRotation": 0.6,
+                "afterShot": 4.5,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  95,
+                  1250,
+                  1120,
+                  false
+                ],
+                [
+                  95,
+                  1250,
+                  13,
+                  true
+                ],
+                [
+                  185,
+                  720,
+                  12,
+                  true
+                ]
+              ],
+              "penetration": 95,
+              "damage": 1250,
+              "damagePerMinute": 937.5,
+              "modScore": 23968.75
+            }
+          }
+        },
+        "gunArc": 360,
+        "engines": {
+          "hispano-suiza_hs110": {
+            "name": "Hispano-Suiza HS 110",
+            "tier": 10,
+            "horsepower": 720,
+            "firechance": 0.1,
+            "weight": 1426,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 94250,
+            "modScore": 86000.0
+          }
+        },
+        "radios": {
+          "scr_528": {
+            "name": "SCR 528F",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 80,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_bat_chatillon155": {
+            "name": "Batignolles-Châtillon 155 mle. 58",
+            "tier": 10,
+            "loadLimit": 38.0,
+            "traverseSpeed": 36,
+            "weight": 12000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.1"
+            ],
+            "dispersion": 0.4,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 36000,
+            "modScore": 4400.0
+          }
+        }
+      },
+      "GerSPG_GWE100.json": {
+        "name": "G.W. E 100",
+        "nation": "germany",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 440,
+        "speedLimit": 40.0,
+        "reverseSpeed": 10.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 87,
+        "hull": {
+          "frontArmor": [
+            80,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            40,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_210mm_morser_18": {
+              "name": "21 cm Mörser 18/2",
+              "tier": 10,
+              "rateOfFire": 1.411764705882353,
+              "accuracy": 0.84,
+              "aimTime": 7.0,
+              "gunDepression": 0,
+              "gunElevation": 45,
+              "weight": 5900.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 340000,
+              "dispersion": {
+                "turretRotation": 0.52,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  105,
+                  2000,
+                  2080,
+                  false
+                ],
+                [
+                  303,
+                  1550,
+                  1930,
+                  false
+                ],
+                [
+                  105,
+                  2000,
+                  20,
+                  true
+                ]
+              ],
+              "penetration": 105,
+              "damage": 2000,
+              "damagePerMinute": 2823.529411764706,
+              "modScore": 37422.794117647056
+            }
+          }
+        },
+        "gunArc": 12,
+        "engines": {
+          "maybach_hl_234_trm_p45_1": {
+            "name": "Maybach HL 234 TRM P45",
+            "tier": 9,
+            "horsepower": 900,
+            "firechance": 0.2,
+            "weight": 1300,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 88000,
+            "modScore": 90000.0
+          }
+        },
+        "radios": {
+          "_10wsc": {
+            "name": "10WSc",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_g_e": {
+            "name": "G.W. E 100",
+            "tier": 10,
+            "loadLimit": 100.0,
+            "traverseSpeed": 18,
+            "weight": 42000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.3",
+              "1.5",
+              "2.5"
+            ],
+            "dispersion": 0.3,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 36000,
+            "modScore": 7500.0
+          }
+        }
+      },
+      "UK_SPG_ConquerorGunCarriage.json": {
+        "name": "Conqueror Gun Carriage",
+        "nation": "gb",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 424,
+        "speedLimit": 34.3,
+        "reverseSpeed": 10.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 55,
+        "hull": {
+          "frontArmor": [
+            152,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            76,
+            5
+          ],
+          "viewRange": 350,
+          "availableGuns": {
+            "_9.2inch_spg_howitzer": {
+              "name": "B.L. 9.2-in. Howitzer Mk. II",
+              "tier": 10,
+              "rateOfFire": 1.0327022375215147,
+              "accuracy": 1.1,
+              "aimTime": 8.5,
+              "gunDepression": 0,
+              "gunElevation": 45,
+              "weight": 2919.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 340000,
+              "dispersion": {
+                "turretRotation": 0.72,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  117,
+                  2200,
+                  2450,
+                  false
+                ],
+                [
+                  117,
+                  2200,
+                  20,
+                  true
+                ]
+              ],
+              "penetration": 117,
+              "damage": 2200,
+              "damagePerMinute": 2271.944922547332,
+              "modScore": 38137.917383821
+            }
+          }
+        },
+        "gunArc": 60,
+        "engines": {
+          "rolls_royse_meteor_m120": {
+            "name": "Rolls-Royce Meteor M120",
+            "tier": 9,
+            "horsepower": 810,
+            "firechance": 0.2,
+            "weight": 744,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 92000,
+            "modScore": 85500.0
+          }
+        },
+        "radios": {
+          "c45": {
+            "name": "SR C45",
+            "tier": 10,
+            "signalRange": 750,
+            "weight": 40,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 45600,
+            "modScore": 62500.0
+          }
+        },
+        "suspensions": {
+          "chassis_gb31_conqueror_gun": {
+            "name": "Conqueror Gun Carriage",
+            "tier": 10,
+            "loadLimit": 60.0,
+            "traverseSpeed": 24,
+            "weight": 22000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.3",
+              "1.5",
+              "2.5"
+            ],
+            "dispersion": 0.36,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 80000,
+            "modScore": 5500.0
+          }
+        }
+      },
+      "USSPG_T92.json": {
+        "name": "T92",
+        "nation": "usa",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 400,
+        "speedLimit": 32.2,
+        "reverseSpeed": 10.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 57.84,
+        "hull": {
+          "frontArmor": [
+            25,
+            5
+          ],
+          "sideArmor": [
+            25,
+            5
+          ],
+          "rearArmor": [
+            12,
+            5
+          ],
+          "viewRange": 400,
+          "availableGuns": {
+            "_240mm_howitzer_m1": {
+              "name": "240 mm Howitzer M1",
+              "tier": 10,
+              "rateOfFire": 1.1320754716981132,
+              "accuracy": 0.92,
+              "aimTime": 8.0,
+              "gunDepression": 0,
+              "gunElevation": 65,
+              "weight": 11385.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 350000,
+              "dispersion": {
+                "turretRotation": 0.64,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  120,
+                  2250,
+                  2500,
+                  false
+                ],
+                [
+                  370,
+                  1800,
+                  2500,
+                  false
+                ],
+                [
+                  120,
+                  2250,
+                  20,
+                  true
+                ]
+              ],
+              "penetration": 120,
+              "damage": 2250,
+              "damagePerMinute": 2547.1698113207544,
+              "modScore": 40445.75471698113
+            }
+          }
+        },
+        "gunArc": 24,
+        "engines": {
+          "ford_gaf_r1": {
+            "name": "Ford GAF T92",
+            "tier": 6,
+            "horsepower": 500,
+            "firechance": 0.2,
+            "weight": 641,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 38700,
+            "modScore": 55000.0
+          }
+        },
+        "radios": {
+          "scr_528r1": {
+            "name": "SCR 528A",
+            "tier": 10,
+            "signalRange": 745,
+            "weight": 91,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 54000,
+            "modScore": 62250.0
+          }
+        },
+        "suspensions": {
+          "chassis_t92": {
+            "name": "T92 T80E1",
+            "tier": 10,
+            "loadLimit": 61.0,
+            "traverseSpeed": 26,
+            "weight": 24000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.2",
+              "1.4",
+              "2.3"
+            ],
+            "dispersion": 0.38,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 32000,
+            "modScore": 5550.0
+          }
+        }
+      },
+      "USSR_SPG_Object 261.json": {
+        "name": "Object 261",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 408,
+        "speedLimit": 50.0,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 59.1,
+        "hull": {
+          "frontArmor": [
+            75,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            30,
+            5
+          ],
+          "viewRange": 390,
+          "availableGuns": {
+            "_180mm_b-1-p": {
+              "name": "180 mm B-1-P",
+              "tier": 9,
+              "rateOfFire": 1.7142857142857142,
+              "accuracy": 0.66,
+              "aimTime": 6.5,
+              "gunDepression": -3,
+              "gunElevation": 45,
+              "weight": 17225.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 235000,
+              "dispersion": {
+                "turretRotation": 0.48,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  102,
+                  1700,
+                  1980,
+                  false
+                ],
+                [
+                  360,
+                  1100,
+                  1980,
+                  false
+                ],
+                [
+                  102,
+                  1700,
+                  18,
+                  true
+                ]
+              ],
+              "penetration": 102,
+              "damage": 1700,
+              "damagePerMinute": 2914.285714285714,
+              "modScore": 33263.92857142857
+            }
+          }
+        },
+        "gunArc": 10,
+        "engines": {
+          "m-50t": {
+            "name": "M-50T",
+            "tier": 10,
+            "horsepower": 1050,
+            "firechance": 0.15,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 102500.0
+          }
+        },
+        "radios": {
+          "_10rk-26": {
+            "name": "10RK-26",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_object_261": {
+            "name": "Object 261",
+            "tier": 10,
+            "loadLimit": 62.2,
+            "traverseSpeed": 24,
+            "weight": 22000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.3",
+              "1.5",
+              "2.5"
+            ],
+            "dispersion": 0.3,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 36000,
+            "modScore": 5610.0
+          }
+        }
+      },
+      "USSR_SPG_Object261.json": {
+        "name": "Object 261",
+        "nation": "ussr",
+        "tier": 10,
+        "type": "SPG",
+        "premiumTank": false,
+        "turreted": false,
+        "experienceNeeded": 0,
+        "cost": 6100000,
+        "baseHitpoints": 408,
+        "speedLimit": 50.0,
+        "reverseSpeed": 12.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 59.1,
+        "hull": {
+          "frontArmor": [
+            75,
+            5
+          ],
+          "sideArmor": [
+            50,
+            5
+          ],
+          "rearArmor": [
+            30,
+            5
+          ],
+          "viewRange": 390,
+          "availableGuns": {
+            "_180mm_b-1-p": {
+              "name": "180 mm B-1-P",
+              "tier": 9,
+              "rateOfFire": 1.7142857142857142,
+              "accuracy": 0.66,
+              "aimTime": 6.5,
+              "gunDepression": -3,
+              "gunElevation": 45,
+              "weight": 17225.0,
+              "stockModule": true,
+              "topModule": true,
+              "cost": 235000,
+              "dispersion": {
+                "turretRotation": 0.48,
+                "afterShot": 6.0,
+                "gunDamaged": 2.0
+              },
+              "shells": [
+                [
+                  102,
+                  1700,
+                  1980,
+                  false
+                ],
+                [
+                  360,
+                  1100,
+                  1980,
+                  false
+                ],
+                [
+                  102,
+                  1700,
+                  18,
+                  true
+                ]
+              ],
+              "penetration": 102,
+              "damage": 1700,
+              "damagePerMinute": 2914.285714285714,
+              "modScore": 33263.92857142857
+            }
+          }
+        },
+        "gunArc": 10,
+        "engines": {
+          "m-50t": {
+            "name": "M-50T",
+            "tier": 10,
+            "horsepower": 1050,
+            "firechance": 0.15,
+            "weight": 700,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 132000,
+            "modScore": 102500.0
+          }
+        },
+        "radios": {
+          "_10rk-26": {
+            "name": "10RK-26",
+            "tier": 10,
+            "signalRange": 720,
+            "weight": 160,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 51600,
+            "modScore": 61000.0
+          }
+        },
+        "suspensions": {
+          "chassis_object_261": {
+            "name": "Object 261",
+            "tier": 10,
+            "loadLimit": 62.2,
+            "traverseSpeed": 24,
+            "weight": 22000,
+            "pivot": "true",
+            "terrainResistance": [
+              "1.3",
+              "1.5",
+              "2.5"
+            ],
+            "dispersion": 0.3,
+            "stockModule": true,
+            "topModule": true,
+            "cost": 36000,
+            "modScore": 5610.0
+          }
+        }
+      }
+    }
+  }
+}

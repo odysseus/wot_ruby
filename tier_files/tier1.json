@@ -1,0 +1,2860 @@
+{
+  "tier1": {
+    "lightTank": {
+      "ChinaLtTnkRenaultNC-31.json": {
+        "name": "Renault NC-31",
+        "nation": "china",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 80,
+        "speedLimit": 25.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 6.47,
+        "hull": {
+          "frontArmor": [
+            16,
+            5
+          ],
+          "sideArmor": [
+            16,
+            5
+          ],
+          "rearArmor": [
+            16,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_ch06_renault_nc31": {
+            "name": "FT-17",
+            "tier": 1,
+            "viewRange": 250,
+            "traverseSpeed": 38,
+            "frontArmor": [
+              16,
+              5
+            ],
+            "sideArmor": [
+              16,
+              5
+            ],
+            "rearArmor": [
+              14,
+              5
+            ],
+            "weight": 170,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 20,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.3,
+                "gunDepression": -6,
+                "gunElevation": 35,
+                "weight": 110.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 35.00000000000023
+              },
+              "_13.2mm_hotchkiss_mle._1930": {
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.58,
+                "aimTime": 2.0,
+                "gunDepression": -10,
+                "gunElevation": 35,
+                "weight": 38.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1600,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.3,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1435.8620689655172
+              }
+            },
+            "modScore": 17500.0
+          },
+          "turret_2_ch06_renault_nc31": {
+            "name": "FT-18",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 34,
+            "frontArmor": [
+              22,
+              5
+            ],
+            "sideArmor": [
+              22,
+              5
+            ],
+            "rearArmor": [
+              16,
+              5
+            ],
+            "weight": 200,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 500,
+            "additionalHP": 30,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.0,
+                "gunDepression": -6,
+                "gunElevation": 35,
+                "weight": 110.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 290.0
+              },
+              "_13.2mm_hotchkiss_mle._1930": {
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.58,
+                "aimTime": 2.0,
+                "gunDepression": -10,
+                "gunElevation": 35,
+                "weight": 38.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1600,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1435.8620689655172
+              },
+              "_37mm_kwk_l46": {
+                "name": "37 mm KwK 36 L/46.5",
+                "tier": 1,
+                "rateOfFire": 26.086956521739133,
+                "accuracy": 0.46,
+                "aimTime": 2.0,
+                "gunDepression": -6,
+                "gunElevation": 35,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    40,
+                    36,
+                    6,
+                    false
+                  ],
+                  [
+                    74,
+                    36,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    42,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 40,
+                "damage": 36,
+                "damagePerMinute": 939.1304347826087,
+                "modScore": 1536.195652173913
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "_renault_m26_27": {
+            "name": "Renault M26/27",
+            "tier": 1,
+            "horsepower": 45,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7250.0
+          },
+          "_renault_62cv": {
+            "name": "Renault 62CV",
+            "tier": 1,
+            "horsepower": 62,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": false,
+            "topModule": false,
+            "cost": 350,
+            "modScore": 8100.0
+          },
+          "_renault_nc": {
+            "name": "Renault NC-2",
+            "tier": 1,
+            "horsepower": 75,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 370,
+            "modScore": 8750.0
+          }
+        },
+        "radios": {
+          "fanions_de_signaux": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "er_52": {
+            "name": "ER 52",
+            "tier": 3,
+            "signalRange": 300,
+            "weight": 100,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 600,
+            "modScore": 22500.0
+          }
+        },
+        "suspensions": {
+          "chassis_ch06_renault_nc31": {
+            "name": "M24/25",
+            "tier": 1,
+            "loadLimit": 6.6,
+            "traverseSpeed": 36,
+            "weight": 800,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.4",
+              "2.3"
+            ],
+            "dispersion": 0.4,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 580.0
+          },
+          "chassis_ch06_renault_nc31_2": {
+            "name": "M26/27",
+            "tier": 2,
+            "loadLimit": 8.6,
+            "traverseSpeed": 38,
+            "weight": 800,
+            "pivot": "false",
+            "terrainResistance": [
+              "1",
+              "1.2",
+              "2.1"
+            ],
+            "dispersion": 0.38,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 450,
+            "modScore": 930.0
+          }
+        }
+      },
+      "FrLtTnkRenaultFT.json": {
+        "name": "Renault FT",
+        "nation": "france",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 84,
+        "speedLimit": 21.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 4.69,
+        "hull": {
+          "frontArmor": [
+            16,
+            5
+          ],
+          "sideArmor": [
+            16,
+            5
+          ],
+          "rearArmor": [
+            16,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_renaultft": {
+            "name": "Renault FT Omnibus",
+            "tier": 1,
+            "viewRange": 250,
+            "traverseSpeed": 38,
+            "frontArmor": [
+              16,
+              5
+            ],
+            "sideArmor": [
+              16,
+              5
+            ],
+            "rearArmor": [
+              14,
+              5
+            ],
+            "weight": 170,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 21,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.5,
+                "gunDepression": -6,
+                "gunElevation": 35,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": -135.0
+              },
+              "_13.2mm_hotchkiss_mle._1930": {
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.58,
+                "aimTime": 2.0,
+                "gunDepression": -10,
+                "gunElevation": 35,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1500,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1435.8620689655172
+              }
+            },
+            "modScore": 17500.0
+          },
+          "turret_2_renaultft": {
+            "name": "Renault FT Berliet",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 34,
+            "frontArmor": [
+              22,
+              5
+            ],
+            "sideArmor": [
+              22,
+              5
+            ],
+            "rearArmor": [
+              16,
+              5
+            ],
+            "weight": 200,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 240,
+            "additionalHP": 31,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.0,
+                "gunDepression": -2,
+                "gunElevation": 35,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 290.0
+              },
+              "_13.2mm_hotchkiss_mle._1930": {
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.58,
+                "aimTime": 2.0,
+                "gunDepression": -10,
+                "gunElevation": 35,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1500,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1435.8620689655172
+              },
+              "_25mm_canon_raccourci_mle.1934": {
+                "name": "25 mm Canon Raccourci mle. 1934",
+                "tier": 2,
+                "rateOfFire": 28.57142857142857,
+                "accuracy": 0.45,
+                "aimTime": 1.5,
+                "gunDepression": -4,
+                "gunElevation": 35,
+                "weight": 71.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 2320,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 3.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    46,
+                    27,
+                    5,
+                    false
+                  ],
+                  [
+                    68,
+                    27,
+                    2,
+                    true
+                  ]
+                ],
+                "penetration": 46,
+                "damage": 27,
+                "damagePerMinute": 771.4285714285713,
+                "modScore": 2545.892857142857
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "renault": {
+            "name": "Renault",
+            "tier": 1,
+            "horsepower": 39,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 6950.0
+          },
+          "renault_m26_27": {
+            "name": "Renault M26/27",
+            "tier": 1,
+            "horsepower": 45,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": false,
+            "topModule": false,
+            "cost": 300,
+            "modScore": 7250.0
+          },
+          "franklin": {
+            "name": "#france:franklin",
+            "tier": 1,
+            "horsepower": 100,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 330,
+            "modScore": 10000.0
+          }
+        },
+        "radios": {
+          "fanions_de_signaux": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "er_52": {
+            "name": "ER 52",
+            "tier": 3,
+            "signalRange": 300,
+            "weight": 100,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 600,
+            "modScore": 22500.0
+          }
+        },
+        "suspensions": {
+          "chassis_renaultft": {
+            "name": "M17",
+            "tier": 1,
+            "loadLimit": 4.89,
+            "traverseSpeed": 28,
+            "weight": 1200,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.5",
+              "2.5"
+            ],
+            "dispersion": 0.42,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 494.5
+          },
+          "chassis_renaultft2": {
+            "name": "M26/27",
+            "tier": 2,
+            "loadLimit": 6.8,
+            "traverseSpeed": 30,
+            "weight": 1200,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.3"
+            ],
+            "dispersion": 0.38,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 560,
+            "modScore": 840.0
+          }
+        }
+      },
+      "GerLtTnkLeichttraktor.json": {
+        "name": "Leichttraktor",
+        "nation": "germany",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 88,
+        "speedLimit": 36.0,
+        "reverseSpeed": 9.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 7.5,
+        "hull": {
+          "frontArmor": [
+            14,
+            5
+          ],
+          "sideArmor": [
+            12,
+            5
+          ],
+          "rearArmor": [
+            12,
+            5
+          ],
+          "viewRange": 310
+        },
+        "gunArc": 360,
+        "turrets": {
+          "swedish_bofors": {
+            "name": "Leichttraktor",
+            "tier": 1,
+            "viewRange": 260,
+            "traverseSpeed": 44,
+            "frontArmor": [
+              14,
+              5
+            ],
+            "sideArmor": [
+              12,
+              5
+            ],
+            "rearArmor": [
+              12,
+              5
+            ],
+            "weight": 700,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 22,
+            "availableGuns": {
+              "_37mm_kwk_l46": {
+                "name": "3,7 cm Kw.K. 36 L/46.5",
+                "tier": 1,
+                "rateOfFire": 26.086956521739133,
+                "accuracy": 0.46,
+                "aimTime": 1.7,
+                "gunDepression": -7,
+                "gunElevation": 25,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    40,
+                    36,
+                    0,
+                    false
+                  ],
+                  [
+                    74,
+                    36,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    42,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 40,
+                "damage": 36,
+                "damagePerMinute": 939.1304347826087,
+                "modScore": 1791.195652173913
+              },
+              "_20mm_breda": {
+                "name": "2 cm Breda (i)",
+                "tier": 1,
+                "rateOfFire": 13.043478260869566,
+                "accuracy": 0.53,
+                "aimTime": 1.8,
+                "gunDepression": -10,
+                "gunElevation": 30,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1970,
+                "dispersion": {
+                  "turretRotation": 0.1,
+                  "afterShot": 1.4,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    30,
+                    11,
+                    3,
+                    false
+                  ],
+                  [
+                    47,
+                    11,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 30,
+                "damage": 11,
+                "damagePerMinute": 143.47826086956522,
+                "modScore": -606.0326086956522
+              }
+            },
+            "modScore": 18000.0
+          },
+          "verbesserteturm": {
+            "name": "L.K.A. 2",
+            "tier": 2,
+            "viewRange": 310,
+            "traverseSpeed": 39,
+            "frontArmor": [
+              14,
+              5
+            ],
+            "sideArmor": [
+              13,
+              5
+            ],
+            "rearArmor": [
+              13,
+              5
+            ],
+            "weight": 950,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 280,
+            "additionalHP": 42,
+            "availableGuns": {
+              "_37mm_kwk_l46": {
+                "name": "3,7 cm Kw.K. 36 L/46.5",
+                "tier": 1,
+                "rateOfFire": 26.086956521739133,
+                "accuracy": 0.46,
+                "aimTime": 1.7,
+                "gunDepression": -7,
+                "gunElevation": 25,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    40,
+                    36,
+                    0,
+                    false
+                  ],
+                  [
+                    74,
+                    36,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    42,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 40,
+                "damage": 36,
+                "damagePerMinute": 939.1304347826087,
+                "modScore": 1791.195652173913
+              },
+              "_20mm_breda": {
+                "name": "2 cm Breda (i)",
+                "tier": 1,
+                "rateOfFire": 17.647058823529413,
+                "accuracy": 0.53,
+                "aimTime": 1.8,
+                "gunDepression": -10,
+                "gunElevation": 30,
+                "weight": 70.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 1970,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 1.4,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    30,
+                    11,
+                    3,
+                    false
+                  ],
+                  [
+                    47,
+                    11,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 30,
+                "damage": 11,
+                "damagePerMinute": 194.11764705882354,
+                "modScore": -530.0735294117646
+              },
+              "_20mm_kwk_38_l55": {
+                "name": "2 cm Kw.K. 38",
+                "tier": 1,
+                "rateOfFire": 15.0,
+                "accuracy": 0.57,
+                "aimTime": 1.7,
+                "gunDepression": -10,
+                "gunElevation": 30,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1920,
+                "dispersion": {
+                  "turretRotation": 0.08,
+                  "afterShot": 1.3,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    11,
+                    3,
+                    false
+                  ],
+                  [
+                    46,
+                    11,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 11,
+                "damagePerMinute": 165.0,
+                "modScore": -981.2499999999998
+              }
+            },
+            "modScore": 25500.0
+          }
+        },
+        "engines": {
+          "krupp_m301": {
+            "name": "Krupp M301",
+            "tier": 1,
+            "horsepower": 51,
+            "firechance": 0.2,
+            "weight": 200,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7550.0
+          },
+          "krupp_m311": {
+            "name": "Krupp M311",
+            "tier": 2,
+            "horsepower": 85,
+            "firechance": 0.2,
+            "weight": 300,
+            "stockModule": false,
+            "topModule": false,
+            "cost": 400,
+            "modScore": 14250.0
+          },
+          "maybach_nl38tr": {
+            "name": "Maybach HL 38 TR",
+            "tier": 2,
+            "horsepower": 100,
+            "firechance": 0.2,
+            "weight": 500,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 700,
+            "modScore": 15000.0
+          }
+        },
+        "radios": {
+          "die_signalfahnen": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "fug2": {
+            "name": "FuG 2",
+            "tier": 2,
+            "signalRange": 265,
+            "weight": 40,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 180,
+            "modScore": 18250.0
+          }
+        },
+        "suspensions": {
+          "leichtertaktorketten": {
+            "name": "Leichttraktor",
+            "tier": 1,
+            "loadLimit": 9.2,
+            "traverseSpeed": 36,
+            "weight": 2000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.4",
+              "2.5"
+            ],
+            "dispersion": 0.4,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 710.0
+          },
+          "leichtertaktorkettenb": {
+            "name": "Leichttraktor verstärkteketten",
+            "tier": 2,
+            "loadLimit": 9.5,
+            "traverseSpeed": 40,
+            "weight": 2000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1",
+              "1.3",
+              "2.3"
+            ],
+            "dispersion": 0.36,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 540,
+            "modScore": 975.0
+          }
+        }
+      },
+      "JpnLtTnkRenaultOtsu.json": {
+        "name": "Renault Otsu",
+        "nation": "japan",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 80,
+        "speedLimit": 23.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 8.01,
+        "hull": {
+          "frontArmor": [
+            30,
+            5
+          ],
+          "sideArmor": [
+            30,
+            5
+          ],
+          "rearArmor": [
+            22,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_nc27": {
+            "name": "Renault Kou",
+            "tier": 1,
+            "viewRange": 250,
+            "traverseSpeed": 24,
+            "frontArmor": [
+              18,
+              5
+            ],
+            "sideArmor": [
+              18,
+              5
+            ],
+            "rearArmor": [
+              16,
+              5
+            ],
+            "weight": 170,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 20,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.3,
+                "gunDepression": -20,
+                "gunElevation": 35,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.2,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 35.00000000000023
+              },
+              "_13.2mm_type93": {
+                "name": "13 mm Autocannon Type Ho",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.56,
+                "aimTime": 2.0,
+                "gunDepression": -20,
+                "gunElevation": 35,
+                "weight": 38.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1500,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 1.3,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1373.3620689655174
+              }
+            },
+            "modScore": 17500.0
+          },
+          "turret_2_nc27": {
+            "name": "Renault Otsu",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 24,
+            "frontArmor": [
+              20,
+              5
+            ],
+            "sideArmor": [
+              20,
+              5
+            ],
+            "rearArmor": [
+              20,
+              5
+            ],
+            "weight": 200,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 550,
+            "additionalHP": 30,
+            "availableGuns": {
+              "_37mm_apx_sa18": {
+                "name": "37 mm APX SA18",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.0,
+                "gunDepression": -20,
+                "gunElevation": 35,
+                "weight": 100.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.18,
+                  "afterShot": 3.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    29,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    46,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    36,
+                    6,
+                    false
+                  ]
+                ],
+                "penetration": 29,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 290.0
+              },
+              "_13.2mm_type93": {
+                "name": "13 mm Autocannon Type Ho",
+                "tier": 1,
+                "rateOfFire": 10.344827586206897,
+                "accuracy": 0.56,
+                "aimTime": 2.0,
+                "gunDepression": -20,
+                "gunElevation": 35,
+                "weight": 38.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1500,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    23,
+                    8,
+                    1,
+                    false
+                  ],
+                  [
+                    36,
+                    8,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 23,
+                "damage": 8,
+                "damagePerMinute": 82.75862068965517,
+                "modScore": -1373.3620689655174
+              },
+              "_37mm_type11": {
+                "name": "37 mm Infantry Gun Type 11",
+                "tier": 1,
+                "rateOfFire": 17.647058823529413,
+                "accuracy": 0.54,
+                "aimTime": 2.7,
+                "gunDepression": -22,
+                "gunElevation": 20,
+                "weight": 93.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 1800,
+                "dispersion": {
+                  "turretRotation": 0.24,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    22,
+                    45,
+                    14,
+                    false
+                  ],
+                  [
+                    32,
+                    45,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    55,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 22,
+                "damage": 45,
+                "damagePerMinute": 794.1176470588235,
+                "modScore": -336.32352941176487
+              },
+              "_37mm_sogekiho": {
+                "name": "37 mm Sogekihou",
+                "tier": 1,
+                "rateOfFire": 17.647058823529413,
+                "accuracy": 0.5,
+                "aimTime": 2.7,
+                "gunDepression": -22,
+                "gunElevation": 20,
+                "weight": 175.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.24,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    32,
+                    45,
+                    14,
+                    false
+                  ],
+                  [
+                    48,
+                    45,
+                    2,
+                    true
+                  ],
+                  [
+                    18,
+                    55,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 32,
+                "damage": 45,
+                "damagePerMinute": 794.1176470588235,
+                "modScore": 313.67647058823513
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "_62cv": {
+            "name": "Renault L4",
+            "tier": 1,
+            "horsepower": 60,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 8000.0
+          },
+          "mitsubishi": {
+            "name": "Mitsubishi A475VD",
+            "tier": 2,
+            "horsepower": 75,
+            "firechance": 0.15,
+            "weight": 650,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 450,
+            "modScore": 13750.0
+          }
+        },
+        "radios": {
+          "alarm_flags": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "_type94_otsu": {
+            "name": "Type 94 Mk. 4 Otsu",
+            "tier": 3,
+            "signalRange": 300,
+            "weight": 40,
+            "stockModule": false,
+            "topModule": false,
+            "cost": 600,
+            "modScore": 22500.0
+          },
+          "_type94_hei": {
+            "name": "Type 94 Mk. 4 Hei",
+            "tier": 4,
+            "signalRange": 350,
+            "weight": 90,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 2350,
+            "modScore": 27500.0
+          }
+        },
+        "suspensions": {
+          "chassis_nc27": {
+            "name": "Renault NC-27",
+            "tier": 1,
+            "loadLimit": 8.5,
+            "traverseSpeed": 34,
+            "weight": 2600,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.2",
+              "1.4",
+              "2.7"
+            ],
+            "dispersion": 0.44,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 675.0
+          },
+          "chassis_nc27_2": {
+            "name": "Renault Otsu",
+            "tier": 1,
+            "loadLimit": 10.5,
+            "traverseSpeed": 36,
+            "weight": 2600,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.5"
+            ],
+            "dispersion": 0.4,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 330,
+            "modScore": 775.0
+          }
+        }
+      },
+      "SovietLtTnkMS-1.json": {
+        "name": "MS-1",
+        "nation": "ussr",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 72,
+        "speedLimit": 32.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 4.69,
+        "hull": {
+          "frontArmor": [
+            18,
+            5
+          ],
+          "sideArmor": [
+            16,
+            5
+          ],
+          "rearArmor": [
+            16,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "t-18_standart": {
+            "name": "MS-1 mod. 1927",
+            "tier": 1,
+            "viewRange": 240,
+            "traverseSpeed": 39,
+            "frontArmor": [
+              18,
+              5
+            ],
+            "sideArmor": [
+              16,
+              5
+            ],
+            "rearArmor": [
+              16,
+              5
+            ],
+            "weight": 170,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 18,
+            "availableGuns": {
+              "_37mm_gochkins": {
+                "name": "37 mm Hotchkiss",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.5,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 104.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    34,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    44,
+                    30,
+                    1,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 34,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 127.5
+              },
+              "_37mm_b-3": {
+                "name": "37 mm B-3",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.46,
+                "aimTime": 2.5,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 77.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 1950,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    40,
+                    36,
+                    8,
+                    false
+                  ],
+                  [
+                    64,
+                    36,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    40,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 40,
+                "damage": 36,
+                "damagePerMinute": 864.0,
+                "modScore": 998.5
+              },
+              "_20mm_tnsh": {
+                "name": "20 mm TNSh",
+                "tier": 1,
+                "rateOfFire": 5.263157894736842,
+                "accuracy": 0.53,
+                "aimTime": 1.9,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 68.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 2380,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 1.4,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    28,
+                    10,
+                    2,
+                    false
+                  ],
+                  [
+                    39,
+                    10,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 28,
+                "damage": 10,
+                "damagePerMinute": 52.63157894736842,
+                "modScore": -947.3026315789473
+              },
+              "_23mm_vja": {
+                "name": "23 mm VJa",
+                "tier": 2,
+                "rateOfFire": 14.634146341463415,
+                "accuracy": 0.54,
+                "aimTime": 1.9,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 71.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 2750,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 1.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    30,
+                    12,
+                    3,
+                    false
+                  ],
+                  [
+                    42,
+                    12,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 30,
+                "damage": 12,
+                "damagePerMinute": 175.609756097561,
+                "modScore": -34.08536585365846
+              }
+            },
+            "modScore": 17000.0
+          },
+          "t-18_mod": {
+            "name": "MS-1 mod. 1930",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 35,
+            "frontArmor": [
+              18,
+              5
+            ],
+            "sideArmor": [
+              16,
+              5
+            ],
+            "rearArmor": [
+              16,
+              5
+            ],
+            "weight": 240,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 250,
+            "additionalHP": 28,
+            "availableGuns": {
+              "_37mm_gochkins": {
+                "name": "37 mm Hotchkiss",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.5,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 104.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    34,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    44,
+                    30,
+                    1,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 34,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": 127.5
+              },
+              "_37mm_b-3": {
+                "name": "37 mm B-3",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.46,
+                "aimTime": 2.5,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 77.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 1950,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    40,
+                    36,
+                    8,
+                    false
+                  ],
+                  [
+                    64,
+                    36,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    40,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 40,
+                "damage": 36,
+                "damagePerMinute": 864.0,
+                "modScore": 998.5
+              },
+              "_20mm_tnsh": {
+                "name": "20 mm TNSh",
+                "tier": 1,
+                "rateOfFire": 5.263157894736842,
+                "accuracy": 0.53,
+                "aimTime": 1.9,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 68.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 2380,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.4,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    28,
+                    10,
+                    2,
+                    false
+                  ],
+                  [
+                    39,
+                    10,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 28,
+                "damage": 10,
+                "damagePerMinute": 52.63157894736842,
+                "modScore": -947.3026315789473
+              },
+              "_23mm_vja": {
+                "name": "23 mm VJa",
+                "tier": 2,
+                "rateOfFire": 14.634146341463415,
+                "accuracy": 0.54,
+                "aimTime": 1.9,
+                "gunDepression": -8,
+                "gunElevation": 25,
+                "weight": 71.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 2750,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.5,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    30,
+                    12,
+                    3,
+                    false
+                  ],
+                  [
+                    42,
+                    12,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 30,
+                "damage": 12,
+                "damagePerMinute": 175.609756097561,
+                "modScore": -34.08536585365846
+              },
+              "_45mm_mod_1932": {
+                "name": "45 mm mod. 1932",
+                "tier": 2,
+                "rateOfFire": 20.689655172413794,
+                "accuracy": 0.46,
+                "aimTime": 2.5,
+                "gunDepression": -8,
+                "gunElevation": 30,
+                "weight": 240.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 2000,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    51,
+                    47,
+                    14,
+                    false
+                  ],
+                  [
+                    88,
+                    47,
+                    2,
+                    true
+                  ],
+                  [
+                    23,
+                    62,
+                    14,
+                    false
+                  ]
+                ],
+                "penetration": 51,
+                "damage": 47,
+                "damagePerMinute": 972.4137931034483,
+                "modScore": 2528.620689655172
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "ms-1": {
+            "name": "MS-1",
+            "tier": 1,
+            "horsepower": 43,
+            "firechance": 0.2,
+            "weight": 266,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7150.0
+          },
+          "gaz-m1": {
+            "name": "GAZ-M1",
+            "tier": 1,
+            "horsepower": 55,
+            "firechance": 0.2,
+            "weight": 215,
+            "stockModule": false,
+            "topModule": false,
+            "cost": 310,
+            "modScore": 7750.0
+          },
+          "amo-3": {
+            "name": "AMO-3",
+            "tier": 1,
+            "horsepower": 70,
+            "firechance": 0.2,
+            "weight": 920,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 340,
+            "modScore": 8500.0
+          }
+        },
+        "radios": {
+          "alarm_flags": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "_71-tk-1": {
+            "name": "71-TK-1",
+            "tier": 2,
+            "signalRange": 265,
+            "weight": 50,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 180,
+            "modScore": 18250.0
+          }
+        },
+        "suspensions": {
+          "t-18": {
+            "name": "MS-1",
+            "tier": 1,
+            "loadLimit": 4.89,
+            "traverseSpeed": 34,
+            "weight": 1200,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.5",
+              "2.2"
+            ],
+            "dispersion": 0.42,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 494.5
+          },
+          "t-18bis": {
+            "name": "T-18",
+            "tier": 2,
+            "loadLimit": 6.5,
+            "traverseSpeed": 38,
+            "weight": 1200,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.3",
+              "2.2"
+            ],
+            "dispersion": 0.38,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 480,
+            "modScore": 825.0
+          }
+        }
+      },
+      "USLtTnkT1Cunningham.json": {
+        "name": "T1 Cunningham",
+        "nation": "usa",
+        "tier": 1,
+        "type": "lightTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 84,
+        "speedLimit": 41.0,
+        "reverseSpeed": 10.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 7.21,
+        "hull": {
+          "frontArmor": [
+            10,
+            5
+          ],
+          "sideArmor": [
+            10,
+            5
+          ],
+          "rearArmor": [
+            10,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "cunningham_d1": {
+            "name": "Cunningham D1",
+            "tier": 1,
+            "viewRange": 240,
+            "traverseSpeed": 39,
+            "frontArmor": [
+              10,
+              5
+            ],
+            "sideArmor": [
+              10,
+              5
+            ],
+            "rearArmor": [
+              10,
+              5
+            ],
+            "weight": 700,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 21,
+            "availableGuns": {
+              "_37mm_gun_m1916": {
+                "name": "37 mm Gun M1916",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.5,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 104.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    28,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    45,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 28,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": -187.5
+              },
+              "_37mm_semiautomatic_gun_m1924": {
+                "name": "37 mm Semiautomatic Gun M1924",
+                "tier": 1,
+                "rateOfFire": 7.5,
+                "accuracy": 0.51,
+                "aimTime": 2.5,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 65.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    33,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    53,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 33,
+                "damage": 30,
+                "damagePerMinute": 225.0,
+                "modScore": -573.75
+              }
+            },
+            "modScore": 17000.0
+          },
+          "cunningham_d2": {
+            "name": "Cunningham D2",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 35,
+            "frontArmor": [
+              10,
+              5
+            ],
+            "sideArmor": [
+              10,
+              5
+            ],
+            "rearArmor": [
+              10,
+              5
+            ],
+            "weight": 950,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 200,
+            "additionalHP": 31,
+            "availableGuns": {
+              "_37mm_gun_m1916": {
+                "name": "37 mm Gun M1916",
+                "tier": 1,
+                "rateOfFire": 24.0,
+                "accuracy": 0.54,
+                "aimTime": 2.5,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 104.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    28,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    45,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 28,
+                "damage": 30,
+                "damagePerMinute": 720.0,
+                "modScore": -187.5
+              },
+              "_37mm_semiautomatic_gun_m1924": {
+                "name": "37 mm Semiautomatic Gun M1924",
+                "tier": 1,
+                "rateOfFire": 7.5,
+                "accuracy": 0.51,
+                "aimTime": 2.5,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 65.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    33,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    53,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 33,
+                "damage": 30,
+                "damagePerMinute": 225.0,
+                "modScore": -573.75
+              },
+              "_37mm_browning_semiautomatic_gun": {
+                "name": "37 mm Browning Semiautomatic Gun",
+                "tier": 2,
+                "rateOfFire": 7.5,
+                "accuracy": 0.47,
+                "aimTime": 2.5,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 65.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 2200,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    39,
+                    30,
+                    0,
+                    false
+                  ],
+                  [
+                    63,
+                    30,
+                    2,
+                    true
+                  ],
+                  [
+                    19,
+                    36,
+                    8,
+                    false
+                  ]
+                ],
+                "penetration": 39,
+                "damage": 30,
+                "damagePerMinute": 225.0,
+                "modScore": 491.25
+              },
+              "_20mm_hispano_suiza_birgikt_gun": {
+                "name": "20 mm Hispano-Suiza Birkigt Gun",
+                "tier": 2,
+                "rateOfFire": 5.504587155963303,
+                "accuracy": 0.5,
+                "aimTime": 1.9,
+                "gunDepression": -7,
+                "gunElevation": 20,
+                "weight": 68.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 2600,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.4,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    30,
+                    12,
+                    3,
+                    false
+                  ],
+                  [
+                    41,
+                    12,
+                    1,
+                    true
+                  ]
+                ],
+                "penetration": 30,
+                "damage": 12,
+                "damagePerMinute": 66.05504587155963,
+                "modScore": -73.41743119266062
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "cunningham": {
+            "name": "Cunningham V-type",
+            "tier": 1,
+            "horsepower": 110,
+            "firechance": 0.2,
+            "weight": 200,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 10500.0
+          },
+          "cunningham_type_3": {
+            "name": "Cunningham V8",
+            "tier": 2,
+            "horsepower": 132,
+            "firechance": 0.2,
+            "weight": 300,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 650,
+            "modScore": 16600.0
+          }
+        },
+        "radios": {
+          "alarm_flags": {
+            "name": "Signal Flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "scr_200": {
+            "name": "SCR 200",
+            "tier": 2,
+            "signalRange": 265,
+            "weight": 40,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 180,
+            "modScore": 18250.0
+          }
+        },
+        "suspensions": {
+          "cunningham_e1": {
+            "name": "Cunningham E1",
+            "tier": 1,
+            "loadLimit": 7.6,
+            "traverseSpeed": 34,
+            "weight": 2000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.1",
+              "1.4",
+              "2.3"
+            ],
+            "dispersion": 0.42,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 630.0
+          },
+          "cunningham_e2": {
+            "name": "Cunningham E2",
+            "tier": 2,
+            "loadLimit": 8.3,
+            "traverseSpeed": 38,
+            "weight": 2000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1",
+              "1.1",
+              "2.1"
+            ],
+            "dispersion": 0.38,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 500,
+            "modScore": 915.0
+          }
+        }
+      }
+    },
+    "mediumTank": {
+      "UKMedTnkVickersMediumMkI.json": {
+        "name": "Vickers Medium Mk. I",
+        "nation": "gb",
+        "tier": 1,
+        "type": "mediumTank",
+        "premiumTank": false,
+        "turreted": true,
+        "experienceNeeded": 0,
+        "cost": 0,
+        "baseHitpoints": 104,
+        "speedLimit": 24.0,
+        "reverseSpeed": 8.0,
+        "camoValue": 0,
+        "crewLevel": 100,
+        "stockWeight": 11.75,
+        "hull": {
+          "frontArmor": [
+            6,
+            5
+          ],
+          "sideArmor": [
+            6,
+            5
+          ],
+          "rearArmor": [
+            6,
+            5
+          ],
+          "viewRange": 280
+        },
+        "gunArc": 360,
+        "turrets": {
+          "turret_1_gb01_medium_mark_i": {
+            "name": "Vickers Medium Mk. I",
+            "tier": 1,
+            "viewRange": 260,
+            "traverseSpeed": 32,
+            "frontArmor": [
+              6,
+              5
+            ],
+            "sideArmor": [
+              6,
+              5
+            ],
+            "rearArmor": [
+              6,
+              5
+            ],
+            "weight": 1360,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "additionalHP": 26,
+            "availableGuns": {
+              "_3pdr_gun_hotchkiss": {
+                "name": "OQF 3-pdr Gun Mk. I",
+                "tier": 1,
+                "rateOfFire": 12.0,
+                "accuracy": 0.45,
+                "aimTime": 2.9,
+                "gunDepression": -7,
+                "gunElevation": 16,
+                "weight": 240.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.2,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    38,
+                    50,
+                    0,
+                    false
+                  ],
+                  [
+                    66,
+                    50,
+                    2,
+                    true
+                  ],
+                  [
+                    23,
+                    65,
+                    0,
+                    false
+                  ]
+                ],
+                "penetration": 38,
+                "damage": 50,
+                "damagePerMinute": 600.0,
+                "modScore": 398.75
+              },
+              "_15mm_machine_gun_besa": {
+                "name": "15 mm Machine Gun BESA",
+                "tier": 1,
+                "rateOfFire": 2.2988505747126435,
+                "accuracy": 0.56,
+                "aimTime": 2.0,
+                "gunDepression": -7,
+                "gunElevation": 16,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.14,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    25,
+                    9,
+                    1,
+                    false
+                  ]
+                ],
+                "penetration": 25,
+                "damage": 9,
+                "damagePerMinute": 20.689655172413794,
+                "modScore": -1346.4655172413795
+              }
+            },
+            "modScore": 18000.0
+          },
+          "turret_2_gb01_medium_mark_i": {
+            "name": "Vickers Medium Mk. IA*",
+            "tier": 2,
+            "viewRange": 280,
+            "traverseSpeed": 32,
+            "frontArmor": [
+              8,
+              5
+            ],
+            "sideArmor": [
+              8,
+              5
+            ],
+            "rearArmor": [
+              8,
+              5
+            ],
+            "weight": 1750,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 500,
+            "additionalHP": 36,
+            "availableGuns": {
+              "_3pdr_gun_hotchkiss": {
+                "name": "OQF 3-pdr Gun Mk. I",
+                "tier": 1,
+                "rateOfFire": 13.333333333333334,
+                "accuracy": 0.45,
+                "aimTime": 2.9,
+                "gunDepression": -7,
+                "gunElevation": 16,
+                "weight": 240.0,
+                "stockModule": false,
+                "topModule": false,
+                "cost": 0,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    38,
+                    50,
+                    0,
+                    false
+                  ],
+                  [
+                    66,
+                    50,
+                    2,
+                    true
+                  ],
+                  [
+                    23,
+                    65,
+                    0,
+                    false
+                  ]
+                ],
+                "penetration": 38,
+                "damage": 50,
+                "damagePerMinute": 666.6666666666667,
+                "modScore": 498.75
+              },
+              "_15mm_machine_gun_besa": {
+                "name": "15 mm Machine Gun BESA",
+                "tier": 1,
+                "rateOfFire": 2.5,
+                "accuracy": 0.56,
+                "aimTime": 2.0,
+                "gunDepression": -7,
+                "gunElevation": 16,
+                "weight": 70.0,
+                "stockModule": true,
+                "topModule": false,
+                "cost": 1900,
+                "dispersion": {
+                  "turretRotation": 0.12,
+                  "afterShot": 1.2,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    25,
+                    9,
+                    1,
+                    false
+                  ]
+                ],
+                "penetration": 25,
+                "damage": 9,
+                "damagePerMinute": 22.5,
+                "modScore": -1343.7500000000002
+              },
+              "qf_6_pounder_8cwt_mk_ii": {
+                "name": "QF 6-pdr 8 cwt Mk. II",
+                "tier": 2,
+                "rateOfFire": 13.333333333333334,
+                "accuracy": 0.52,
+                "aimTime": 2.3,
+                "gunDepression": -7,
+                "gunElevation": 16,
+                "weight": 300.0,
+                "stockModule": false,
+                "topModule": true,
+                "cost": 3000,
+                "dispersion": {
+                  "turretRotation": 0.16,
+                  "afterShot": 4.0,
+                  "gunDamaged": 2.0
+                },
+                "shells": [
+                  [
+                    45,
+                    70,
+                    35,
+                    false
+                  ],
+                  [
+                    57,
+                    70,
+                    3,
+                    true
+                  ],
+                  [
+                    29,
+                    95,
+                    22,
+                    false
+                  ]
+                ],
+                "penetration": 45,
+                "damage": 70,
+                "damagePerMinute": 933.3333333333334,
+                "modScore": 2482.5
+              }
+            },
+            "modScore": 24000.0
+          }
+        },
+        "engines": {
+          "vickers-armstrong": {
+            "name": "Armstrong Siddeley V8",
+            "tier": 1,
+            "horsepower": 90,
+            "firechance": 0.2,
+            "weight": 200,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 9500.0
+          },
+          "vickers-armstrong_mkii": {
+            "name": "Armstrong Siddeley V8 SC",
+            "tier": 1,
+            "horsepower": 110,
+            "firechance": 0.2,
+            "weight": 200,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 350,
+            "modScore": 10500.0
+          }
+        },
+        "radios": {
+          "alarm_flags": {
+            "name": "Signal flags",
+            "tier": 1,
+            "signalRange": 90,
+            "weight": 1,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 7000.0
+          },
+          "n14": {
+            "name": "WS No. 14",
+            "tier": 2,
+            "signalRange": 250,
+            "weight": 40,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 180,
+            "modScore": 17500.0
+          }
+        },
+        "suspensions": {
+          "chassis_gb01_medium_mark_i": {
+            "name": "Vickers Medium Mk. I",
+            "tier": 1,
+            "loadLimit": 12.2,
+            "traverseSpeed": 26,
+            "weight": 3000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.3",
+              "1.4",
+              "2.6"
+            ],
+            "dispersion": 0.38,
+            "stockModule": true,
+            "topModule": false,
+            "cost": 0,
+            "modScore": 860.0
+          },
+          "chassis_gb01_medium_mark_i_2": {
+            "name": "Vickers Medium Mk. IA*",
+            "tier": 2,
+            "loadLimit": 13.2,
+            "traverseSpeed": 28,
+            "weight": 3000,
+            "pivot": "false",
+            "terrainResistance": [
+              "1.2",
+              "1.3",
+              "2.4"
+            ],
+            "dispersion": 0.36,
+            "stockModule": false,
+            "topModule": true,
+            "cost": 500,
+            "modScore": 1160.0
+          }
+        }
+      }
+    }
+  }
+}
