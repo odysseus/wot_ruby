@@ -2,6 +2,7 @@
   "tier10": {
     "AT-SPG": {
       "FrAT-STGAMX50Foch(155).json": {
+        "available": true,
         "name": "AMX 50 Foch (155)",
         "nation": "france",
         "tier": 10,
@@ -10,12 +11,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 1480,
+        "baseHitpoints": 1850,
         "speedLimit": 50.0,
         "reverseSpeed": 13.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 57.6,
+        "camoValues": [
+          13.85,
+          8.32,
+          3.12
+        ],
         "hull": {
           "frontArmor": [
             180,
@@ -32,9 +38,13 @@
           "viewRange": 400,
           "availableGuns": {
             "_155mm_sa_58_ac": {
+              "autoloader": true,
+              "roundsInDrum": 3,
+              "timeBetweenShots": 5.0,
+              "drumReload": 50.0,
               "name": "155 mm AC SA58",
               "tier": 10,
-              "rateOfFire": 1.2,
+              "rateOfFire": 3.0,
               "accuracy": 0.36,
               "aimTime": 3.0,
               "gunDepression": -5,
@@ -53,25 +63,28 @@
                   293,
                   750,
                   1560,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   395,
                   750,
                   17,
-                  true
+                  true,
+                  "hollow_charge"
                 ],
                 [
                   90,
                   1100,
                   1090,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 293,
               "damage": 750,
-              "damagePerMinute": 900.0,
-              "modScore": 30557.5
+              "damagePerMinute": 2250.0,
+              "modScore": 51332.5
             }
           }
         },
@@ -110,9 +123,9 @@
             "weight": 11000,
             "pivot": "true",
             "terrainResistance": [
-              "1.4",
-              "1.6",
-              "2.4"
+              1.4,
+              1.6,
+              2.4
             ],
             "dispersion": 0.2,
             "stockModule": true,
@@ -123,6 +136,7 @@
         }
       },
       "GerAT-STGJagdpanzerE100.json": {
+        "available": true,
         "name": "Jagdpanzer E 100",
         "nation": "germany",
         "tier": 10,
@@ -131,12 +145,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 1760,
+        "baseHitpoints": 2200,
         "speedLimit": 30.0,
         "reverseSpeed": 12.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 133.94,
+        "camoValues": [
+          3.02,
+          1.83,
+          0.54
+        ],
         "hull": {
           "frontArmor": [
             200,
@@ -174,25 +193,28 @@
                   299,
                   1050,
                   2200,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   420,
                   1050,
                   18,
-                  true
+                  true,
+                  "hollow_charge"
                 ],
                 [
                   85,
                   1400,
                   1430,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 299,
               "damage": 1050,
               "damagePerMinute": 2451.3618677042805,
-              "modScore": 37985.79280155642
+              "modScore": 56735.79280155642
             }
           }
         },
@@ -231,9 +253,9 @@
             "weight": 30000,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.3"
+              1.1,
+              1.3,
+              2.3
             ],
             "dispersion": 0.18,
             "stockModule": true,
@@ -244,6 +266,7 @@
         }
       },
       "GerAT-STGWaffenträgerAufE100.json": {
+        "available": true,
         "name": "Waffenträger auf E 100",
         "nation": "germany",
         "tier": 10,
@@ -258,6 +281,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 100,
+        "camoValues": [
+          0.4,
+          0.23,
+          0.08
+        ],
         "hull": {
           "frontArmor": [
             200,
@@ -299,9 +327,13 @@
             "additionalHP": 400,
             "availableGuns": {
               "_128mm_k44_2_l61": {
+                "autoloader": true,
+                "roundsInDrum": 6,
+                "timeBetweenShots": 2.0,
+                "drumReload": 60.0,
                 "name": "12,8 cm Kanone L/61",
                 "tier": 10,
-                "rateOfFire": 1.0,
+                "rateOfFire": 5.4,
                 "accuracy": 0.29,
                 "aimTime": 1.5,
                 "gunDepression": -5,
@@ -320,30 +352,37 @@
                     276,
                     560,
                     1260,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     352,
                     560,
                     11,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     65,
                     700,
                     1055,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 276,
                 "damage": 560,
-                "damagePerMinute": 560.0,
-                "modScore": 27798.75
+                "damagePerMinute": 3024.0,
+                "modScore": 50244.75
               },
               "_150mm_rohr_l38": {
+                "autoloader": true,
+                "roundsInDrum": 4,
+                "timeBetweenShots": 3.0,
+                "drumReload": 50.0,
                 "name": "15 cm Pak L/38",
                 "tier": 10,
-                "rateOfFire": 1.2,
+                "rateOfFire": 4.0,
                 "accuracy": 0.34,
                 "aimTime": 1.9,
                 "gunDepression": -5,
@@ -362,25 +401,28 @@
                     235,
                     750,
                     1260,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     334,
                     750,
                     15,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     85,
                     950,
                     1120,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 235,
                 "damage": 750,
-                "damagePerMinute": 900.0,
-                "modScore": 28510.0
+                "damagePerMinute": 3000.0,
+                "modScore": 50410.0
               }
             },
             "modScore": 71000.0
@@ -420,9 +462,9 @@
             "weight": 42000,
             "pivot": "true",
             "terrainResistance": [
-              "1",
-              "1.2",
-              "2.1"
+              1.0,
+              1.2,
+              2.1
             ],
             "dispersion": 0.16,
             "stockModule": true,
@@ -433,6 +475,7 @@
         }
       },
       "UkAT-STG_FV215b(183).json": {
+        "available": true,
         "name": "FV215b (183)",
         "nation": "gb",
         "tier": 10,
@@ -447,6 +490,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60,
+        "camoValues": [
+          9.98,
+          5.99,
+          1.86
+        ],
         "hull": {
           "frontArmor": [
             152,
@@ -509,25 +557,28 @@
                     310,
                     1150,
                     2250,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     275,
                     1750,
                     20,
-                    true
+                    true,
+                    "high_explosive"
                   ],
                   [
                     92,
                     1750,
                     1900,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 310,
                 "damage": 1150,
                 "damagePerMinute": 2300.0,
-                "modScore": 39085.0
+                "modScore": 57835.0
               }
             },
             "modScore": 70000.0
@@ -567,9 +618,9 @@
             "weight": 12000,
             "pivot": "true",
             "terrainResistance": [
-              "1.2",
-              "1.4",
-              "2.4"
+              1.2,
+              1.4,
+              2.4
             ],
             "dispersion": 0.26,
             "stockModule": true,
@@ -580,6 +631,7 @@
         }
       },
       "USAT-STGT110E3.json": {
+        "available": true,
         "name": "T110E3",
         "nation": "usa",
         "tier": 10,
@@ -588,12 +640,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 1640,
+        "baseHitpoints": 2050,
         "speedLimit": 24.0,
         "reverseSpeed": 8.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 74.73,
+        "camoValues": [
+          9.97,
+          5.99,
+          2.24
+        ],
         "hull": {
           "frontArmor": [
             305,
@@ -631,25 +688,28 @@
                   295,
                   750,
                   1650,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   375,
                   750,
                   13,
-                  true
+                  true,
+                  "armor_piercing_cr"
                 ],
                 [
                   90,
                   1100,
                   1120,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 295,
               "damage": 750,
               "damagePerMinute": 2647.0588235294117,
-              "modScore": 33708.08823529412
+              "modScore": 52458.08823529412
             }
           }
         },
@@ -688,9 +748,9 @@
             "weight": 8000,
             "pivot": "true",
             "terrainResistance": [
-              "1.5",
-              "1.7",
-              "3"
+              1.5,
+              1.7,
+              3.0
             ],
             "dispersion": 0.22,
             "stockModule": true,
@@ -701,6 +761,7 @@
         }
       },
       "USAT-STGT110E4.json": {
+        "available": true,
         "name": "T110E4",
         "nation": "usa",
         "tier": 10,
@@ -715,6 +776,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 64.03,
+        "camoValues": [
+          9.07,
+          5.42,
+          2.04
+        ],
         "hull": {
           "frontArmor": [
             254,
@@ -777,25 +843,28 @@
                     295,
                     750,
                     1650,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     375,
                     750,
                     13,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     90,
                     1100,
                     1120,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 295,
                 "damage": 750,
                 "damagePerMinute": 2307.6923076923076,
-                "modScore": 32827.78846153846
+                "modScore": 51577.78846153846
               }
             },
             "modScore": 70000.0
@@ -835,9 +904,9 @@
             "weight": 8000,
             "pivot": "true",
             "terrainResistance": [
-              "1.4",
-              "1.6",
-              "2.7"
+              1.4,
+              1.6,
+              2.7
             ],
             "dispersion": 0.2,
             "stockModule": true,
@@ -848,6 +917,7 @@
         }
       },
       "USSRAt-STGObject 263.json": {
+        "available": true,
         "name": "Object 263",
         "nation": "ussr",
         "tier": 10,
@@ -856,12 +926,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 1520,
+        "baseHitpoints": 1900,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60.01,
+        "camoValues": [
+          14.14,
+          8.49,
+          3.6
+        ],
         "hull": {
           "frontArmor": [
             250,
@@ -899,25 +974,28 @@
                   290,
                   550,
                   1118,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   330,
                   550,
                   11,
-                  true
+                  true,
+                  "armor_piercing_cr"
                 ],
                 [
                   75,
                   750,
                   978,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 290,
               "damage": 550,
               "damagePerMinute": 3000.0,
-              "modScore": 31100.0
+              "modScore": 49850.0
             }
           }
         },
@@ -956,9 +1034,9 @@
             "weight": 11000,
             "pivot": "true",
             "terrainResistance": [
-              "1.2",
-              "1.4",
-              "2.3"
+              1.2,
+              1.4,
+              2.3
             ],
             "dispersion": 0.17,
             "stockModule": true,
@@ -969,6 +1047,7 @@
         }
       },
       "USSRAT-STGObject268.json": {
+        "available": true,
         "name": "Object 268",
         "nation": "ussr",
         "tier": 10,
@@ -977,12 +1056,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 1560,
+        "baseHitpoints": 1950,
         "speedLimit": 48.0,
         "reverseSpeed": 15.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 50.97,
+        "camoValues": [
+          16.36,
+          9.8,
+          3.81
+        ],
         "hull": {
           "frontArmor": [
             187,
@@ -1020,25 +1104,28 @@
                   303,
                   750,
                   1650,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   395,
                   750,
                   17,
-                  true
+                  true,
+                  "hollow_charge"
                 ],
                 [
                   90,
                   1100,
                   1120,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 303,
               "damage": 750,
               "damagePerMinute": 2727.272727272727,
-              "modScore": 34172.15909090909
+              "modScore": 52922.15909090909
             }
           }
         },
@@ -1077,9 +1164,9 @@
             "weight": 10000,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2"
+              1.1,
+              1.3,
+              2.0
             ],
             "dispersion": 0.21,
             "stockModule": true,
@@ -1092,6 +1179,7 @@
     },
     "heavyTank": {
       "ChinaHvyTnk113.json": {
+        "available": true,
         "name": "113",
         "nation": "china",
         "tier": 10,
@@ -1106,6 +1194,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 45,
+        "camoValues": [
+          6.57,
+          3.29,
+          1.18
+        ],
         "hull": {
           "frontArmor": [
             120,
@@ -1168,25 +1261,28 @@
                     249,
                     440,
                     1065,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     340,
                     440,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     68,
                     530,
                     630,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 249,
                 "damage": 440,
                 "damagePerMinute": 2422.018348623853,
-                "modScore": 26135.52752293578
+                "modScore": 44885.52752293578
               }
             },
             "modScore": 70000.0
@@ -1226,9 +1322,9 @@
             "weight": 10000,
             "pivot": "false",
             "terrainResistance": [
-              "1.3",
-              "1.4",
-              "2.7"
+              1.3,
+              1.4,
+              2.7
             ],
             "dispersion": 0.19,
             "stockModule": true,
@@ -1239,6 +1335,7 @@
         }
       },
       "FrHvyTnkAMX50B.json": {
+        "available": true,
         "name": "AMX 50 B",
         "nation": "france",
         "tier": 10,
@@ -1253,6 +1350,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 62.21,
+        "camoValues": [
+          4.0,
+          2.0,
+          0.56
+        ],
         "hull": {
           "frontArmor": [
             170,
@@ -1294,9 +1396,13 @@
             "additionalHP": 420,
             "availableGuns": {
               "_120mm_sa_46": {
+                "autoloader": true,
+                "roundsInDrum": 4,
+                "timeBetweenShots": 2.5,
+                "drumReload": 30.0,
                 "name": "120 mm SA46",
                 "tier": 10,
-                "rateOfFire": 2.0,
+                "rateOfFire": 6.0,
                 "accuracy": 0.35,
                 "aimTime": 3.0,
                 "gunDepression": -8,
@@ -1315,25 +1421,28 @@
                     257,
                     400,
                     1060,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     325,
                     400,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     65,
                     515,
                     900,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 257,
                 "damage": 400,
-                "damagePerMinute": 800.0,
-                "modScore": 23298.75
+                "damagePerMinute": 2400.0,
+                "modScore": 44448.75
               }
             },
             "modScore": 70000.0
@@ -1373,9 +1482,9 @@
             "weight": 11000,
             "pivot": "false",
             "terrainResistance": [
-              "1.3",
-              "1.4",
-              "2.3"
+              1.3,
+              1.4,
+              2.3
             ],
             "dispersion": 0.18,
             "stockModule": true,
@@ -1386,6 +1495,7 @@
         }
       },
       "GerHvyTnkE-100.json": {
+        "available": true,
         "name": "E 100",
         "nation": "germany",
         "tier": 10,
@@ -1400,6 +1510,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 129.69,
+        "camoValues": [
+          2.91,
+          1.48,
+          0.39
+        ],
         "hull": {
           "frontArmor": [
             200,
@@ -1462,25 +1577,28 @@
                     246,
                     490,
                     1070,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     311,
                     490,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     65,
                     630,
                     935,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 246,
                 "damage": 490,
                 "damagePerMinute": 2055.944055944056,
-                "modScore": 25946.416083916083
+                "modScore": 44696.41608391608
               },
               "_150mm_kwk44_l38": {
                 "name": "15 cm Kw.K. L/38",
@@ -1504,25 +1622,28 @@
                     235,
                     750,
                     1260,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     334,
                     750,
                     15,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     85,
                     950,
                     1120,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 235,
                 "damage": 750,
                 "damagePerMinute": 2250.0,
-                "modScore": 29497.5
+                "modScore": 48247.5
               }
             },
             "modScore": 70000.0
@@ -1562,9 +1683,9 @@
             "weight": 30000,
             "pivot": "true",
             "terrainResistance": [
-              "1",
-              "1.2",
-              "2.1"
+              1.0,
+              1.2,
+              2.1
             ],
             "dispersion": 0.21,
             "stockModule": true,
@@ -1575,6 +1696,7 @@
         }
       },
       "GerhvyTnkMaus.json": {
+        "available": true,
         "name": "Maus",
         "nation": "germany",
         "tier": 10,
@@ -1589,6 +1711,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 188.98,
+        "camoValues": [
+          1.43,
+          0.71,
+          0.23
+        ],
         "hull": {
           "frontArmor": [
             200,
@@ -1651,25 +1778,28 @@
                     246,
                     490,
                     1070,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     311,
                     490,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     65,
                     630,
                     935,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 246,
                 "damage": 490,
                 "damagePerMinute": 1973.1543624161072,
-                "modScore": 25822.231543624162
+                "modScore": 44572.23154362416
               }
             },
             "modScore": 70000.0
@@ -1709,9 +1839,9 @@
             "weight": 37250,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.1"
+              1.1,
+              1.3,
+              2.1
             ],
             "dispersion": 0.22,
             "stockModule": true,
@@ -1722,6 +1852,7 @@
         }
       },
       "GerHvyTnkVK72_01(K).json": {
+        "available": false,
         "name": "VK 72.01 (K)",
         "nation": "germany",
         "tier": 10,
@@ -1736,6 +1867,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 120,
+        "camoValues": [
+          3.76,
+          1.88,
+          0.51
+        ],
         "hull": {
           "frontArmor": [
             200,
@@ -1798,25 +1934,28 @@
                     235,
                     750,
                     1260,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     334,
                     750,
                     15,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     85,
                     950,
                     1120,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 235,
                 "damage": 750,
                 "damagePerMinute": 2045.4545454545453,
-                "modScore": 28765.681818181816
+                "modScore": 47515.681818181816
               }
             },
             "modScore": 70000.0
@@ -1856,9 +1995,9 @@
             "weight": 24000,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.2",
-              "2.3"
+              1.1,
+              1.2,
+              2.3
             ],
             "dispersion": 0.23,
             "stockModule": true,
@@ -1869,6 +2008,7 @@
         }
       },
       "UkHvyTnkFV215b.json": {
+        "available": true,
         "name": "FV215b",
         "nation": "gb",
         "tier": 10,
@@ -1883,6 +2023,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 70,
+        "camoValues": [
+          4.86,
+          2.43,
+          0.92
+        ],
         "hull": {
           "frontArmor": [
             152,
@@ -1945,25 +2090,28 @@
                     259,
                     400,
                     1060,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     326,
                     400,
                     11,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     120,
                     515,
                     1200,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 259,
                 "damage": 400,
                 "damagePerMinute": 2758.6206896551726,
-                "modScore": 27509.18103448276
+                "modScore": 46259.18103448276
               }
             },
             "modScore": 70500.0
@@ -2003,9 +2151,9 @@
             "weight": 12000,
             "pivot": "true",
             "terrainResistance": [
-              "1",
-              "1.2",
-              "2"
+              1.0,
+              1.2,
+              2.0
             ],
             "dispersion": 0.1,
             "stockModule": true,
@@ -2016,6 +2164,7 @@
         }
       },
       "USHvyTnkT110E5.json": {
+        "available": true,
         "name": "T110E5",
         "nation": "usa",
         "tier": 10,
@@ -2030,6 +2179,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 53.76,
+        "camoValues": [
+          4.57,
+          2.29,
+          0.82
+        ],
         "hull": {
           "frontArmor": [
             254,
@@ -2092,25 +2246,28 @@
                     258,
                     400,
                     1060,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     340,
                     400,
                     11,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     60,
                     515,
                     900,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 258,
                 "damage": 400,
                 "damagePerMinute": 2400.0,
-                "modScore": 26601.25
+                "modScore": 45351.25
               }
             },
             "modScore": 70000.0
@@ -2150,9 +2307,9 @@
             "weight": 8000,
             "pivot": "true",
             "terrainResistance": [
-              "1.2",
-              "1.3",
-              "2.4"
+              1.2,
+              1.3,
+              2.4
             ],
             "dispersion": 0.18,
             "stockModule": true,
@@ -2163,6 +2320,7 @@
         }
       },
       "USHvyTnkT57.json": {
+        "available": true,
         "name": "T57 Heavy Tank",
         "nation": "usa",
         "tier": 10,
@@ -2177,6 +2335,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 54.43,
+        "camoValues": [
+          5.14,
+          2.57,
+          0.93
+        ],
         "hull": {
           "frontArmor": [
             203,
@@ -2218,9 +2381,13 @@
             "additionalHP": 450,
             "availableGuns": {
               "_120mm_gun_t179": {
+                "autoloader": true,
+                "roundsInDrum": 4,
+                "timeBetweenShots": 2.0,
+                "drumReload": 25.0,
                 "name": "120 mm Gun T179",
                 "tier": 10,
-                "rateOfFire": 2.4,
+                "rateOfFire": 7.6,
                 "accuracy": 0.35,
                 "aimTime": 2.7,
                 "gunDepression": -8,
@@ -2239,25 +2406,28 @@
                     258,
                     400,
                     1060,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     340,
                     400,
                     11,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     60,
                     515,
                     900,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 258,
                 "damage": 400,
-                "damagePerMinute": 960.0,
-                "modScore": 23846.25
+                "damagePerMinute": 3040.0,
+                "modScore": 45716.25
               }
             },
             "modScore": 70000.0
@@ -2297,9 +2467,9 @@
             "weight": 11000,
             "pivot": "true",
             "terrainResistance": [
-              "1.2",
-              "1.3",
-              "2.4"
+              1.2,
+              1.3,
+              2.4
             ],
             "dispersion": 0.2,
             "stockModule": true,
@@ -2310,6 +2480,7 @@
         }
       },
       "USSrHvyTnkIS-4.json": {
+        "available": true,
         "name": "IS-4",
         "nation": "ussr",
         "tier": 10,
@@ -2324,6 +2495,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60.02,
+        "camoValues": [
+          6.86,
+          3.43,
+          1.23
+        ],
         "hull": {
           "frontArmor": [
             140,
@@ -2386,25 +2562,28 @@
                     175,
                     390,
                     1025,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     217,
                     390,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     61,
                     465,
                     608,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 175,
                 "damage": 390,
                 "damagePerMinute": 2127.272727272727,
-                "modScore": 19325.909090909092
+                "modScore": 34325.90909090909
               },
               "_122mm_m62-t2": {
                 "name": "122 mm M62-T2",
@@ -2428,25 +2607,28 @@
                     258,
                     440,
                     1065,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     340,
                     440,
                     13,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     68,
                     530,
                     630,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 258,
                 "damage": 440,
                 "damagePerMinute": 2200.0,
-                "modScore": 26042.5
+                "modScore": 44792.5
               }
             },
             "modScore": 70000.0
@@ -2486,9 +2668,9 @@
             "weight": 11000,
             "pivot": "false",
             "terrainResistance": [
-              "1.2",
-              "1.6",
-              "2.7"
+              1.2,
+              1.6,
+              2.7
             ],
             "dispersion": 0.25,
             "stockModule": true,
@@ -2499,6 +2681,7 @@
         }
       },
       "USSRHvyTnkIS-7.json": {
+        "available": true,
         "name": "IS-7",
         "nation": "ussr",
         "tier": 10,
@@ -2513,6 +2696,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 68.19,
+        "camoValues": [
+          6.86,
+          3.43,
+          1.05
+        ],
         "hull": {
           "frontArmor": [
             150,
@@ -2575,25 +2763,28 @@
                     250,
                     490,
                     1118,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     303,
                     490,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     68,
                     640,
                     978,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 250,
                 "damage": 490,
                 "damagePerMinute": 2145.985401459854,
-                "modScore": 25803.97810218978
+                "modScore": 44553.97810218978
               }
             },
             "modScore": 70000.0
@@ -2633,9 +2824,9 @@
             "weight": 11000,
             "pivot": "false",
             "terrainResistance": [
-              "1.3",
-              "1.8",
-              "3.1"
+              1.3,
+              1.8,
+              3.1
             ],
             "dispersion": 0.21,
             "stockModule": true,
@@ -2648,6 +2839,7 @@
     },
     "mediumTank": {
       "ChinaMedTnk121.json": {
+        "available": true,
         "name": "121",
         "nation": "china",
         "tier": 10,
@@ -2662,6 +2854,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 39,
+        "camoValues": [
+          14.99,
+          11.29,
+          2.7
+        ],
         "hull": {
           "frontArmor": [
             120,
@@ -2724,25 +2921,28 @@
                     258,
                     440,
                     1065,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     340,
                     440,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     68,
                     530,
                     630,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 258,
                 "damage": 440,
                 "damagePerMinute": 2750.0,
-                "modScore": 27131.25
+                "modScore": 45881.25
               }
             },
             "modScore": 70000.0
@@ -2782,9 +2982,9 @@
             "weight": 7700,
             "pivot": "false",
             "terrainResistance": [
-              "0.8",
-              "0.9",
-              "1.8"
+              0.8,
+              0.9,
+              1.8
             ],
             "dispersion": 0.14,
             "stockModule": true,
@@ -2795,6 +2995,7 @@
         }
       },
       "FrMedTnkBat-Chatillon25t.json": {
+        "available": true,
         "name": "Bat.-Châtillon 25 t",
         "nation": "france",
         "tier": 10,
@@ -2809,6 +3010,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 24.48,
+        "camoValues": [
+          16.87,
+          12.65,
+          3.34
+        ],
         "hull": {
           "frontArmor": [
             60,
@@ -2850,9 +3056,13 @@
             "additionalHP": 360,
             "availableGuns": {
               "_90mm_f3": {
+                "autoloader": true,
+                "roundsInDrum": 6,
+                "timeBetweenShots": 2.2222222222222223,
+                "drumReload": 24.0,
                 "name": "90 mm F3",
                 "tier": 7,
-                "rateOfFire": 2.5,
+                "rateOfFire": 9.8,
                 "accuracy": 0.38,
                 "aimTime": 2.7,
                 "gunDepression": -6,
@@ -2871,30 +3081,37 @@
                     170,
                     240,
                     255,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     248,
                     240,
                     12,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     45,
                     320,
                     255,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 170,
                 "damage": 240,
-                "damagePerMinute": 600.0,
-                "modScore": 14317.5
+                "damagePerMinute": 2352.0,
+                "modScore": 30070.5
               },
               "_100mm_sa_47": {
+                "autoloader": true,
+                "roundsInDrum": 6,
+                "timeBetweenShots": 2.727272727272727,
+                "drumReload": 36.0,
                 "name": "100 mm SA47",
                 "tier": 8,
-                "rateOfFire": 1.6666666666666667,
+                "rateOfFire": 7.2,
                 "accuracy": 0.36,
                 "aimTime": 2.7,
                 "gunDepression": -6,
@@ -2913,30 +3130,37 @@
                     232,
                     300,
                     1030,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     263,
                     300,
                     10,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     50,
                     400,
                     650,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 232,
                 "damage": 300,
-                "damagePerMinute": 500.0,
-                "modScore": 19010.0
+                "damagePerMinute": 2160.0,
+                "modScore": 36500.0
               },
               "_105mm_cn_105_57": {
+                "autoloader": true,
+                "roundsInDrum": 5,
+                "timeBetweenShots": 2.727272727272727,
+                "drumReload": 40.0,
                 "name": "105 mm mle. 57 (D. 1504)",
                 "tier": 10,
-                "rateOfFire": 1.5,
+                "rateOfFire": 5.9,
                 "accuracy": 0.38,
                 "aimTime": 2.7,
                 "gunDepression": -6,
@@ -2955,25 +3179,28 @@
                     259,
                     390,
                     1200,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     390,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     53,
                     480,
                     680,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 259,
                 "damage": 390,
-                "damagePerMinute": 585.0,
-                "modScore": 23092.5
+                "damagePerMinute": 2301.0,
+                "modScore": 44416.5
               }
             },
             "modScore": 70000.0
@@ -3013,9 +3240,9 @@
             "weight": 4100,
             "pivot": "true",
             "terrainResistance": [
-              "0.9",
-              "1",
-              "1.6"
+              0.9,
+              1.0,
+              1.6
             ],
             "dispersion": 0.17,
             "stockModule": true,
@@ -3026,6 +3253,7 @@
         }
       },
       "GerMedTnk-E50Ausf-M.json": {
+        "available": true,
         "name": "E 50 Ausf. M",
         "nation": "germany",
         "tier": 10,
@@ -3040,6 +3268,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 62.31,
+        "camoValues": [
+          9.86,
+          7.41,
+          2.06
+        ],
         "hull": {
           "frontArmor": [
             150,
@@ -3102,25 +3335,28 @@
                     270,
                     390,
                     1200,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     390,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     60,
                     510,
                     1211,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 270,
                 "damage": 390,
                 "damagePerMinute": 2437.5,
-                "modScore": 27208.75
+                "modScore": 45958.75
               }
             },
             "modScore": 70000.0
@@ -3160,9 +3396,9 @@
             "weight": 9000,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.3"
+              1.1,
+              1.3,
+              2.3
             ],
             "dispersion": 0.14,
             "stockModule": true,
@@ -3173,6 +3409,7 @@
         }
       },
       "GerMedTnkLeopard1.json": {
+        "available": true,
         "name": "Leopard 1",
         "nation": "germany",
         "tier": 10,
@@ -3187,6 +3424,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 40,
+        "camoValues": [
+          14.08,
+          10.55,
+          2.94
+        ],
         "hull": {
           "frontArmor": [
             70,
@@ -3249,25 +3491,28 @@
                     268,
                     390,
                     1200,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     390,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     53,
                     480,
                     880,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 268,
                 "damage": 390,
                 "damagePerMinute": 2600.0,
-                "modScore": 27517.5
+                "modScore": 46267.5
               }
             },
             "modScore": 70500.0
@@ -3307,9 +3552,9 @@
             "weight": 10000,
             "pivot": "true",
             "terrainResistance": [
-              "0.8",
-              "0.9",
-              "1.8"
+              0.8,
+              0.9,
+              1.8
             ],
             "dispersion": 0.18,
             "stockModule": true,
@@ -3320,6 +3565,7 @@
         }
       },
       "JpnMedTnkSTB-1.json": {
+        "available": true,
         "name": "STB-1",
         "nation": "japan",
         "tier": 10,
@@ -3334,6 +3580,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 37.4,
+        "camoValues": [
+          13.68,
+          10.26,
+          2.86
+        ],
         "hull": {
           "frontArmor": [
             110,
@@ -3396,25 +3647,28 @@
                     258,
                     390,
                     1200,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     390,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     53,
                     480,
                     880,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 258,
                 "damage": 390,
                 "damagePerMinute": 2925.0,
-                "modScore": 26952.5
+                "modScore": 45702.5
               }
             },
             "modScore": 70500.0
@@ -3454,9 +3708,9 @@
             "weight": 12500,
             "pivot": "true",
             "terrainResistance": [
-              "1",
-              "1.1",
-              "2.2"
+              1.0,
+              1.1,
+              2.2
             ],
             "dispersion": 0.16,
             "stockModule": true,
@@ -3467,6 +3721,7 @@
         }
       },
       "UKMedTnkFV4202.json": {
+        "available": true,
         "name": "FV4202",
         "nation": "gb",
         "tier": 10,
@@ -3481,6 +3736,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 40,
+        "camoValues": [
+          13.74,
+          10.32,
+          2.87
+        ],
         "hull": {
           "frontArmor": [
             121,
@@ -3543,25 +3803,28 @@
                     268,
                     390,
                     1200,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     210,
                     480,
                     13,
-                    true
+                    true,
+                    "high_explosive"
                   ],
                   [
                     105,
                     480,
                     950,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 268,
                 "damage": 390,
                 "damagePerMinute": 2516.1290322580644,
-                "modScore": 27159.1935483871
+                "modScore": 45909.1935483871
               }
             },
             "modScore": 70500.0
@@ -3601,9 +3864,9 @@
             "weight": 8500,
             "pivot": "true",
             "terrainResistance": [
-              "0.7",
-              "0.8",
-              "1.6"
+              0.7,
+              0.8,
+              1.6
             ],
             "dispersion": 0.18,
             "stockModule": true,
@@ -3614,6 +3877,7 @@
         }
       },
       "USMedTnkM48A1Patton.json": {
+        "available": true,
         "name": "M48A1 Patton",
         "nation": "usa",
         "tier": 10,
@@ -3628,6 +3892,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 47.17,
+        "camoValues": [
+          8.27,
+          6.21,
+          1.73
+        ],
         "hull": {
           "frontArmor": [
             110,
@@ -3690,25 +3959,28 @@
                     173,
                     240,
                     255,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     263,
                     240,
                     11,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     45,
                     320,
                     255,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 173,
                 "damage": 240,
                 "damagePerMinute": 2285.714285714286,
-                "modScore": 18286.071428571428
+                "modScore": 33286.07142857143
               },
               "_105mm_gun_t5e1m2": {
                 "name": "105 mm Gun T5E1M2",
@@ -3732,25 +4004,28 @@
                     218,
                     390,
                     1000,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     265,
                     390,
                     10,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     53,
                     480,
                     680,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 218,
                 "damage": 390,
                 "damagePerMinute": 2659.090909090909,
-                "modScore": 23958.636363636364
+                "modScore": 40833.63636363637
               },
               "_105mm_gun_m68": {
                 "name": "105 mm Gun M68",
@@ -3774,25 +4049,28 @@
                     268,
                     390,
                     1000,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     390,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     53,
                     480,
                     680,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 268,
                 "damage": 390,
                 "damagePerMinute": 2659.090909090909,
-                "modScore": 27333.636363636364
+                "modScore": 46083.63636363637
               }
             },
             "modScore": 71000.0
@@ -3832,9 +4110,9 @@
             "weight": 8000,
             "pivot": "true",
             "terrainResistance": [
-              "0.8",
-              "0.9",
-              "1.8"
+              0.8,
+              0.9,
+              1.8
             ],
             "dispersion": 0.1,
             "stockModule": true,
@@ -3845,6 +4123,7 @@
         }
       },
       "USSRMedTnkObject140.json": {
+        "available": true,
         "name": "Object 140",
         "nation": "ussr",
         "tier": 10,
@@ -3859,6 +4138,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 36,
+        "camoValues": [
+          16.15,
+          12.09,
+          3.2
+        ],
         "hull": {
           "frontArmor": [
             100,
@@ -3921,25 +4205,28 @@
                     264,
                     320,
                     1100,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     320,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     50,
                     420,
                     1170,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 264,
                 "damage": 320,
                 "damagePerMinute": 2909.0909090909095,
-                "modScore": 26394.886363636364
+                "modScore": 45144.88636363637
               }
             },
             "modScore": 70000.0
@@ -3979,9 +4266,9 @@
             "weight": 12000,
             "pivot": "true",
             "terrainResistance": [
-              "0.55",
-              "0.65",
-              "1.5"
+              0.55,
+              0.65,
+              1.5
             ],
             "dispersion": 0.08,
             "stockModule": true,
@@ -3992,6 +4279,7 @@
         }
       },
       "USSRMedTnkObject430.json": {
+        "available": true,
         "name": "Object 430",
         "nation": "ussr",
         "tier": 10,
@@ -4006,6 +4294,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 35.3,
+        "camoValues": [
+          17.84,
+          13.39,
+          3.53
+        ],
         "hull": {
           "frontArmor": [
             120,
@@ -4068,25 +4361,28 @@
                     264,
                     320,
                     1100,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     320,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     50,
                     420,
                     1170,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 264,
                 "damage": 320,
                 "damagePerMinute": 2782.608695652174,
-                "modScore": 26035.16304347826
+                "modScore": 44785.16304347826
               }
             },
             "modScore": 70000.0
@@ -4126,9 +4422,9 @@
             "weight": 12000,
             "pivot": "true",
             "terrainResistance": [
-              "0.6",
-              "0.7",
-              "1.6"
+              0.6,
+              0.7,
+              1.6
             ],
             "dispersion": 0.14,
             "stockModule": true,
@@ -4139,6 +4435,7 @@
         }
       },
       "USSRMedTnkObject907.json": {
+        "available": false,
         "name": "Object 907",
         "nation": "ussr",
         "tier": 10,
@@ -4147,12 +4444,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 22500,
-        "baseHitpoints": 1600,
+        "baseHitpoints": 2000,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 0,
+        "camoValues": [
+          0,
+          0,
+          0
+        ],
         "hull": {
           "frontArmor": [
             100,
@@ -4190,25 +4492,28 @@
                   219,
                   320,
                   1230,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   330,
                   320,
                   12,
-                  true
+                  true,
+                  "hollow_charge"
                 ],
                 [
                   50,
                   420,
                   1170,
-                  false
+                  false,
+                  "high_explosive"
                 ]
               ],
               "penetration": 219,
               "damage": 320,
               "damagePerMinute": 2704.2253521126763,
-              "modScore": 23523.838028169015
+              "modScore": 42273.83802816902
             }
           }
         },
@@ -4247,9 +4552,9 @@
             "weight": 7000,
             "pivot": "true",
             "terrainResistance": [
-              "0.6",
-              "0.7",
-              "1.5"
+              0.6,
+              0.7,
+              1.5
             ],
             "dispersion": 0.12,
             "stockModule": true,
@@ -4260,6 +4565,7 @@
         }
       },
       "USSRMedTnkT-62A.json": {
+        "available": true,
         "name": "T-62A",
         "nation": "ussr",
         "tier": 10,
@@ -4274,6 +4580,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 37,
+        "camoValues": [
+          15.28,
+          11.46,
+          3.02
+        ],
         "hull": {
           "frontArmor": [
             102,
@@ -4336,25 +4647,28 @@
                     264,
                     320,
                     1100,
-                    false
+                    false,
+                    "armor_piercing_cr"
                   ],
                   [
                     330,
                     320,
                     12,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     50,
                     420,
                     1170,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 264,
                 "damage": 320,
                 "damagePerMinute": 2909.0909090909095,
-                "modScore": 26511.136363636364
+                "modScore": 45261.13636363637
               }
             },
             "modScore": 70000.0
@@ -4394,9 +4708,9 @@
             "weight": 7800,
             "pivot": "true",
             "terrainResistance": [
-              "0.5",
-              "0.6",
-              "1.4"
+              0.5,
+              0.6,
+              1.4
             ],
             "dispersion": 0.1,
             "stockModule": true,
@@ -4409,6 +4723,7 @@
     },
     "SPG": {
       "FrSPG_Bat-Chatillon_155_58.json": {
+        "available": true,
         "name": "Bat.-Châtillon 155 58",
         "nation": "france",
         "tier": 10,
@@ -4417,12 +4732,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 392,
+        "baseHitpoints": 490,
         "speedLimit": 62.0,
         "reverseSpeed": 14.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 35,
+        "camoValues": [
+          12.0,
+          6.0,
+          1.72
+        ],
         "hull": {
           "frontArmor": [
             50,
@@ -4439,9 +4759,13 @@
           "viewRange": 380,
           "availableGuns": {
             "canon_de_155mm": {
+              "autoloader": true,
+              "roundsInDrum": 4,
+              "timeBetweenShots": 6.0,
+              "drumReload": 80.0,
               "name": "Canon de 155 mm",
               "tier": 9,
-              "rateOfFire": 0.75,
+              "rateOfFire": 2.4,
               "accuracy": 0.68,
               "aimTime": 5.5,
               "gunDepression": 0,
@@ -4460,25 +4784,28 @@
                   95,
                   1250,
                   1120,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   95,
                   1250,
                   13,
-                  true
+                  true,
+                  "high_explosive"
                 ],
                 [
                   185,
                   720,
                   12,
-                  true
+                  true,
+                  "hollow_charge"
                 ]
               ],
               "penetration": 95,
               "damage": 1250,
-              "damagePerMinute": 937.5,
-              "modScore": 23968.75
+              "damagePerMinute": 3000.0,
+              "modScore": 43937.5
             }
           }
         },
@@ -4517,9 +4844,9 @@
             "weight": 12000,
             "pivot": "true",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.1"
+              1.1,
+              1.3,
+              2.1
             ],
             "dispersion": 0.4,
             "stockModule": true,
@@ -4530,6 +4857,7 @@
         }
       },
       "GerSPG_GWE100.json": {
+        "available": true,
         "name": "G.W. E 100",
         "nation": "germany",
         "tier": 10,
@@ -4538,12 +4866,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 440,
+        "baseHitpoints": 550,
         "speedLimit": 40.0,
         "reverseSpeed": 10.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 87,
+        "camoValues": [
+          1.71,
+          0.86,
+          0.15
+        ],
         "hull": {
           "frontArmor": [
             80,
@@ -4581,25 +4914,28 @@
                   105,
                   2000,
                   2080,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   303,
                   1550,
                   1930,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   105,
                   2000,
                   20,
-                  true
+                  true,
+                  "high_explosive"
                 ]
               ],
               "penetration": 105,
               "damage": 2000,
               "damagePerMinute": 2823.529411764706,
-              "modScore": 37422.794117647056
+              "modScore": 56172.794117647056
             }
           }
         },
@@ -4638,9 +4974,9 @@
             "weight": 42000,
             "pivot": "true",
             "terrainResistance": [
-              "1.3",
-              "1.5",
-              "2.5"
+              1.3,
+              1.5,
+              2.5
             ],
             "dispersion": 0.3,
             "stockModule": true,
@@ -4651,6 +4987,7 @@
         }
       },
       "UK_SPG_ConquerorGunCarriage.json": {
+        "available": true,
         "name": "Conqueror Gun Carriage",
         "nation": "gb",
         "tier": 10,
@@ -4659,12 +4996,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 424,
+        "baseHitpoints": 530,
         "speedLimit": 34.3,
         "reverseSpeed": 10.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 55,
+        "camoValues": [
+          6.57,
+          3.26,
+          0.39
+        ],
         "hull": {
           "frontArmor": [
             152,
@@ -4702,19 +5044,21 @@
                   117,
                   2200,
                   2450,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   117,
                   2200,
                   20,
-                  true
+                  true,
+                  "high_explosive"
                 ]
               ],
               "penetration": 117,
               "damage": 2200,
               "damagePerMinute": 2271.944922547332,
-              "modScore": 38137.917383821
+              "modScore": 56887.917383821
             }
           }
         },
@@ -4753,9 +5097,9 @@
             "weight": 22000,
             "pivot": "true",
             "terrainResistance": [
-              "1.3",
-              "1.5",
-              "2.5"
+              1.3,
+              1.5,
+              2.5
             ],
             "dispersion": 0.36,
             "stockModule": true,
@@ -4766,6 +5110,7 @@
         }
       },
       "USSPG_T92.json": {
+        "available": true,
         "name": "T92",
         "nation": "usa",
         "tier": 10,
@@ -4774,12 +5119,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 400,
+        "baseHitpoints": 500,
         "speedLimit": 32.2,
         "reverseSpeed": 10.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 57.84,
+        "camoValues": [
+          8.0,
+          4.0,
+          0.46
+        ],
         "hull": {
           "frontArmor": [
             25,
@@ -4817,25 +5167,28 @@
                   120,
                   2250,
                   2500,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   370,
                   1800,
                   2500,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   120,
                   2250,
                   20,
-                  true
+                  true,
+                  "high_explosive"
                 ]
               ],
               "penetration": 120,
               "damage": 2250,
               "damagePerMinute": 2547.1698113207544,
-              "modScore": 40445.75471698113
+              "modScore": 59195.75471698113
             }
           }
         },
@@ -4874,9 +5227,9 @@
             "weight": 24000,
             "pivot": "true",
             "terrainResistance": [
-              "1.2",
-              "1.4",
-              "2.3"
+              1.2,
+              1.4,
+              2.3
             ],
             "dispersion": 0.38,
             "stockModule": true,
@@ -4887,6 +5240,7 @@
         }
       },
       "USSR_SPG_Object 261.json": {
+        "available": true,
         "name": "Object 261",
         "nation": "ussr",
         "tier": 10,
@@ -4895,12 +5249,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 408,
+        "baseHitpoints": 510,
         "speedLimit": 50.0,
         "reverseSpeed": 12.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 59.1,
+        "camoValues": [
+          6.57,
+          3.29,
+          0.75
+        ],
         "hull": {
           "frontArmor": [
             75,
@@ -4938,25 +5297,28 @@
                   102,
                   1700,
                   1980,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   360,
                   1100,
                   1980,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   102,
                   1700,
                   18,
-                  true
+                  true,
+                  "high_explosive"
                 ]
               ],
               "penetration": 102,
               "damage": 1700,
               "damagePerMinute": 2914.285714285714,
-              "modScore": 33263.92857142857
+              "modScore": 50138.92857142857
             }
           }
         },
@@ -4995,9 +5357,9 @@
             "weight": 22000,
             "pivot": "true",
             "terrainResistance": [
-              "1.3",
-              "1.5",
-              "2.5"
+              1.3,
+              1.5,
+              2.5
             ],
             "dispersion": 0.3,
             "stockModule": true,
@@ -5008,6 +5370,7 @@
         }
       },
       "USSR_SPG_Object261.json": {
+        "available": true,
         "name": "Object 261",
         "nation": "ussr",
         "tier": 10,
@@ -5016,12 +5379,17 @@
         "turreted": false,
         "experienceNeeded": 0,
         "cost": 6100000,
-        "baseHitpoints": 408,
+        "baseHitpoints": 510,
         "speedLimit": 50.0,
         "reverseSpeed": 12.0,
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 59.1,
+        "camoValues": [
+          6.57,
+          3.29,
+          0.75
+        ],
         "hull": {
           "frontArmor": [
             75,
@@ -5059,25 +5427,28 @@
                   102,
                   1700,
                   1980,
-                  false
+                  false,
+                  "high_explosive"
                 ],
                 [
                   360,
                   1100,
                   1980,
-                  false
+                  false,
+                  "armor_piercing"
                 ],
                 [
                   102,
                   1700,
                   18,
-                  true
+                  true,
+                  "high_explosive"
                 ]
               ],
               "penetration": 102,
               "damage": 1700,
               "damagePerMinute": 2914.285714285714,
-              "modScore": 33263.92857142857
+              "modScore": 50138.92857142857
             }
           }
         },
@@ -5116,9 +5487,9 @@
             "weight": 22000,
             "pivot": "true",
             "terrainResistance": [
-              "1.3",
-              "1.5",
-              "2.5"
+              1.3,
+              1.5,
+              2.5
             ],
             "dispersion": 0.3,
             "stockModule": true,

@@ -2,6 +2,7 @@
   "tier1": {
     "lightTank": {
       "ChinaLtTnkRenaultNC-31.json": {
+        "available": true,
         "name": "Renault NC-31",
         "nation": "china",
         "tier": 1,
@@ -16,6 +17,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 6.47,
+        "camoValues": [
+          12.86,
+          9.64,
+          3.28
+        ],
         "hull": {
           "frontArmor": [
             16,
@@ -78,30 +84,37 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 35.00000000000023
+                "modScore": 1910.0000000000002
               },
               "_13.2mm_hotchkiss_mle._1930": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13.2 mm Hotchkiss mle. 1930",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.58,
                 "aimTime": 2.0,
                 "gunDepression": -10,
@@ -120,19 +133,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1435.8620689655172
+                "damagePerMinute": 924.0,
+                "modScore": 1701.0000000000002
               }
             },
             "modScore": 17500.0
@@ -182,30 +197,37 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 290.0
+                "modScore": 2165.0
               },
               "_13.2mm_hotchkiss_mle._1930": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13.2 mm Hotchkiss mle. 1930",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.58,
                 "aimTime": 2.0,
                 "gunDepression": -10,
@@ -224,19 +246,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1435.8620689655172
+                "damagePerMinute": 924.0,
+                "modScore": 1701.0000000000002
               },
               "_37mm_kwk_l46": {
                 "name": "37 mm KwK 36 L/46.5",
@@ -260,25 +284,28 @@
                     40,
                     36,
                     6,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     74,
                     36,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     42,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 40,
                 "damage": 36,
                 "damagePerMinute": 939.1304347826087,
-                "modScore": 1536.195652173913
+                "modScore": 3411.195652173913
               }
             },
             "modScore": 24000.0
@@ -350,9 +377,9 @@
             "weight": 800,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.4",
-              "2.3"
+              1.1,
+              1.4,
+              2.3
             ],
             "dispersion": 0.4,
             "stockModule": true,
@@ -368,9 +395,9 @@
             "weight": 800,
             "pivot": "false",
             "terrainResistance": [
-              "1",
-              "1.2",
-              "2.1"
+              1.0,
+              1.2,
+              2.1
             ],
             "dispersion": 0.38,
             "stockModule": false,
@@ -381,6 +408,7 @@
         }
       },
       "FrLtTnkRenaultFT.json": {
+        "available": true,
         "name": "Renault FT",
         "nation": "france",
         "tier": 1,
@@ -395,6 +423,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 4.69,
+        "camoValues": [
+          13.57,
+          10.2,
+          3.99
+        ],
         "hull": {
           "frontArmor": [
             16,
@@ -457,30 +490,37 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": -135.0
+                "modScore": 1740.0
               },
               "_13.2mm_hotchkiss_mle._1930": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13.2 mm Hotchkiss mle. 1930",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.58,
                 "aimTime": 2.0,
                 "gunDepression": -10,
@@ -499,19 +539,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1435.8620689655172
+                "damagePerMinute": 924.0,
+                "modScore": 1701.0000000000002
               }
             },
             "modScore": 17500.0
@@ -561,30 +603,37 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 290.0
+                "modScore": 2165.0
               },
               "_13.2mm_hotchkiss_mle._1930": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13.2 mm Hotchkiss mle. 1930",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.58,
                 "aimTime": 2.0,
                 "gunDepression": -10,
@@ -603,19 +652,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1435.8620689655172
+                "damagePerMinute": 924.0,
+                "modScore": 1701.0000000000002
               },
               "_25mm_canon_raccourci_mle.1934": {
                 "name": "25 mm Canon Raccourci mle. 1934",
@@ -639,19 +690,21 @@
                     46,
                     27,
                     5,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     68,
                     27,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 46,
                 "damage": 27,
                 "damagePerMinute": 771.4285714285713,
-                "modScore": 2545.892857142857
+                "modScore": 6295.892857142857
               }
             },
             "modScore": 24000.0
@@ -723,9 +776,9 @@
             "weight": 1200,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.5",
-              "2.5"
+              1.1,
+              1.5,
+              2.5
             ],
             "dispersion": 0.42,
             "stockModule": true,
@@ -741,9 +794,9 @@
             "weight": 1200,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.3"
+              1.1,
+              1.3,
+              2.3
             ],
             "dispersion": 0.38,
             "stockModule": false,
@@ -754,6 +807,7 @@
         }
       },
       "GerLtTnkLeichttraktor.json": {
+        "available": true,
         "name": "Leichttraktor",
         "nation": "germany",
         "tier": 1,
@@ -768,6 +822,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 7.5,
+        "camoValues": [
+          13.43,
+          10.07,
+          3.42
+        ],
         "hull": {
           "frontArmor": [
             14,
@@ -830,30 +889,37 @@
                     40,
                     36,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     74,
                     36,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     42,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 40,
                 "damage": 36,
                 "damagePerMinute": 939.1304347826087,
-                "modScore": 1791.195652173913
+                "modScore": 3666.195652173913
               },
               "_20mm_breda": {
+                "autoloader": true,
+                "roundsInDrum": 12,
+                "timeBetweenShots": 0.25,
+                "drumReload": 4.6,
                 "name": "2 cm Breda (i)",
                 "tier": 1,
-                "rateOfFire": 13.043478260869566,
+                "rateOfFire": 94.8,
                 "accuracy": 0.53,
                 "aimTime": 1.8,
                 "gunDepression": -10,
@@ -872,19 +938,21 @@
                     30,
                     11,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     47,
                     11,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 30,
                 "damage": 11,
-                "damagePerMinute": 143.47826086956522,
-                "modScore": -606.0326086956522
+                "damagePerMinute": 1042.8,
+                "modScore": 2617.95
               }
             },
             "modScore": 18000.0
@@ -934,30 +1002,37 @@
                     40,
                     36,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     74,
                     36,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     42,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 40,
                 "damage": 36,
                 "damagePerMinute": 939.1304347826087,
-                "modScore": 1791.195652173913
+                "modScore": 3666.195652173913
               },
               "_20mm_breda": {
+                "autoloader": true,
+                "roundsInDrum": 12,
+                "timeBetweenShots": 0.25,
+                "drumReload": 3.4,
                 "name": "2 cm Breda (i)",
                 "tier": 1,
-                "rateOfFire": 17.647058823529413,
+                "rateOfFire": 112.8,
                 "accuracy": 0.53,
                 "aimTime": 1.8,
                 "gunDepression": -10,
@@ -976,24 +1051,30 @@
                     30,
                     11,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     47,
                     11,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 30,
                 "damage": 11,
-                "damagePerMinute": 194.11764705882354,
-                "modScore": -530.0735294117646
+                "damagePerMinute": 1240.8,
+                "modScore": 2914.95
               },
               "_20mm_kwk_38_l55": {
+                "autoloader": true,
+                "roundsInDrum": 10,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 4.0,
                 "name": "2 cm Kw.K. 38",
                 "tier": 1,
-                "rateOfFire": 15.0,
+                "rateOfFire": 113.0,
                 "accuracy": 0.57,
                 "aimTime": 1.7,
                 "gunDepression": -10,
@@ -1012,19 +1093,21 @@
                     23,
                     11,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     11,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 11,
-                "damagePerMinute": 165.0,
-                "modScore": -981.2499999999998
+                "damagePerMinute": 1243.0,
+                "modScore": 2510.75
               }
             },
             "modScore": 25500.0
@@ -1096,9 +1179,9 @@
             "weight": 2000,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.4",
-              "2.5"
+              1.1,
+              1.4,
+              2.5
             ],
             "dispersion": 0.4,
             "stockModule": true,
@@ -1114,9 +1197,9 @@
             "weight": 2000,
             "pivot": "false",
             "terrainResistance": [
-              "1",
-              "1.3",
-              "2.3"
+              1.0,
+              1.3,
+              2.3
             ],
             "dispersion": 0.36,
             "stockModule": false,
@@ -1127,6 +1210,7 @@
         }
       },
       "JpnLtTnkRenaultOtsu.json": {
+        "available": true,
         "name": "Renault Otsu",
         "nation": "japan",
         "tier": 1,
@@ -1141,6 +1225,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 8.01,
+        "camoValues": [
+          14.0,
+          10.5,
+          3.6
+        ],
         "hull": {
           "frontArmor": [
             30,
@@ -1203,30 +1292,37 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 35.00000000000023
+                "modScore": 1910.0000000000002
               },
               "_13.2mm_type93": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13 mm Autocannon Type Ho",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.56,
                 "aimTime": 2.0,
                 "gunDepression": -20,
@@ -1245,19 +1341,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1373.3620689655174
+                "damagePerMinute": 924.0,
+                "modScore": 1763.4999999999998
               }
             },
             "modScore": 17500.0
@@ -1307,36 +1405,43 @@
                     29,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     46,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     18,
                     36,
                     6,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 29,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 290.0
+                "modScore": 2165.0
               },
               "_13.2mm_type93": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.13333333333333333,
+                "drumReload": 5.8,
                 "name": "13 mm Autocannon Type Ho",
                 "tier": 1,
-                "rateOfFire": 10.344827586206897,
+                "rateOfFire": 115.5,
                 "accuracy": 0.56,
                 "aimTime": 2.0,
                 "gunDepression": -20,
                 "gunElevation": 35,
                 "weight": 38.0,
-                "stockModule": true,
+                "stockModule": false,
                 "topModule": false,
                 "cost": 1500,
                 "dispersion": {
@@ -1349,19 +1454,21 @@
                     23,
                     8,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     36,
                     8,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 23,
                 "damage": 8,
-                "damagePerMinute": 82.75862068965517,
-                "modScore": -1373.3620689655174
+                "damagePerMinute": 924.0,
+                "modScore": 1763.4999999999998
               },
               "_37mm_type11": {
                 "name": "37 mm Infantry Gun Type 11",
@@ -1372,7 +1479,7 @@
                 "gunDepression": -22,
                 "gunElevation": 20,
                 "weight": 93.0,
-                "stockModule": false,
+                "stockModule": true,
                 "topModule": false,
                 "cost": 1800,
                 "dispersion": {
@@ -1385,25 +1492,28 @@
                     22,
                     45,
                     14,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     32,
                     45,
                     2,
-                    true
+                    true,
+                    "armor_piercing"
                   ],
                   [
                     18,
                     55,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 22,
                 "damage": 45,
                 "damagePerMinute": 794.1176470588235,
-                "modScore": -336.32352941176487
+                "modScore": 1538.6764705882351
               },
               "_37mm_sogekiho": {
                 "name": "37 mm Sogekihou",
@@ -1427,25 +1537,28 @@
                     32,
                     45,
                     14,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     48,
                     45,
                     2,
-                    true
+                    true,
+                    "armor_piercing"
                   ],
                   [
                     18,
                     55,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 32,
                 "damage": 45,
                 "damagePerMinute": 794.1176470588235,
-                "modScore": 313.67647058823513
+                "modScore": 2188.676470588235
               }
             },
             "modScore": 24000.0
@@ -1516,9 +1629,9 @@
             "weight": 2600,
             "pivot": "false",
             "terrainResistance": [
-              "1.2",
-              "1.4",
-              "2.7"
+              1.2,
+              1.4,
+              2.7
             ],
             "dispersion": 0.44,
             "stockModule": true,
@@ -1534,9 +1647,9 @@
             "weight": 2600,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.5"
+              1.1,
+              1.3,
+              2.5
             ],
             "dispersion": 0.4,
             "stockModule": false,
@@ -1547,6 +1660,7 @@
         }
       },
       "SovietLtTnkMS-1.json": {
+        "available": true,
         "name": "MS-1",
         "nation": "ussr",
         "tier": 1,
@@ -1561,6 +1675,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 4.69,
+        "camoValues": [
+          14.99,
+          11.29,
+          3.7
+        ],
         "hull": {
           "frontArmor": [
             18,
@@ -1610,7 +1729,7 @@
                 "gunDepression": -8,
                 "gunElevation": 25,
                 "weight": 104.0,
-                "stockModule": false,
+                "stockModule": true,
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
@@ -1623,25 +1742,28 @@
                     34,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     44,
                     30,
                     1,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 34,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 127.5
+                "modScore": 2002.5
               },
               "_37mm_b-3": {
                 "name": "37 mm B-3",
@@ -1653,7 +1775,7 @@
                 "gunElevation": 25,
                 "weight": 77.0,
                 "stockModule": false,
-                "topModule": true,
+                "topModule": false,
                 "cost": 1950,
                 "dispersion": {
                   "turretRotation": 0.16,
@@ -1665,36 +1787,43 @@
                     40,
                     36,
                     8,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     64,
                     36,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     40,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 40,
                 "damage": 36,
                 "damagePerMinute": 864.0,
-                "modScore": 998.5
+                "modScore": 2873.5
               },
               "_20mm_tnsh": {
+                "autoloader": true,
+                "roundsInDrum": 20,
+                "timeBetweenShots": 0.1,
+                "drumReload": 11.4,
                 "name": "20 mm TNSh",
                 "tier": 1,
-                "rateOfFire": 5.263157894736842,
+                "rateOfFire": 90.0,
                 "accuracy": 0.53,
                 "aimTime": 1.9,
                 "gunDepression": -8,
                 "gunElevation": 25,
                 "weight": 68.0,
-                "stockModule": true,
+                "stockModule": false,
                 "topModule": false,
                 "cost": 2380,
                 "dispersion": {
@@ -1707,31 +1836,37 @@
                     28,
                     10,
                     2,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     39,
                     10,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 28,
                 "damage": 10,
-                "damagePerMinute": 52.63157894736842,
-                "modScore": -947.3026315789473
+                "damagePerMinute": 900.0,
+                "modScore": 2198.75
               },
               "_23mm_vja": {
+                "autoloader": true,
+                "roundsInDrum": 9,
+                "timeBetweenShots": 0.2,
+                "drumReload": 4.1,
                 "name": "23 mm VJa",
                 "tier": 2,
-                "rateOfFire": 14.634146341463415,
+                "rateOfFire": 91.8,
                 "accuracy": 0.54,
                 "aimTime": 1.9,
                 "gunDepression": -8,
                 "gunElevation": 25,
                 "weight": 71.0,
                 "stockModule": false,
-                "topModule": false,
+                "topModule": true,
                 "cost": 2750,
                 "dispersion": {
                   "turretRotation": 0.14,
@@ -1743,19 +1878,21 @@
                     30,
                     12,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     42,
                     12,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 30,
                 "damage": 12,
-                "damagePerMinute": 175.609756097561,
-                "modScore": -34.08536585365846
+                "damagePerMinute": 1101.6,
+                "modScore": 5104.9
               }
             },
             "modScore": 17000.0
@@ -1792,7 +1929,7 @@
                 "gunDepression": -8,
                 "gunElevation": 25,
                 "weight": 104.0,
-                "stockModule": false,
+                "stockModule": true,
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
@@ -1805,25 +1942,28 @@
                     34,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     44,
                     30,
                     1,
-                    true
+                    true,
+                    "hollow_charge"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 34,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": 127.5
+                "modScore": 2002.5
               },
               "_37mm_b-3": {
                 "name": "37 mm B-3",
@@ -1847,36 +1987,43 @@
                     40,
                     36,
                     8,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     64,
                     36,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     40,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 40,
                 "damage": 36,
                 "damagePerMinute": 864.0,
-                "modScore": 998.5
+                "modScore": 2873.5
               },
               "_20mm_tnsh": {
+                "autoloader": true,
+                "roundsInDrum": 20,
+                "timeBetweenShots": 0.1,
+                "drumReload": 11.4,
                 "name": "20 mm TNSh",
                 "tier": 1,
-                "rateOfFire": 5.263157894736842,
+                "rateOfFire": 90.0,
                 "accuracy": 0.53,
                 "aimTime": 1.9,
                 "gunDepression": -8,
                 "gunElevation": 25,
                 "weight": 68.0,
-                "stockModule": true,
+                "stockModule": false,
                 "topModule": false,
                 "cost": 2380,
                 "dispersion": {
@@ -1889,24 +2036,30 @@
                     28,
                     10,
                     2,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     39,
                     10,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 28,
                 "damage": 10,
-                "damagePerMinute": 52.63157894736842,
-                "modScore": -947.3026315789473
+                "damagePerMinute": 900.0,
+                "modScore": 2198.75
               },
               "_23mm_vja": {
+                "autoloader": true,
+                "roundsInDrum": 9,
+                "timeBetweenShots": 0.2,
+                "drumReload": 4.1,
                 "name": "23 mm VJa",
                 "tier": 2,
-                "rateOfFire": 14.634146341463415,
+                "rateOfFire": 91.8,
                 "accuracy": 0.54,
                 "aimTime": 1.9,
                 "gunDepression": -8,
@@ -1925,19 +2078,21 @@
                     30,
                     12,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     42,
                     12,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 30,
                 "damage": 12,
-                "damagePerMinute": 175.609756097561,
-                "modScore": -34.08536585365846
+                "damagePerMinute": 1101.6,
+                "modScore": 5104.9
               },
               "_45mm_mod_1932": {
                 "name": "45 mm mod. 1932",
@@ -1961,25 +2116,28 @@
                     51,
                     47,
                     14,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     88,
                     47,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     23,
                     62,
                     14,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 51,
                 "damage": 47,
                 "damagePerMinute": 972.4137931034483,
-                "modScore": 2528.620689655172
+                "modScore": 6278.620689655172
               }
             },
             "modScore": 24000.0
@@ -2051,9 +2209,9 @@
             "weight": 1200,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.5",
-              "2.2"
+              1.1,
+              1.5,
+              2.2
             ],
             "dispersion": 0.42,
             "stockModule": true,
@@ -2069,9 +2227,9 @@
             "weight": 1200,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.3",
-              "2.2"
+              1.1,
+              1.3,
+              2.2
             ],
             "dispersion": 0.38,
             "stockModule": false,
@@ -2082,6 +2240,7 @@
         }
       },
       "USLtTnkT1Cunningham.json": {
+        "available": true,
         "name": "T1 Cunningham",
         "nation": "usa",
         "tier": 1,
@@ -2096,6 +2255,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 7.21,
+        "camoValues": [
+          12.77,
+          9.58,
+          2.49
+        ],
         "hull": {
           "frontArmor": [
             10,
@@ -2145,8 +2309,8 @@
                 "gunDepression": -7,
                 "gunElevation": 20,
                 "weight": 104.0,
-                "stockModule": false,
-                "topModule": true,
+                "stockModule": true,
+                "topModule": false,
                 "cost": 0,
                 "dispersion": {
                   "turretRotation": 0.16,
@@ -2158,37 +2322,44 @@
                     28,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     45,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 28,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": -187.5
+                "modScore": 1687.5
               },
               "_37mm_semiautomatic_gun_m1924": {
+                "autoloader": true,
+                "roundsInDrum": 5,
+                "timeBetweenShots": 0.5,
+                "drumReload": 8.0,
                 "name": "37 mm Semiautomatic Gun M1924",
                 "tier": 1,
-                "rateOfFire": 7.5,
+                "rateOfFire": 28.9,
                 "accuracy": 0.51,
                 "aimTime": 2.5,
                 "gunDepression": -7,
                 "gunElevation": 20,
                 "weight": 65.0,
-                "stockModule": true,
-                "topModule": false,
+                "stockModule": false,
+                "topModule": true,
                 "cost": 1900,
                 "dispersion": {
                   "turretRotation": 0.16,
@@ -2200,25 +2371,28 @@
                     33,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     53,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 33,
                 "damage": 30,
-                "damagePerMinute": 225.0,
-                "modScore": -573.75
+                "damagePerMinute": 867.0,
+                "modScore": 2264.25
               }
             },
             "modScore": 17000.0
@@ -2255,7 +2429,7 @@
                 "gunDepression": -7,
                 "gunElevation": 20,
                 "weight": 104.0,
-                "stockModule": false,
+                "stockModule": true,
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
@@ -2268,36 +2442,43 @@
                     28,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     45,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 28,
                 "damage": 30,
                 "damagePerMinute": 720.0,
-                "modScore": -187.5
+                "modScore": 1687.5
               },
               "_37mm_semiautomatic_gun_m1924": {
+                "autoloader": true,
+                "roundsInDrum": 5,
+                "timeBetweenShots": 0.5,
+                "drumReload": 8.0,
                 "name": "37 mm Semiautomatic Gun M1924",
                 "tier": 1,
-                "rateOfFire": 7.5,
+                "rateOfFire": 28.9,
                 "accuracy": 0.51,
                 "aimTime": 2.5,
                 "gunDepression": -7,
                 "gunElevation": 20,
                 "weight": 65.0,
-                "stockModule": true,
+                "stockModule": false,
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
@@ -2310,30 +2491,37 @@
                     33,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     53,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 33,
                 "damage": 30,
-                "damagePerMinute": 225.0,
-                "modScore": -573.75
+                "damagePerMinute": 867.0,
+                "modScore": 2264.25
               },
               "_37mm_browning_semiautomatic_gun": {
+                "autoloader": true,
+                "roundsInDrum": 5,
+                "timeBetweenShots": 0.5,
+                "drumReload": 8.0,
                 "name": "37 mm Browning Semiautomatic Gun",
                 "tier": 2,
-                "rateOfFire": 7.5,
+                "rateOfFire": 28.9,
                 "accuracy": 0.47,
                 "aimTime": 2.5,
                 "gunDepression": -7,
@@ -2352,30 +2540,37 @@
                     39,
                     30,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     63,
                     30,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     19,
                     36,
                     8,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 39,
                 "damage": 30,
-                "damagePerMinute": 225.0,
-                "modScore": 491.25
+                "damagePerMinute": 867.0,
+                "modScore": 5204.25
               },
               "_20mm_hispano_suiza_birgikt_gun": {
+                "autoloader": true,
+                "roundsInDrum": 15,
+                "timeBetweenShots": 0.1,
+                "drumReload": 10.9,
                 "name": "20 mm Hispano-Suiza Birkigt Gun",
                 "tier": 2,
-                "rateOfFire": 5.504587155963303,
+                "rateOfFire": 73.5,
                 "accuracy": 0.5,
                 "aimTime": 1.9,
                 "gunDepression": -7,
@@ -2394,19 +2589,21 @@
                     30,
                     12,
                     3,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     41,
                     12,
                     1,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ]
                 ],
                 "penetration": 30,
                 "damage": 12,
-                "damagePerMinute": 66.05504587155963,
-                "modScore": -73.41743119266062
+                "damagePerMinute": 882.0,
+                "modScore": 4900.5
               }
             },
             "modScore": 24000.0
@@ -2467,9 +2664,9 @@
             "weight": 2000,
             "pivot": "false",
             "terrainResistance": [
-              "1.1",
-              "1.4",
-              "2.3"
+              1.1,
+              1.4,
+              2.3
             ],
             "dispersion": 0.42,
             "stockModule": true,
@@ -2485,9 +2682,9 @@
             "weight": 2000,
             "pivot": "false",
             "terrainResistance": [
-              "1",
-              "1.1",
-              "2.1"
+              1.0,
+              1.1,
+              2.1
             ],
             "dispersion": 0.38,
             "stockModule": false,
@@ -2500,6 +2697,7 @@
     },
     "mediumTank": {
       "UKMedTnkVickersMediumMkI.json": {
+        "available": true,
         "name": "Vickers Medium Mk. I",
         "nation": "gb",
         "tier": 1,
@@ -2514,6 +2712,11 @@
         "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 11.75,
+        "camoValues": [
+          8.04,
+          6.04,
+          1.91
+        ],
         "hull": {
           "frontArmor": [
             6,
@@ -2576,30 +2779,37 @@
                     38,
                     50,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     66,
                     50,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     23,
                     65,
                     0,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 38,
                 "damage": 50,
                 "damagePerMinute": 600.0,
-                "modScore": 398.75
+                "modScore": 2273.75
               },
               "_15mm_machine_gun_besa": {
+                "autoloader": true,
+                "roundsInDrum": 40,
+                "timeBetweenShots": 0.13953488372093023,
+                "drumReload": 26.1,
                 "name": "15 mm Machine Gun BESA",
                 "tier": 1,
-                "rateOfFire": 2.2988505747126435,
+                "rateOfFire": 76.0,
                 "accuracy": 0.56,
                 "aimTime": 2.0,
                 "gunDepression": -7,
@@ -2618,13 +2828,14 @@
                     25,
                     9,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ]
                 ],
                 "penetration": 25,
                 "damage": 9,
-                "damagePerMinute": 20.689655172413794,
-                "modScore": -1346.4655172413795
+                "damagePerMinute": 684.0,
+                "modScore": 1523.4999999999998
               }
             },
             "modScore": 18000.0
@@ -2674,30 +2885,37 @@
                     38,
                     50,
                     0,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     66,
                     50,
                     2,
-                    true
+                    true,
+                    "armor_piercing_cr"
                   ],
                   [
                     23,
                     65,
                     0,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 38,
                 "damage": 50,
                 "damagePerMinute": 666.6666666666667,
-                "modScore": 498.75
+                "modScore": 2373.75
               },
               "_15mm_machine_gun_besa": {
+                "autoloader": true,
+                "roundsInDrum": 40,
+                "timeBetweenShots": 0.13953488372093023,
+                "drumReload": 24.0,
                 "name": "15 mm Machine Gun BESA",
                 "tier": 1,
-                "rateOfFire": 2.5,
+                "rateOfFire": 84.0,
                 "accuracy": 0.56,
                 "aimTime": 2.0,
                 "gunDepression": -7,
@@ -2716,13 +2934,14 @@
                     25,
                     9,
                     1,
-                    false
+                    false,
+                    "armor_piercing"
                   ]
                 ],
                 "penetration": 25,
                 "damage": 9,
-                "damagePerMinute": 22.5,
-                "modScore": -1343.7500000000002
+                "damagePerMinute": 756.0,
+                "modScore": 1631.4999999999998
               },
               "qf_6_pounder_8cwt_mk_ii": {
                 "name": "QF 6-pdr 8 cwt Mk. II",
@@ -2746,25 +2965,28 @@
                     45,
                     70,
                     35,
-                    false
+                    false,
+                    "armor_piercing"
                   ],
                   [
                     57,
                     70,
                     3,
-                    true
+                    true,
+                    "armor_piercing"
                   ],
                   [
                     29,
                     95,
                     22,
-                    false
+                    false,
+                    "high_explosive"
                   ]
                 ],
                 "penetration": 45,
                 "damage": 70,
                 "damagePerMinute": 933.3333333333334,
-                "modScore": 2482.5
+                "modScore": 6232.5
               }
             },
             "modScore": 24000.0
@@ -2825,9 +3047,9 @@
             "weight": 3000,
             "pivot": "false",
             "terrainResistance": [
-              "1.3",
-              "1.4",
-              "2.6"
+              1.3,
+              1.4,
+              2.6
             ],
             "dispersion": 0.38,
             "stockModule": true,
@@ -2843,9 +3065,9 @@
             "weight": 3000,
             "pivot": "false",
             "terrainResistance": [
-              "1.2",
-              "1.3",
-              "2.4"
+              1.2,
+              1.3,
+              2.4
             ],
             "dispersion": 0.36,
             "stockModule": false,
