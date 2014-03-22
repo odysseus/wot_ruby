@@ -12,4 +12,8 @@ class TankGroup
     end
   end
 
+  def first
+    @group.first
+  end
+
 end

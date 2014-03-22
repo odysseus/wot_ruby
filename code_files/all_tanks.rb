@@ -14,7 +14,6 @@ class TankStore
     (1..10).each do |t|
       path = "../tier_files/tier#{t}.json"
       tier_json = JSON.parse(IO.read(path))["tier#{t}"]
-      @tiers.push(tier_json)
       tier = Tier.new(tier_json)
       @tiers.push(tier)
     end
@@ -31,6 +30,7 @@ class TankStore
 end
 
 tanks = TankStore.instance
+
 puts "Tanks: #{Tank.count}"
 puts "Hulls: #{Hull.count}"
 puts "Turret: #{Turret.count}"
@@ -39,3 +39,7 @@ puts "Engines: #{Engine.count}"
 puts "Radios: #{Radio.count}"
 puts "Suspenstions: #{Suspension.count}"
 puts "Modules: #{Module.count}"
+puts "\n"
+
+test = tanks.tier5.heavyTanks.first
+puts test.gun

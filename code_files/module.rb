@@ -18,4 +18,8 @@ class Module
     @@count
   end
 
+  def to_s
+    @name
+  end
+
 end

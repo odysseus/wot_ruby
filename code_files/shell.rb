@@ -1,7 +1,8 @@
-
 class Shell
 
   attr_reader :shellType, :penetration, :damage, :cost
+
+  @@shells = 0
 
   def initialize sarr
     @penetration = sarr[0]
@@ -14,6 +15,11 @@ class Shell
     else
       @shellType = :normal
     end
+    @@shells += 1
+  end
+  
+  def self.count
+    @@shells
   end
 
 end
