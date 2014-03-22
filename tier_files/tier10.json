@@ -14,7 +14,6 @@
         "baseHitpoints": 1850,
         "speedLimit": 50.0,
         "reverseSpeed": 13.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 57.6,
         "camoValues": [
@@ -148,7 +147,6 @@
         "baseHitpoints": 2200,
         "speedLimit": 30.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 133.94,
         "camoValues": [
@@ -278,7 +276,6 @@
         "baseHitpoints": 1600,
         "speedLimit": 40.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 100,
         "camoValues": [
@@ -487,7 +484,6 @@
         "baseHitpoints": 1600,
         "speedLimit": 34.3,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60,
         "camoValues": [
@@ -643,7 +639,6 @@
         "baseHitpoints": 2050,
         "speedLimit": 24.0,
         "reverseSpeed": 8.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 74.73,
         "camoValues": [
@@ -773,7 +768,6 @@
         "baseHitpoints": 1600,
         "speedLimit": 35.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 64.03,
         "camoValues": [
@@ -929,7 +923,6 @@
         "baseHitpoints": 1900,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60.01,
         "camoValues": [
@@ -1059,7 +1052,6 @@
         "baseHitpoints": 1950,
         "speedLimit": 48.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 50.97,
         "camoValues": [
@@ -1191,7 +1183,6 @@
         "baseHitpoints": 1840,
         "speedLimit": 50.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 45,
         "camoValues": [
@@ -1347,7 +1338,6 @@
         "baseHitpoints": 1680,
         "speedLimit": 65.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 62.21,
         "camoValues": [
@@ -1507,7 +1497,6 @@
         "baseHitpoints": 2160,
         "speedLimit": 30.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 129.69,
         "camoValues": [
@@ -1708,7 +1697,6 @@
         "baseHitpoints": 2400,
         "speedLimit": 20.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 188.98,
         "camoValues": [
@@ -1864,7 +1852,6 @@
         "baseHitpoints": 2000,
         "speedLimit": 43.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 120,
         "camoValues": [
@@ -2020,7 +2007,6 @@
         "baseHitpoints": 2000,
         "speedLimit": 34.3,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 70,
         "camoValues": [
@@ -2176,7 +2162,6 @@
         "baseHitpoints": 1760,
         "speedLimit": 37.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 53.76,
         "camoValues": [
@@ -2332,7 +2317,6 @@
         "baseHitpoints": 1800,
         "speedLimit": 35.4,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 54.43,
         "camoValues": [
@@ -2492,7 +2476,6 @@
         "baseHitpoints": 2000,
         "speedLimit": 43.0,
         "reverseSpeed": 14.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 60.02,
         "camoValues": [
@@ -2693,7 +2676,6 @@
         "baseHitpoints": 1720,
         "speedLimit": 59.6,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 68.19,
         "camoValues": [
@@ -2851,7 +2833,6 @@
         "baseHitpoints": 1560,
         "speedLimit": 56.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 39,
         "camoValues": [
@@ -3007,7 +2988,6 @@
         "baseHitpoints": 1440,
         "speedLimit": 65.0,
         "reverseSpeed": 23.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 24.48,
         "camoValues": [
@@ -3265,7 +3245,6 @@
         "baseHitpoints": 1640,
         "speedLimit": 60.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 62.31,
         "camoValues": [
@@ -3421,7 +3400,6 @@
         "baseHitpoints": 1560,
         "speedLimit": 65.0,
         "reverseSpeed": 23.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 40,
         "camoValues": [
@@ -3577,7 +3555,6 @@
         "baseHitpoints": 1560,
         "speedLimit": 53.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 37.4,
         "camoValues": [
@@ -3733,7 +3710,6 @@
         "baseHitpoints": 1560,
         "speedLimit": 40.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 40,
         "camoValues": [
@@ -3889,7 +3865,6 @@
         "baseHitpoints": 1600,
         "speedLimit": 45.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 47.17,
         "camoValues": [
@@ -4135,7 +4110,6 @@
         "baseHitpoints": 1520,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 36,
         "camoValues": [
@@ -4291,7 +4265,6 @@
         "baseHitpoints": 1520,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 35.3,
         "camoValues": [
@@ -4447,7 +4420,6 @@
         "baseHitpoints": 2000,
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 0,
         "camoValues": [
@@ -4577,7 +4549,6 @@
         "baseHitpoints": 1560,
         "speedLimit": 50.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 37,
         "camoValues": [
@@ -4735,7 +4706,6 @@
         "baseHitpoints": 490,
         "speedLimit": 62.0,
         "reverseSpeed": 14.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 35,
         "camoValues": [
@@ -4869,7 +4839,6 @@
         "baseHitpoints": 550,
         "speedLimit": 40.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 87,
         "camoValues": [
@@ -4999,7 +4968,6 @@
         "baseHitpoints": 530,
         "speedLimit": 34.3,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 55,
         "camoValues": [
@@ -5122,7 +5090,6 @@
         "baseHitpoints": 500,
         "speedLimit": 32.2,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 57.84,
         "camoValues": [
@@ -5252,137 +5219,6 @@
         "baseHitpoints": 510,
         "speedLimit": 50.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
-        "crewLevel": 100,
-        "stockWeight": 59.1,
-        "camoValues": [
-          6.57,
-          3.29,
-          0.75
-        ],
-        "hull": {
-          "frontArmor": [
-            75,
-            5
-          ],
-          "sideArmor": [
-            50,
-            5
-          ],
-          "rearArmor": [
-            30,
-            5
-          ],
-          "viewRange": 390,
-          "availableGuns": {
-            "_180mm_b-1-p": {
-              "name": "180 mm B-1-P",
-              "tier": 9,
-              "rateOfFire": 1.7142857142857142,
-              "accuracy": 0.66,
-              "aimTime": 6.5,
-              "gunDepression": -3,
-              "gunElevation": 45,
-              "weight": 17225.0,
-              "stockModule": true,
-              "topModule": true,
-              "cost": 235000,
-              "dispersion": {
-                "turretRotation": 0.48,
-                "afterShot": 6.0,
-                "gunDamaged": 2.0
-              },
-              "shells": [
-                [
-                  102,
-                  1700,
-                  1980,
-                  false,
-                  "high_explosive"
-                ],
-                [
-                  360,
-                  1100,
-                  1980,
-                  false,
-                  "armor_piercing"
-                ],
-                [
-                  102,
-                  1700,
-                  18,
-                  true,
-                  "high_explosive"
-                ]
-              ],
-              "penetration": 102,
-              "damage": 1700,
-              "damagePerMinute": 2914.285714285714,
-              "modScore": 50138.92857142857
-            }
-          }
-        },
-        "gunArc": 10,
-        "engines": {
-          "m-50t": {
-            "name": "M-50T",
-            "tier": 10,
-            "horsepower": 1050,
-            "fireChance": 0.15,
-            "weight": 700,
-            "stockModule": true,
-            "topModule": true,
-            "cost": 132000,
-            "modScore": 102500.0
-          }
-        },
-        "radios": {
-          "_10rk-26": {
-            "name": "10RK-26",
-            "tier": 10,
-            "signalRange": 720,
-            "weight": 160,
-            "stockModule": true,
-            "topModule": true,
-            "cost": 51600,
-            "modScore": 61000.0
-          }
-        },
-        "suspensions": {
-          "chassis_object_261": {
-            "name": "Object 261",
-            "tier": 10,
-            "loadLimit": 62.2,
-            "traverseSpeed": 24,
-            "weight": 22000,
-            "pivot": "true",
-            "terrainResistance": [
-              1.3,
-              1.5,
-              2.5
-            ],
-            "dispersion": 0.3,
-            "stockModule": true,
-            "topModule": true,
-            "cost": 36000,
-            "modScore": 5610.0
-          }
-        }
-      },
-      "USSR_SPG_Object261.json": {
-        "available": true,
-        "name": "Object 261",
-        "nation": "ussr",
-        "tier": 10,
-        "type": "SPG",
-        "premiumTank": false,
-        "turreted": false,
-        "experienceNeeded": 0,
-        "cost": 6100000,
-        "baseHitpoints": 510,
-        "speedLimit": 50.0,
-        "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 59.1,
         "camoValues": [

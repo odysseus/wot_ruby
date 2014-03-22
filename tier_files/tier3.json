@@ -14,7 +14,6 @@
         "baseHitpoints": 180,
         "speedLimit": 24.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 13.89,
         "camoValues": [
@@ -144,7 +143,6 @@
         "baseHitpoints": 150,
         "speedLimit": 36.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 2.29,
         "camoValues": [
@@ -361,7 +359,6 @@
         "baseHitpoints": 165,
         "speedLimit": 40.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 10.98,
         "camoValues": [
@@ -585,7 +582,6 @@
         "baseHitpoints": 170,
         "speedLimit": 24.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.75,
         "camoValues": [
@@ -879,7 +875,6 @@
         "baseHitpoints": 160,
         "speedLimit": 48.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 12.63,
         "camoValues": [
@@ -1145,7 +1140,6 @@
         "baseHitpoints": 155,
         "speedLimit": 48.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 9.95,
         "camoValues": [
@@ -1406,7 +1400,6 @@
         "baseHitpoints": 176,
         "speedLimit": 40.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 15.04,
         "camoValues": [
@@ -1828,7 +1821,6 @@
         "baseHitpoints": 176,
         "speedLimit": 25.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 15.96,
         "camoValues": [
@@ -2151,7 +2143,6 @@
         "baseHitpoints": 160,
         "speedLimit": 42.0,
         "reverseSpeed": 18.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 9.34,
         "camoValues": [
@@ -2567,7 +2558,6 @@
         "baseHitpoints": 168,
         "speedLimit": 79.0,
         "reverseSpeed": 22.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 7.64,
         "camoValues": [
@@ -2963,7 +2953,6 @@
         "baseHitpoints": 176,
         "speedLimit": 65.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 10.45,
         "camoValues": [
@@ -3366,7 +3355,6 @@
         "baseHitpoints": 208,
         "speedLimit": 31.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 17.89,
         "camoValues": [
@@ -3519,7 +3507,6 @@
         "baseHitpoints": 160,
         "speedLimit": 68.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.65,
         "camoValues": [
@@ -3977,7 +3964,6 @@
         "baseHitpoints": 176,
         "speedLimit": 50.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 7.2,
         "camoValues": [
@@ -4319,7 +4305,6 @@
         "baseHitpoints": 208,
         "speedLimit": 50.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 7.2,
         "camoValues": [
@@ -4475,7 +4460,6 @@
         "baseHitpoints": 176,
         "speedLimit": 40.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.33,
         "camoValues": [
@@ -4897,7 +4881,6 @@
         "baseHitpoints": 168,
         "speedLimit": 48.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.75,
         "camoValues": [
@@ -5330,7 +5313,6 @@
         "baseHitpoints": 200,
         "speedLimit": 64.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 6.92,
         "camoValues": [
@@ -5486,7 +5468,6 @@
         "baseHitpoints": 176,
         "speedLimit": 61.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 12.04,
         "camoValues": [
@@ -5902,7 +5883,6 @@
         "baseHitpoints": 168,
         "speedLimit": 45.0,
         "reverseSpeed": 18.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 9.2,
         "camoValues": [
@@ -6303,7 +6283,6 @@
         "baseHitpoints": 168,
         "speedLimit": 65.4,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.11,
         "camoValues": [
@@ -6709,7 +6688,6 @@
         "baseHitpoints": 192,
         "speedLimit": 62.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 13.11,
         "camoValues": [
@@ -6865,7 +6843,6 @@
         "baseHitpoints": 184,
         "speedLimit": 45.1,
         "reverseSpeed": 18.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 11,
         "camoValues": [
@@ -7021,7 +6998,6 @@
         "baseHitpoints": 176,
         "speedLimit": 61.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 12.01,
         "camoValues": [
@@ -7177,7 +7153,6 @@
         "baseHitpoints": 200,
         "speedLimit": 38.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 12.6,
         "camoValues": [
@@ -7333,7 +7308,6 @@
         "baseHitpoints": 208,
         "speedLimit": 60.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 10.49,
         "camoValues": [
@@ -7489,7 +7463,6 @@
         "baseHitpoints": 176,
         "speedLimit": 58.0,
         "reverseSpeed": 20.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 14.09,
         "camoValues": [
@@ -7986,7 +7959,6 @@
         "baseHitpoints": 168,
         "speedLimit": 23.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 19.18,
         "camoValues": [
@@ -8463,7 +8435,6 @@
         "baseHitpoints": 208,
         "speedLimit": 37.0,
         "reverseSpeed": 12.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 19.25,
         "camoValues": [
@@ -8619,7 +8590,6 @@
         "baseHitpoints": 176,
         "speedLimit": 40.0,
         "reverseSpeed": 15.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 15.04,
         "camoValues": [
@@ -9131,7 +9101,6 @@
         "baseHitpoints": 200,
         "speedLimit": 48.0,
         "reverseSpeed": 16.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 17.5,
         "camoValues": [
@@ -9542,7 +9511,6 @@
         "baseHitpoints": 144,
         "speedLimit": 43.0,
         "reverseSpeed": 18.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 20.47,
         "camoValues": [
@@ -9948,7 +9916,6 @@
         "baseHitpoints": 120,
         "speedLimit": 37.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 6.6,
         "camoValues": [
@@ -10158,7 +10125,6 @@
         "baseHitpoints": 130,
         "speedLimit": 40.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 6.76,
         "camoValues": [
@@ -10348,7 +10314,6 @@
         "baseHitpoints": 130,
         "speedLimit": 40.0,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 10.9,
         "camoValues": [
@@ -10566,7 +10531,6 @@
         "baseHitpoints": 140,
         "speedLimit": 40.2,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 25.86,
         "camoValues": [
@@ -10696,7 +10660,6 @@
         "baseHitpoints": 168,
         "speedLimit": 40.2,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 25.77,
         "camoValues": [
@@ -10875,7 +10838,6 @@
         "baseHitpoints": 140,
         "speedLimit": 38.6,
         "reverseSpeed": 10.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 23,
         "camoValues": [
@@ -11096,7 +11058,6 @@
         "baseHitpoints": 110,
         "speedLimit": 30.0,
         "reverseSpeed": 8.0,
-        "camoValue": 0,
         "crewLevel": 100,
         "stockWeight": 8.1,
         "camoValues": [
