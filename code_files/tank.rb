@@ -65,21 +65,22 @@ class Tank
     suspensions_data.each do |k,v|
       @availableSuspensions.push(Suspension.new(v))
     end
+    set_weights
     set_all_values_top
-    #validate
+    validate
 
     @@count += 1
   end
 
   def set_all_values_top
-    modArr = [:availableEngines, :availableSuspensions, :availableRadios]
-    modNames = [:engine, :suspension, :radio]
-    modArr.each do |modules|
-      self.send(modules).each_with_index do |mod,i|
-        if mod.topModule
-          instance_variable_set("@#{modNames[i]}", mod)
-        end
-      end
+    @availableEngines.each do |eng|
+      @engine = eng if eng.topModule 
+    end
+    @availableSuspensions.each do |sus|
+      @suspension = sus if sus.topModule
+    end
+    @availableRadios.each do |rad|
+      @radio = rad if rad.topModule
     end
     if @hasTurret
       @availableTurrets.each do |tur|
@@ -97,6 +98,37 @@ class Tank
     end
   end
 
+  def set_all_values_stock
+    @availableEngines.each do |eng|
+      @engine = eng if eng.stockModule 
+    end
+    @availableSuspensions.each do |sus|
+      @suspension = sus if sus.stockModule
+    end
+    @availableRadios.each do |rad|
+      @radio = rad if rad.stockModule
+    end
+    if @hasTurret
+      @availableTurrets.each do |tur|
+        if tur.stockModule
+          self.turret = tur
+          self.turret.availableGuns.each do |g|
+            self.turret.gun = g if g.stockModule
+          end
+        end
+      end
+    else
+      self.hull.availableGuns.each do |g|
+        self.hull.gun = g if g.stockModule
+      end
+    end
+  end
+
+  def set_weights
+    set_all_values_stock
+    self.hull.weight = self.stockWeight - self.gun.weight - self.engine.weight
+  end
+
   def to_s
     "#{@name}"
   end
@@ -105,46 +137,160 @@ class Tank
     @@count
   end
 
-  def validate
-    result = true
-
-    # floatKeys need nonnull and nonzero values
-    floatKeys = ["tier", "crewLevel", "baseHitpoints", "gunArc", 
-                 "gunElevation", "speedLimit", "camoValueStationary", 
-                 "camoValueMoving", "camoValueShooting", "viewRange"]
-    floatKeys.each do |key|
-      unless self.send(key) > 0
-        puts "#{@name} is missing #{key}"
-        result = false
-      end
-    end
-
-    # presenceKeys needs nonnull values
-    presenceKeys = ["name", "nation", "type", "hasTurret", "premiumTank", 
-                    "hull", "engine", "radio", "suspension", "cost",
-                    "gunDepression"]
-    presenceKeys.each do |key|
-      unless self.send(key)
-        puts "#{@name} is missing #{key}"
-        result = false
-      end
-    end
-  end
+  # Pass-Thru and Calculated Properties
 
   def gun
     if @hasTurret
-      return self.turret.gun
+      self.turret.gun
     else
-      return self.hull.gun
+      self.hull.gun
     end
   end
 
   def penetration
-    return gun.penetration
+    self.gun.penetration
   end
 
   def aimTime
-    return self.gun.aimTime
+    self.gun.aimTime
+  end
+
+  def accuracy
+    self.gun.accuracy
+  end
+
+  def rateOfFire
+    self.gun.rateOfFire
+  end
+
+  def gunDepression
+    self.gun.gunDepression
+  end
+
+  def gunElevation
+    self.gun.gunElevation
+  end
+
+  def autoloader?
+    self.gun.autoloader
+  end
+
+  def roundsInDrum
+    self.gun.roundsInDrum
+  end
+
+  def drumReload
+    self.gun.drumReload
+  end
+
+  def timeBetweenShots
+    self.gun.timeBetweenShots
+  end
+
+  def burstDamage
+    self.roundsInDrum * self.gun.damage
+  end
+
+  def burstLength
+    self.roundsInDrum * self.timeBetweenShots
+  end
+
+  def loadLimit
+    self.suspension.loadLimit
+  end
+
+  def viewRange
+    if @hasTurret
+      self.turret.viewRange
+    else
+      self.hull.viewRange
+    end
+  end
+
+  def horsepower
+    self.engine.horsepower
+  end
+
+  def fireChance
+    self.engine.fireChance
+  end
+
+  def signalRange
+    self.radio.signalRange
+  end
+
+  def hullTraverse
+    self.hull.traverseSpeed
+  end
+
+  def turretTraverse
+    self.turret.traverseSpeed
+  end
+
+  def hardTerrainResistance
+    self.suspension.hardTerrainResistance
+  end
+
+  def mediumTerrainResistance
+    self.suspension.mediumTerrainResistance
+  end
+
+  def softTerrainResistance
+    self.suspension.softTerrainResistance
+  end
+
+  def hitpoints
+    if @hasTurret
+      self.baseHitpoints + self.turret.additionalHP
+    else
+      self.baseHitpoints
+    end
+  end
+
+  def weight
+    final = @hull.weight + @gun.weight + @suspension.weight + 
+      @radio.weight + @engine.weight
+    final += @turret.weight if @hasTurret
+  end
+
+  def specificPower
+    self.horsepower / self.weight
+  end
+
+  def damagePerMinute
+    self.gun.rateOfFire * self.gun.damage
+  end
+
+  def reloadTime
+    60.0 / self.rateOfFire
+  end
+
+  def alphaDamage
+    self.gun.damage
+  end
+
+  def frontalHullArmor
+    self.hull.frontArmor
+  end
+
+  def sideHullArmor
+    self.hull.sideArmor
+  end
+
+  def rearHullArmor
+    self.hull.rearArmor
+  end
+
+  def frontalTurretArmor
+    self.turret.frontArmor
+  end
+
+  def sideTurretArmor
+    self.turret.sideArmor
+  end
+
+  def rearTurretArmor
+    self.turret.rearArmor
   end
 
 end

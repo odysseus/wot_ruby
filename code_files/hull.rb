@@ -4,7 +4,7 @@ require './gun.rb'
 class Hull 
 
   attr_accessor :frontArmor, :sideArmor, :rearArmor, :gun, :viewRange,
-    :availableGuns
+    :availableGuns, :weight
 
   @@hulls = 0
 

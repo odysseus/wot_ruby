@@ -41,5 +41,10 @@ puts "Suspenstions: #{Suspension.count}"
 puts "Modules: #{Module.count}"
 puts "\n"
 
-test = tanks.tier5.heavyTanks.first
+test = tanks.tier8.mediumTanks.first
+puts test
+puts test.radio
 puts test.gun
+puts test.engine
+puts test.suspension
+puts test.turret
