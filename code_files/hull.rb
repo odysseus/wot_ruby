@@ -27,5 +27,9 @@ class Hull
   def self.count
     @@hulls
   end
+  
+  def self.to_s
+    "Hull"
+  end
 
 end

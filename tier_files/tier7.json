@@ -37,6 +37,7 @@
           "viewRange": 350,
           "availableGuns": {
             "_90mm_canon_dca_30_ca": {
+              "autoloader": false,
               "name": "90 mm AC canon DCA 30",
               "tier": 7,
               "rateOfFire": 9.523809523809524,
@@ -82,6 +83,7 @@
               "modScore": 28983.571428571428
             },
             "_90mm_canon_dca_45_ac": {
+              "autoloader": false,
               "name": "90 mm AC DCA 45",
               "tier": 8,
               "rateOfFire": 8.695652173913043,
@@ -127,6 +129,7 @@
               "modScore": 34842.934782608696
             },
             "_100mm_sa_47_ac": {
+              "autoloader": false,
               "name": "100 mm AC SA47",
               "tier": 8,
               "rateOfFire": 6.0,
@@ -306,6 +309,7 @@
           "viewRange": 360,
           "availableGuns": {
             "_75mm_stuk42_l70a": {
+              "autoloader": false,
               "name": "7,5 cm Pak 42 L/70",
               "tier": 6,
               "rateOfFire": 20.0,
@@ -435,6 +439,7 @@
           "viewRange": 370,
           "availableGuns": {
             "_75mm_stuk42_l70": {
+              "autoloader": false,
               "name": "7,5 cm Pak 42 L/70",
               "tier": 6,
               "rateOfFire": 15.789473684210527,
@@ -480,6 +485,7 @@
               "modScore": 25621.118421052633
             },
             "_88mm_pak_36_l56": {
+              "autoloader": false,
               "name": "8,8 cm Pak L/56",
               "tier": 7,
               "rateOfFire": 11.11111111111111,
@@ -525,6 +531,7 @@
               "modScore": 28857.916666666664
             },
             "_88mm_pak_43_l71": {
+              "autoloader": false,
               "name": "8,8 cm Pak 43 L/71",
               "tier": 8,
               "rateOfFire": 9.836065573770492,
@@ -570,6 +577,7 @@
               "modScore": 34843.483606557376
             },
             "_105mm_k18_l52": {
+              "autoloader": false,
               "name": "10,5 cm Pak L/52",
               "tier": 8,
               "rateOfFire": 7.317073170731708,
@@ -748,6 +756,7 @@
           "viewRange": 400,
           "availableGuns": {
             "_105mm_k18_l52_r": {
+              "autoloader": false,
               "name": "10,5 cm Kanone 18",
               "tier": 8,
               "rateOfFire": 7.5,
@@ -793,6 +802,7 @@
               "modScore": 33667.5
             },
             "_128mm_sf_l61": {
+              "autoloader": false,
               "name": "12,8 cm Kanone 40",
               "tier": 9,
               "rateOfFire": 4.3478260869565215,
@@ -964,6 +974,7 @@
           "viewRange": 350,
           "availableGuns": {
             "_17pdr_oqf_at": {
+              "autoloader": false,
               "name": "OQF 17-pdr AT Gun Mk. VII",
               "tier": 7,
               "rateOfFire": 13.953488372093023,
@@ -1142,6 +1153,7 @@
               "modScore": 19780.0
             },
             "oqf_77mm_at_gun_mkii": {
+              "autoloader": false,
               "name": "OQF 77 mm AT Gun Mk. II",
               "tier": 7,
               "rateOfFire": 18.181818181818183,
@@ -1187,6 +1199,7 @@
               "modScore": 28743.181818181816
             },
             "_17pdr_oqf_at_1": {
+              "autoloader": false,
               "name": "OQF 17-pdr AT Gun Mk. VII",
               "tier": 7,
               "rateOfFire": 15.789473684210527,
@@ -1232,6 +1245,7 @@
               "modScore": 29835.131578947367
             },
             "_20pdr_at_gun_type_a": {
+              "autoloader": false,
               "name": "OQF 20-pdr AT Gun Type A Barrel",
               "tier": 8,
               "rateOfFire": 10.344827586206897,
@@ -1446,6 +1460,7 @@
             "additionalHP": 160,
             "availableGuns": {
               "_90mm_at_gun_m3": {
+                "autoloader": false,
                 "name": "90 mm AT Gun M3",
                 "tier": 7,
                 "rateOfFire": 7.792207792207792,
@@ -1517,6 +1532,7 @@
             "additionalHP": 210,
             "availableGuns": {
               "_90mm_at_gun_m3": {
+                "autoloader": false,
                 "name": "90 mm AT Gun M3",
                 "tier": 7,
                 "rateOfFire": 7.792207792207792,
@@ -1562,6 +1578,7 @@
                 "modScore": 29735.194805194806
               },
               "_90mm_at_gun_t15e2": {
+                "autoloader": false,
                 "name": "90 mm AT Gun T15E2",
                 "tier": 8,
                 "rateOfFire": 7.792207792207792,
@@ -1731,6 +1748,7 @@
           "viewRange": 350,
           "availableGuns": {
             "_90mm_at_gun_m3": {
+              "autoloader": false,
               "name": "90 mm AT Gun M3",
               "tier": 7,
               "rateOfFire": 8.219178082191782,
@@ -1776,6 +1794,7 @@
               "modScore": 29920.154109589042
             },
             "_90mm_at_gun_t15e2": {
+              "autoloader": false,
               "name": "90 mm AT Gun T15E2",
               "tier": 8,
               "rateOfFire": 8.219178082191782,
@@ -1821,6 +1840,7 @@
               "modScore": 32945.15410958904
             },
             "_105mm_at_gun_t5e1": {
+              "autoloader": false,
               "name": "105 mm AT Gun T5E1",
               "tier": 8,
               "rateOfFire": 6.593406593406594,
@@ -1989,6 +2009,7 @@
           "viewRange": 330,
           "availableGuns": {
             "_152mm_ml-20_mod_1937": {
+              "autoloader": false,
               "name": "152 mm ML-20 mod. 1931/37",
               "tier": 6,
               "rateOfFire": 3.3898305084745766,
@@ -2034,6 +2055,7 @@
               "modScore": 31694.322033898305
             },
             "_122mm_a-19": {
+              "autoloader": false,
               "name": "122 mm A-19 mod. 1937",
               "tier": 7,
               "rateOfFire": 6.666666666666667,
@@ -2079,6 +2101,7 @@
               "modScore": 32628.75
             },
             "_122mm_d-25c_mod1944": {
+              "autoloader": false,
               "name": "122 mm D-25 mod. 1944",
               "tier": 8,
               "rateOfFire": 8.108108108108107,
@@ -2257,6 +2280,7 @@
           "viewRange": 330,
           "availableGuns": {
             "_122-mm_d-25s_with_wedges_shutter_a": {
+              "autoloader": false,
               "name": "122 mm D-25S",
               "tier": 8,
               "rateOfFire": 7.5,
@@ -2386,6 +2410,7 @@
           "viewRange": 360,
           "availableGuns": {
             "_100mm_d10s_obr_44": {
+              "autoloader": false,
               "name": "100 mm D-10S mod. 1944",
               "tier": 7,
               "rateOfFire": 8.219178082191782,
@@ -2431,6 +2456,7 @@
               "modScore": 30663.44178082192
             },
             "_100mm_lb-1s": {
+              "autoloader": false,
               "name": "100 mm LB-1C",
               "tier": 7,
               "rateOfFire": 8.695652173913043,
@@ -2637,6 +2663,7 @@
             "additionalHP": 246,
             "availableGuns": {
               "_100mm_44-100jt": {
+                "autoloader": false,
                 "name": "100 mm 44-100JT",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -2682,6 +2709,7 @@
                 "modScore": 29079.354838709678
               },
               "_122-mm_37-122jt": {
+                "autoloader": false,
                 "name": "122 mm 37-122JT",
                 "tier": 8,
                 "rateOfFire": 4.285714285714286,
@@ -2727,6 +2755,7 @@
                 "modScore": 33154.642857142855
               },
               "_122-mm_d25-t": {
+                "autoloader": false,
                 "name": "122 mm D-25T",
                 "tier": 8,
                 "rateOfFire": 4.878048780487805,
@@ -2798,6 +2827,7 @@
             "additionalHP": 296,
             "availableGuns": {
               "_100mm_44-100jt": {
+                "autoloader": false,
                 "name": "100 mm 44-100JT",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -2843,6 +2873,7 @@
                 "modScore": 29079.354838709678
               },
               "_122-mm_37-122jt": {
+                "autoloader": false,
                 "name": "122 mm 37-122JT",
                 "tier": 8,
                 "rateOfFire": 4.285714285714286,
@@ -2888,6 +2919,7 @@
                 "modScore": 33154.642857142855
               },
               "_122-mm_d25-t": {
+                "autoloader": false,
                 "name": "122 mm D-25T",
                 "tier": 8,
                 "rateOfFire": 4.878048780487805,
@@ -3103,6 +3135,7 @@
             "additionalHP": 220,
             "availableGuns": {
               "_90mm_canon_dca_30": {
+                "autoloader": false,
                 "name": "90 mm DCA 30",
                 "tier": 7,
                 "rateOfFire": 7.894736842105264,
@@ -3148,6 +3181,7 @@
                 "modScore": 27824.605263157893
               },
               "_90mm_f3": {
+                "autoloader": false,
                 "name": "90 mm F3",
                 "tier": 7,
                 "rateOfFire": 6.976744186046512,
@@ -3193,6 +3227,7 @@
                 "modScore": 29362.877906976744
               },
               "_105mm_canon_13tr": {
+                "autoloader": false,
                 "name": "105 mm Canon 13TR",
                 "tier": 7,
                 "rateOfFire": 6.0,
@@ -3264,6 +3299,7 @@
             "additionalHP": 320,
             "availableGuns": {
               "_90mm_canon_dca_30": {
+                "autoloader": false,
                 "name": "90 mm DCA 30",
                 "tier": 7,
                 "rateOfFire": 8.219178082191782,
@@ -3309,6 +3345,7 @@
                 "modScore": 27941.404109589042
               },
               "_90mm_f3": {
+                "autoloader": false,
                 "name": "90 mm F3",
                 "tier": 7,
                 "rateOfFire": 7.5,
@@ -3354,6 +3391,7 @@
                 "modScore": 29582.5
               },
               "_90mm_canon_dca_45": {
+                "autoloader": false,
                 "name": "90 mm DCA 45",
                 "tier": 8,
                 "rateOfFire": 6.976744186046512,
@@ -3399,6 +3437,7 @@
                 "modScore": 33651.62790697675
               },
               "_105mm_canon_13tr": {
+                "autoloader": false,
                 "name": "105 mm Canon 13TR",
                 "tier": 7,
                 "rateOfFire": 6.25,
@@ -3604,6 +3643,7 @@
             "additionalHP": 270,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 13.043478260869566,
@@ -3649,6 +3689,7 @@
                 "modScore": 24492.554347826088
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -3694,6 +3735,7 @@
                 "modScore": 21373.75
               },
               "_88mm_kwk_36_l56": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 36 L/56",
                 "tier": 7,
                 "rateOfFire": 8.571428571428571,
@@ -3739,6 +3781,7 @@
                 "modScore": 27416.071428571428
               },
               "_88mm_kwk_43_l71": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 43 L/71",
                 "tier": 8,
                 "rateOfFire": 6.593406593406594,
@@ -3810,6 +3853,7 @@
             "additionalHP": 370,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 13.043478260869566,
@@ -3855,6 +3899,7 @@
                 "modScore": 24492.554347826088
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -3900,6 +3945,7 @@
                 "modScore": 21373.75
               },
               "_88mm_kwk_36_l56": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 36 L/56",
                 "tier": 7,
                 "rateOfFire": 9.090909090909092,
@@ -3945,6 +3991,7 @@
                 "modScore": 27587.5
               },
               "_88mm_kwk_43_l71": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 43 L/71",
                 "tier": 8,
                 "rateOfFire": 6.976744186046512,
@@ -4150,6 +4197,7 @@
             "additionalHP": 280,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 15.0,
@@ -4195,6 +4243,7 @@
                 "modScore": 24888.75
               },
               "_88mm_kwk_36_l56": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 36 L/56",
                 "tier": 7,
                 "rateOfFire": 9.523809523809524,
@@ -4240,6 +4289,7 @@
                 "modScore": 27730.357142857145
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -4311,6 +4361,7 @@
             "additionalHP": 380,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 15.0,
@@ -4356,6 +4407,7 @@
                 "modScore": 24888.75
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -4401,6 +4453,7 @@
                 "modScore": 21373.75
               },
               "_88mm_kwk_36_l56": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 36 L/56",
                 "tier": 7,
                 "rateOfFire": 10.909090909090908,
@@ -4446,6 +4499,7 @@
                 "modScore": 28187.5
               },
               "_88mm_kwk_43_l71": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 43 L/71",
                 "tier": 8,
                 "rateOfFire": 8.955223880597014,
@@ -4650,6 +4704,7 @@
             "additionalHP": 290,
             "availableGuns": {
               "oqf_77mm_gun_mkii": {
+                "autoloader": false,
                 "name": "OQF 77 mm Gun Mk. II",
                 "tier": 7,
                 "rateOfFire": 14.285714285714285,
@@ -4695,6 +4750,7 @@
                 "modScore": 27352.5
               },
               "oqf_17pdr_gun_mk_vii": {
+                "autoloader": false,
                 "name": "OQF 17-pdr Gun Mk. VII",
                 "tier": 7,
                 "rateOfFire": 12.0,
@@ -4899,6 +4955,7 @@
             "additionalHP": 230,
             "availableGuns": {
               "_76mm_gun_m1a2": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A2",
                 "tier": 6,
                 "rateOfFire": 16.666666666666668,
@@ -4944,6 +5001,7 @@
                 "modScore": 23115.0
               },
               "_90mm_gun_m3": {
+                "autoloader": false,
                 "name": "90 mm Gun M3",
                 "tier": 7,
                 "rateOfFire": 7.894736842105264,
@@ -4989,6 +5047,7 @@
                 "modScore": 29199.605263157893
               },
               "_105mm_gun_t5e1": {
+                "autoloader": false,
                 "name": "105 mm Gun T5E1",
                 "tier": 8,
                 "rateOfFire": 4.37956204379562,
@@ -5060,6 +5119,7 @@
             "additionalHP": 330,
             "availableGuns": {
               "_76mm_gun_m1a2": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A2",
                 "tier": 6,
                 "rateOfFire": 16.666666666666668,
@@ -5105,6 +5165,7 @@
                 "modScore": 23115.0
               },
               "_90mm_gun_m3": {
+                "autoloader": false,
                 "name": "90 mm Gun M3",
                 "tier": 7,
                 "rateOfFire": 7.894736842105264,
@@ -5150,6 +5211,7 @@
                 "modScore": 29199.605263157893
               },
               "_105mm_gun_t5e1": {
+                "autoloader": false,
                 "name": "105 mm Gun T5E1",
                 "tier": 8,
                 "rateOfFire": 5.263157894736842,
@@ -5355,6 +5417,7 @@
             "additionalHP": 226,
             "availableGuns": {
               "_85mm_d-5t": {
+                "autoloader": false,
                 "name": "85 mm D-5T",
                 "tier": 6,
                 "rateOfFire": 12.244897959183673,
@@ -5400,6 +5463,7 @@
                 "modScore": 22736.275510204083
               },
               "_100mm_d10t": {
+                "autoloader": false,
                 "name": "100 mm D10T",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -5445,6 +5509,7 @@
                 "modScore": 29079.354838709678
               },
               "_85mm_d5t-85bm": {
+                "autoloader": false,
                 "name": "85 mm D5T-85BM",
                 "tier": 7,
                 "rateOfFire": 10.344827586206897,
@@ -5516,6 +5581,7 @@
             "additionalHP": 326,
             "availableGuns": {
               "_85mm_d-5t": {
+                "autoloader": false,
                 "name": "85 mm D-5T",
                 "tier": 6,
                 "rateOfFire": 12.244897959183673,
@@ -5561,6 +5627,7 @@
                 "modScore": 22736.275510204083
               },
               "_85mm_d5t-85bm": {
+                "autoloader": false,
                 "name": "85 mm D5T-85BM",
                 "tier": 7,
                 "rateOfFire": 10.344827586206897,
@@ -5606,6 +5673,7 @@
                 "modScore": 26931.853448275862
               },
               "_100mm_d10t": {
+                "autoloader": false,
                 "name": "100 mm D10T",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -5651,6 +5719,7 @@
                 "modScore": 29079.354838709678
               },
               "_122-mm_d-25t_with_a_piston_shutter": {
+                "autoloader": false,
                 "name": "122 mm D-2-5T",
                 "tier": 7,
                 "rateOfFire": 4.081632653061225,
@@ -5696,6 +5765,7 @@
                 "modScore": 30597.755102040817
               },
               "_122-mm_d-25t_with_wedges_shutter": {
+                "autoloader": false,
                 "name": "122 mm D-25T",
                 "tier": 8,
                 "rateOfFire": 4.878048780487805,
@@ -5890,6 +5960,7 @@
             "additionalHP": 260,
             "availableGuns": {
               "_85mm_f-30": {
+                "autoloader": false,
                 "name": "85 mm F-30",
                 "tier": 6,
                 "rateOfFire": 11.764705882352942,
@@ -5935,6 +6006,7 @@
                 "modScore": 22321.029411764706
               },
               "_107mm_zis-6": {
+                "autoloader": false,
                 "name": "107 mm ZiS-6",
                 "tier": 7,
                 "rateOfFire": 6.185567010309279,
@@ -5980,6 +6052,7 @@
                 "modScore": 29254.755154639177
               },
               "_85mm_s-31": {
+                "autoloader": false,
                 "name": "85 mm S-31",
                 "tier": 6,
                 "rateOfFire": 11.764705882352942,
@@ -6051,6 +6124,7 @@
             "additionalHP": 360,
             "availableGuns": {
               "_85mm_f-30": {
+                "autoloader": false,
                 "name": "85 mm F-30",
                 "tier": 6,
                 "rateOfFire": 11.764705882352942,
@@ -6096,6 +6170,7 @@
                 "modScore": 22321.029411764706
               },
               "_100mm_d10t": {
+                "autoloader": false,
                 "name": "100 mm D10T",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -6141,6 +6216,7 @@
                 "modScore": 29079.354838709678
               },
               "_107mm_zis-6": {
+                "autoloader": false,
                 "name": "107 mm ZiS-6",
                 "tier": 7,
                 "rateOfFire": 6.185567010309279,
@@ -6186,6 +6262,7 @@
                 "modScore": 29254.755154639177
               },
               "_85mm_s-31": {
+                "autoloader": false,
                 "name": "85 mm S-31",
                 "tier": 6,
                 "rateOfFire": 11.764705882352942,
@@ -6231,6 +6308,7 @@
                 "modScore": 22268.529411764706
               },
               "_122-mm_d-25t_with_a_piston_shutter": {
+                "autoloader": false,
                 "name": "122 mm D-2-5T",
                 "tier": 7,
                 "rateOfFire": 4.081632653061225,
@@ -6276,6 +6354,7 @@
                 "modScore": 30597.755102040817
               },
               "_122-mm_d-25t_with_wedges_shutter": {
+                "autoloader": false,
                 "name": "122 mm D-25T",
                 "tier": 8,
                 "rateOfFire": 4.878048780487805,
@@ -6503,6 +6582,7 @@
             "additionalHP": 176,
             "availableGuns": {
               "_85mm_tip_62-85ts": {
+                "autoloader": false,
                 "name": "85 mm Type 62",
                 "tier": 7,
                 "rateOfFire": 10.526315789473683,
@@ -6707,6 +6787,7 @@
                 "modScore": 21488.5
               },
               "_85mm_tip_56-85jt": {
+                "autoloader": false,
                 "name": "85 mm 56-85JT",
                 "tier": 6,
                 "rateOfFire": 10.526315789473683,
@@ -6827,6 +6908,7 @@
                 "modScore": 21488.5
               },
               "_85mm_tip_56-85jt": {
+                "autoloader": false,
                 "name": "85 mm 56-85JT",
                 "tier": 6,
                 "rateOfFire": 10.526315789473683,
@@ -6872,6 +6954,7 @@
                 "modScore": 23503.815789473683
               },
               "_85mm_tip_62-85t": {
+                "autoloader": false,
                 "name": "85 mm 62-85T",
                 "tier": 7,
                 "rateOfFire": 10.526315789473683,
@@ -6917,6 +7000,7 @@
                 "modScore": 27543.355263157893
               },
               "_85mm_tip_64-85t": {
+                "autoloader": false,
                 "name": "85 mm 64-85T",
                 "tier": 8,
                 "rateOfFire": 10.526315789473683,
@@ -6962,6 +7046,7 @@
                 "modScore": 31425.394736842107
               },
               "_100mm_59-100t": {
+                "autoloader": false,
                 "name": "100 mm 59-100T",
                 "tier": 8,
                 "rateOfFire": 6.451612903225806,
@@ -7414,6 +7499,7 @@
             "additionalHP": 170,
             "availableGuns": {
               "_50mm_kwk_39_l60": {
+                "autoloader": false,
                 "name": "5 cm Kw.K. 39 L/60",
                 "tier": 4,
                 "rateOfFire": 26.086956521739133,
@@ -7485,6 +7571,7 @@
             "additionalHP": 270,
             "availableGuns": {
               "_50mm_kwk_39_l60": {
+                "autoloader": false,
                 "name": "5 cm Kw.K. 39 L/60",
                 "tier": 4,
                 "rateOfFire": 26.086956521739133,
@@ -7530,6 +7617,7 @@
                 "modScore": 14642.880434782608
               },
               "_75mm_kwk_40_l48": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 40 L/48",
                 "tier": 5,
                 "rateOfFire": 17.647058823529413,
@@ -7575,6 +7663,7 @@
                 "modScore": 20173.014705882353
               },
               "_75mm_kwk41_l58_conic": {
+                "autoloader": false,
                 "name": "7,5/5,5 cm Waffe 0725",
                 "tier": 7,
                 "rateOfFire": 15.0,
@@ -7613,6 +7702,7 @@
                 "modScore": 28042.5
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -8077,6 +8167,7 @@
             "additionalHP": 192,
             "availableGuns": {
               "_85mm_s-53": {
+                "autoloader": false,
                 "name": "85 mm S-53",
                 "tier": 6,
                 "rateOfFire": 12.0,
@@ -8122,6 +8213,7 @@
                 "modScore": 23117.5
               },
               "_85mm_tip_56-85jt": {
+                "autoloader": false,
                 "name": "85 mm 56-85JT",
                 "tier": 6,
                 "rateOfFire": 12.0,
@@ -8193,6 +8285,7 @@
             "additionalHP": 282,
             "availableGuns": {
               "_85mm_s-53": {
+                "autoloader": false,
                 "name": "85 mm S-53",
                 "tier": 6,
                 "rateOfFire": 13.333333333333334,
@@ -8238,6 +8331,7 @@
                 "modScore": 23947.5
               },
               "_85mm_tip_56-85jt": {
+                "autoloader": false,
                 "name": "85 mm 56-85JT",
                 "tier": 6,
                 "rateOfFire": 13.333333333333334,
@@ -8283,6 +8377,7 @@
                 "modScore": 24177.5
               },
               "_100mm_44-100jt": {
+                "autoloader": false,
                 "name": "100 mm 44-100JT",
                 "tier": 7,
                 "rateOfFire": 6.451612903225806,
@@ -8488,6 +8583,7 @@
             "additionalHP": 240,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 14.285714285714285,
@@ -8533,6 +8629,7 @@
                 "modScore": 24744.107142857145
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -8578,6 +8675,7 @@
                 "modScore": 21373.75
               },
               "_75mm_kwk45_l100": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. L/100",
                 "tier": 8,
                 "rateOfFire": 13.043478260869566,
@@ -8649,6 +8747,7 @@
             "additionalHP": 340,
             "availableGuns": {
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 15.0,
@@ -8694,6 +8793,7 @@
                 "modScore": 24888.75
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -8739,6 +8839,7 @@
                 "modScore": 21373.75
               },
               "_75mm_kwk45_l100": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. L/100",
                 "tier": 8,
                 "rateOfFire": 13.636363636363635,
@@ -8943,6 +9044,7 @@
             "additionalHP": 260,
             "availableGuns": {
               "_75mm_kwk_l70_a": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 13.333333333333334,
@@ -9098,6 +9200,7 @@
             "additionalHP": 230,
             "availableGuns": {
               "_75mm_kwk_40_l48": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 40 L/48",
                 "tier": 5,
                 "rateOfFire": 15.0,
@@ -9143,6 +9246,7 @@
                 "modScore": 19226.25
               },
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 13.636363636363635,
@@ -9214,6 +9318,7 @@
             "additionalHP": 330,
             "availableGuns": {
               "_75mm_kwk_40_l48": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 40 L/48",
                 "tier": 5,
                 "rateOfFire": 16.666666666666668,
@@ -9259,6 +9364,7 @@
                 "modScore": 19501.25
               },
               "_75mm_kwk_l70": {
+                "autoloader": false,
                 "name": "7,5 cm Kw.K. 42 L/70",
                 "tier": 6,
                 "rateOfFire": 15.0,
@@ -9304,6 +9410,7 @@
                 "modScore": 24888.75
               },
               "_88mm_kwk_36_l56": {
+                "autoloader": false,
                 "name": "8,8 cm Kw.K. 36 L/56",
                 "tier": 7,
                 "rateOfFire": 9.375,
@@ -9349,6 +9456,7 @@
                 "modScore": 27681.25
               },
               "_105mm_stuh42_l28pz": {
+                "autoloader": false,
                 "name": "10,5 cm Kw.K. L/28",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -9564,6 +9672,7 @@
             "additionalHP": 230,
             "availableGuns": {
               "_75mm_gun_type5": {
+                "autoloader": false,
                 "name": "7.5 cm Tank Gun Type 5",
                 "tier": 5,
                 "rateOfFire": 12.76595744680851,
@@ -9609,6 +9718,7 @@
                 "modScore": 20368.617021276594
               },
               "_75mm_gun_type5_m1": {
+                "autoloader": false,
                 "name": "7.5 cm Tank Gun Type 5 Model I",
                 "tier": 6,
                 "rateOfFire": 15.789473684210527,
@@ -9680,6 +9790,7 @@
             "additionalHP": 330,
             "availableGuns": {
               "_75mm_gun_type5": {
+                "autoloader": false,
                 "name": "7.5 cm Tank Gun Type 5",
                 "tier": 5,
                 "rateOfFire": 13.333333333333334,
@@ -9725,6 +9836,7 @@
                 "modScore": 20846.25
               },
               "_75mm_gun_type5_m1": {
+                "autoloader": false,
                 "name": "7.5 cm Tank Gun Type 5 Model I",
                 "tier": 6,
                 "rateOfFire": 16.666666666666668,
@@ -9988,6 +10100,7 @@
             "additionalHP": 210,
             "availableGuns": {
               "_75mm_gun_mk_v": {
+                "autoloader": false,
                 "name": "75 mm Gun Mk. V",
                 "tier": 5,
                 "rateOfFire": 20.0,
@@ -10033,6 +10146,7 @@
                 "modScore": 19331.25
               },
               "_3.7inch_howitzer": {
+                "autoloader": false,
                 "name": "3.7-inch Howitzer",
                 "tier": 5,
                 "rateOfFire": 8.571428571428571,
@@ -10071,6 +10185,7 @@
                 "modScore": 21663.392857142855
               },
               "_75mm_gun_vickers_hv": {
+                "autoloader": false,
                 "name": "75 mm Vickers HV",
                 "tier": 6,
                 "rateOfFire": 15.384615384615385,
@@ -10142,6 +10257,7 @@
             "additionalHP": 310,
             "availableGuns": {
               "_75mm_gun_mk_v": {
+                "autoloader": false,
                 "name": "75 mm Gun Mk. V",
                 "tier": 5,
                 "rateOfFire": 20.0,
@@ -10187,6 +10303,7 @@
                 "modScore": 19733.75
               },
               "_3.7inch_howitzer": {
+                "autoloader": false,
                 "name": "3.7-inch Howitzer",
                 "tier": 5,
                 "rateOfFire": 8.571428571428571,
@@ -10225,6 +10342,7 @@
                 "modScore": 21725.892857142855
               },
               "_75mm_gun_vickers_hv": {
+                "autoloader": false,
                 "name": "75 mm Vickers HV",
                 "tier": 6,
                 "rateOfFire": 15.384615384615385,
@@ -10270,6 +10388,7 @@
                 "modScore": 24735.384615384617
               },
               "oqf_77mm_gun_mkii": {
+                "autoloader": false,
                 "name": "OQF 77 mm Gun Mk. II",
                 "tier": 7,
                 "rateOfFire": 15.384615384615385,
@@ -10474,6 +10593,7 @@
             "additionalHP": 200,
             "availableGuns": {
               "_76mm_gun_m1a1": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A1",
                 "tier": 6,
                 "rateOfFire": 14.285714285714285,
@@ -10519,6 +10639,7 @@
                 "modScore": 22610.535714285714
               },
               "_76mm_gun_m1a2": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A2",
                 "tier": 6,
                 "rateOfFire": 18.181818181818183,
@@ -10590,6 +10711,7 @@
             "additionalHP": 300,
             "availableGuns": {
               "_76mm_gun_m1a1": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A1",
                 "tier": 6,
                 "rateOfFire": 14.285714285714285,
@@ -10635,6 +10757,7 @@
                 "modScore": 22610.535714285714
               },
               "_76mm_gun_m1a2": {
+                "autoloader": false,
                 "name": "76 mm Gun M1A2",
                 "tier": 6,
                 "rateOfFire": 18.181818181818183,
@@ -10680,6 +10803,7 @@
                 "modScore": 23376.363636363636
               },
               "_105mm_sph_m4_l23": {
+                "autoloader": false,
                 "name": "105 mm M4",
                 "tier": 5,
                 "rateOfFire": 7.5,
@@ -10718,6 +10842,7 @@
                 "modScore": 22371.25
               },
               "_90mm_gun_m3": {
+                "autoloader": false,
                 "name": "90 mm Gun M3",
                 "tier": 7,
                 "rateOfFire": 6.382978723404255,
@@ -10912,6 +11037,7 @@
             "additionalHP": 200,
             "availableGuns": {
               "_76mm_f-34": {
+                "autoloader": false,
                 "name": "76 mm F-34",
                 "tier": 4,
                 "rateOfFire": 18.181818181818183,
@@ -10957,6 +11083,7 @@
                 "modScore": 16112.5
               },
               "_57mm_zis-4": {
+                "autoloader": false,
                 "name": "57 mm ZiS-4",
                 "tier": 5,
                 "rateOfFire": 26.086956521739133,
@@ -11002,6 +11129,7 @@
                 "modScore": 20303.58695652174
               },
               "_76mm_s-54": {
+                "autoloader": false,
                 "name": "76 mm S-54",
                 "tier": 5,
                 "rateOfFire": 18.181818181818183,
@@ -11047,6 +11175,7 @@
                 "modScore": 21027.613636363636
               },
               "_107mm_zis-6": {
+                "autoloader": false,
                 "name": "107 mm ZiS-6",
                 "tier": 7,
                 "rateOfFire": 5.714285714285714,
@@ -11118,6 +11247,7 @@
             "additionalHP": 300,
             "availableGuns": {
               "_76mm_f-34": {
+                "autoloader": false,
                 "name": "76 mm F-34",
                 "tier": 4,
                 "rateOfFire": 18.181818181818183,
@@ -11163,6 +11293,7 @@
                 "modScore": 16112.5
               },
               "_57mm_zis-4": {
+                "autoloader": false,
                 "name": "57 mm ZiS-4",
                 "tier": 5,
                 "rateOfFire": 26.086956521739133,
@@ -11208,6 +11339,7 @@
                 "modScore": 20303.58695652174
               },
               "_76mm_s-54": {
+                "autoloader": false,
                 "name": "76 mm S-54",
                 "tier": 5,
                 "rateOfFire": 18.181818181818183,
@@ -11253,6 +11385,7 @@
                 "modScore": 21027.613636363636
               },
               "_107mm_zis-6": {
+                "autoloader": false,
                 "name": "107 mm ZiS-6",
                 "tier": 7,
                 "rateOfFire": 5.714285714285714,
@@ -11447,6 +11580,7 @@
             "additionalHP": 204,
             "availableGuns": {
               "_76mm_zis-5": {
+                "autoloader": false,
                 "name": "76 mm ZiS-5",
                 "tier": 5,
                 "rateOfFire": 16.666666666666668,
@@ -11492,6 +11626,7 @@
                 "modScore": 18022.5
               },
               "_76mm_s-54": {
+                "autoloader": false,
                 "name": "76 mm S-54",
                 "tier": 5,
                 "rateOfFire": 16.666666666666668,
@@ -11563,6 +11698,7 @@
             "additionalHP": 304,
             "availableGuns": {
               "_76mm_zis-5": {
+                "autoloader": false,
                 "name": "76 mm ZiS-5",
                 "tier": 5,
                 "rateOfFire": 16.666666666666668,
@@ -11608,6 +11744,7 @@
                 "modScore": 18022.5
               },
               "_76mm_s-54": {
+                "autoloader": false,
                 "name": "76 mm S-54",
                 "tier": 5,
                 "rateOfFire": 16.666666666666668,
@@ -11653,6 +11790,7 @@
                 "modScore": 19916.25
               },
               "_85mm_d-5t": {
+                "autoloader": false,
                 "name": "85 mm D-5T",
                 "tier": 6,
                 "rateOfFire": 12.0,
@@ -11698,6 +11836,7 @@
                 "modScore": 22677.5
               },
               "_85mm_d5t-85bm": {
+                "autoloader": false,
                 "name": "85 mm D5T-85BM",
                 "tier": 7,
                 "rateOfFire": 10.169491525423728,
@@ -11743,6 +11882,7 @@
                 "modScore": 27394.51271186441
               },
               "_122mm_cannon_u-11": {
+                "autoloader": false,
                 "name": "122 mm U-11",
                 "tier": 5,
                 "rateOfFire": 5.263157894736842,
@@ -11930,6 +12070,7 @@
             "additionalHP": 200,
             "availableGuns": {
               "_85mm_zis_s-53": {
+                "autoloader": false,
                 "name": "85 mm S-53",
                 "tier": 6,
                 "rateOfFire": 12.0,
@@ -11975,6 +12116,7 @@
                 "modScore": 23117.5
               },
               "_122mm_cannon_u-11": {
+                "autoloader": false,
                 "name": "122 mm U-11",
                 "tier": 5,
                 "rateOfFire": 5.263157894736842,
@@ -12039,6 +12181,7 @@
             "additionalHP": 300,
             "availableGuns": {
               "_85mm_zis_s-53": {
+                "autoloader": false,
                 "name": "85 mm S-53",
                 "tier": 6,
                 "rateOfFire": 12.5,
@@ -12084,6 +12227,7 @@
                 "modScore": 23747.5
               },
               "_122mm_cannon_u-11": {
+                "autoloader": false,
                 "name": "122 mm U-11",
                 "tier": 5,
                 "rateOfFire": 5.357142857142858,
@@ -12122,6 +12266,7 @@
                 "modScore": 21822.321428571428
               },
               "_85mm_d5t-85bm": {
+                "autoloader": false,
                 "name": "85 mm D5T-85BM",
                 "tier": 7,
                 "rateOfFire": 11.11111111111111,
@@ -12304,6 +12449,7 @@
           "viewRange": 350,
           "availableGuns": {
             "canon_de_155mm_de_33_calibres": {
+              "autoloader": false,
               "name": "Canon de 155 mm de 33 calibres",
               "tier": 6,
               "rateOfFire": 2.013422818791946,
@@ -12342,6 +12488,7 @@
               "modScore": 28456.627516778524
             },
             "obusier_de_155mm_mle.1950": {
+              "autoloader": false,
               "name": "Obusier de 155 mm mle. 1950",
               "tier": 7,
               "rateOfFire": 2.013422818791946,
@@ -12510,6 +12657,7 @@
           "viewRange": 370,
           "availableGuns": {
             "_150mm_sfh18_l30": {
+              "autoloader": false,
               "name": "15 cm s.F.H. 18 L/29.5",
               "tier": 6,
               "rateOfFire": 2.1052631578947367,
@@ -12548,6 +12696,7 @@
               "modScore": 28450.0
             },
             "_150mm_sfh36_l43": {
+              "autoloader": false,
               "name": "15 cm s.F.H. 43",
               "tier": 7,
               "rateOfFire": 1.7391304347826086,
@@ -12726,6 +12875,7 @@
           "viewRange": 370,
           "availableGuns": {
             "_5.5inch_spg_gun": {
+              "autoloader": false,
               "name": "B.L. 5.5-in. Gun",
               "tier": 7,
               "rateOfFire": 2.142857142857143,
@@ -12907,6 +13057,7 @@
           "viewRange": 370,
           "availableGuns": {
             "_155mm_gun_m1918m1": {
+              "autoloader": false,
               "name": "155 mm Gun M1918M1",
               "tier": 6,
               "rateOfFire": 2.1052631578947367,
@@ -12945,6 +13096,7 @@
               "modScore": 28387.5
             },
             "_155mm_gun_m1a1": {
+              "autoloader": false,
               "name": "155 mm Gun M1A1",
               "tier": 7,
               "rateOfFire": 1.6,
@@ -13127,6 +13279,7 @@
           "viewRange": 360,
           "availableGuns": {
             "_152mm_br-2": {
+              "autoloader": false,
               "name": "152 mm BR-2",
               "tier": 7,
               "rateOfFire": 2.1505376344086025,
@@ -13172,6 +13325,7 @@
               "modScore": 31109.516129032258
             },
             "_203mm_b-4": {
+              "autoloader": false,
               "name": "203 mm B-4",
               "tier": 9,
               "rateOfFire": 1.0810810810810811,
@@ -13351,6 +13505,7 @@
           "viewRange": 360,
           "availableGuns": {
             "_152mm_br-2": {
+              "autoloader": false,
               "name": "152 mm BR-2",
               "tier": 7,
               "rateOfFire": 2.2222222222222223,
@@ -13396,6 +13551,7 @@
               "modScore": 31211.666666666668
             },
             "_203mm_b-4": {
+              "autoloader": false,
               "name": "203 mm B-4",
               "tier": 9,
               "rateOfFire": 1.0810810810810811,

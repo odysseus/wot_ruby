@@ -62,6 +62,7 @@
             "additionalHP": 20,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -175,6 +176,7 @@
             "additionalHP": 30,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -262,6 +264,7 @@
                 "modScore": 1701.0000000000002
               },
               "_37mm_kwk_l46": {
+                "autoloader": false,
                 "name": "37 mm KwK 36 L/46.5",
                 "tier": 1,
                 "rateOfFire": 26.086956521739133,
@@ -467,6 +470,7 @@
             "additionalHP": 21,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -580,6 +584,7 @@
             "additionalHP": 31,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -667,6 +672,7 @@
                 "modScore": 1701.0000000000002
               },
               "_25mm_canon_raccourci_mle.1934": {
+                "autoloader": false,
                 "name": "25 mm Canon Raccourci mle. 1934",
                 "tier": 2,
                 "rateOfFire": 28.57142857142857,
@@ -865,6 +871,7 @@
             "additionalHP": 22,
             "availableGuns": {
               "_37mm_kwk_l46": {
+                "autoloader": false,
                 "name": "3,7 cm Kw.K. 36 L/46.5",
                 "tier": 1,
                 "rateOfFire": 26.086956521739133,
@@ -978,6 +985,7 @@
             "additionalHP": 42,
             "availableGuns": {
               "_37mm_kwk_l46": {
+                "autoloader": false,
                 "name": "3,7 cm Kw.K. 36 L/46.5",
                 "tier": 1,
                 "rateOfFire": 26.086956521739133,
@@ -1267,6 +1275,7 @@
             "additionalHP": 20,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -1380,6 +1389,7 @@
             "additionalHP": 30,
             "availableGuns": {
               "_37mm_apx_sa18": {
+                "autoloader": false,
                 "name": "37 mm APX SA18",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -1467,6 +1477,7 @@
                 "modScore": 1763.4999999999998
               },
               "_37mm_type11": {
+                "autoloader": false,
                 "name": "37 mm Infantry Gun Type 11",
                 "tier": 1,
                 "rateOfFire": 17.647058823529413,
@@ -1512,6 +1523,7 @@
                 "modScore": 1538.6764705882351
               },
               "_37mm_sogekiho": {
+                "autoloader": false,
                 "name": "37 mm Sogekihou",
                 "tier": 1,
                 "rateOfFire": 17.647058823529413,
@@ -1716,6 +1728,7 @@
             "additionalHP": 18,
             "availableGuns": {
               "_37mm_gochkins": {
+                "autoloader": false,
                 "name": "37 mm Hotchkiss",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -1761,6 +1774,7 @@
                 "modScore": 2002.5
               },
               "_37mm_b-3": {
+                "autoloader": false,
                 "name": "37 mm B-3",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -1916,6 +1930,7 @@
             "additionalHP": 28,
             "availableGuns": {
               "_37mm_gochkins": {
+                "autoloader": false,
                 "name": "37 mm Hotchkiss",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -1961,6 +1976,7 @@
                 "modScore": 2002.5
               },
               "_37mm_b-3": {
+                "autoloader": false,
                 "name": "37 mm B-3",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -2090,6 +2106,7 @@
                 "modScore": 5104.9
               },
               "_45mm_mod_1932": {
+                "autoloader": false,
                 "name": "45 mm mod. 1932",
                 "tier": 2,
                 "rateOfFire": 20.689655172413794,
@@ -2295,6 +2312,7 @@
             "additionalHP": 21,
             "availableGuns": {
               "_37mm_gun_m1916": {
+                "autoloader": false,
                 "name": "37 mm Gun M1916",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -2415,6 +2433,7 @@
             "additionalHP": 31,
             "availableGuns": {
               "_37mm_gun_m1916": {
+                "autoloader": false,
                 "name": "37 mm Gun M1916",
                 "tier": 1,
                 "rateOfFire": 24.0,
@@ -2751,6 +2770,7 @@
             "additionalHP": 26,
             "availableGuns": {
               "_3pdr_gun_hotchkiss": {
+                "autoloader": false,
                 "name": "OQF 3-pdr Gun Mk. I",
                 "tier": 1,
                 "rateOfFire": 12.0,
@@ -2857,6 +2877,7 @@
             "additionalHP": 36,
             "availableGuns": {
               "_3pdr_gun_hotchkiss": {
+                "autoloader": false,
                 "name": "OQF 3-pdr Gun Mk. I",
                 "tier": 1,
                 "rateOfFire": 13.333333333333334,
@@ -2937,6 +2958,7 @@
                 "modScore": 1631.4999999999998
               },
               "qf_6_pounder_8cwt_mk_ii": {
+                "autoloader": false,
                 "name": "QF 6-pdr 8 cwt Mk. II",
                 "tier": 2,
                 "rateOfFire": 13.333333333333334,

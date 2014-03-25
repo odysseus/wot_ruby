@@ -30,11 +30,25 @@ class TankStore
     end
   end
 
+  def self.to_s
+    "TankStore"
+  end
+
   def db_create
     @db.execute <<-SQL
       create table if not exists tanks (
         name varchar(140),
         weight float,
+        hitpoints int,
+        penetration int,
+        damage int,
+        accuracy float,
+        aim_time float,
+        rate_of_fire float,
+        damage_per_minute int,
+        gun_depression int,
+        gun_elevation int,
+        autoloader boolean,
         frontal_hull int,
         side_hull int,
         rear_hull int,
@@ -90,4 +104,5 @@ test = tanks.tier8.mediumTanks.first
 #tanks.db_create
 #tanks.db_populate
 
-puts tanks.db.execute("select count(*) from tanks")
+query = tanks.db.execute("select name, penetration from tanks order by penetration desc")
+puts query.to_s

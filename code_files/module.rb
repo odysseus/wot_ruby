@@ -18,6 +18,10 @@ class Module
     @@count
   end
 
+  def self.to_s
+    "Module"
+  end
+
   def to_s
     @name
   end

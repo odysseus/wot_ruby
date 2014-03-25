@@ -24,4 +24,8 @@ class Suspension < Module
     @@suspensions
   end
 
+  def self.to_s
+    "Suspension"
+  end
+
 end

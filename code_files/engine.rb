@@ -13,9 +13,12 @@ class Engine < Module
     @@engines += 1
   end
 
-
   def self.count
     @@engines
+  end
+
+  def self.to_s
+    "Engine"
   end
 
 end

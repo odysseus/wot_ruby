@@ -138,6 +138,10 @@ class Tank
     @@count
   end
 
+  def self.to_s
+    "Tank"
+  end
+
   # Pass-Thru and Calculated Properties
 
   def gun
@@ -172,7 +176,7 @@ class Tank
     self.gun.gunElevation
   end
 
-  def autoloader?
+  def autoloader
     self.gun.autoloader
   end
 
@@ -341,6 +345,16 @@ class Tank
         values(
           '#{self.name}',
           #{self.weight},
+          #{self.hitpoints},
+          #{self.penetration},
+          #{self.alphaDamage},
+          #{self.accuracy},
+          #{self.aimTime},
+          #{self.rateOfFire},
+          #{self.damagePerMinute},
+          #{self.gunDepression},
+          #{self.gunElevation},
+          #{self.autoloader},
           #{self.frontalHullArmor.thickness},
           #{self.sideHullArmor.thickness},
           #{self.rearHullArmor.thickness},

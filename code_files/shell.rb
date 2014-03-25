@@ -22,4 +22,8 @@ class Shell
     @@shells
   end
 
+  def self.to_s
+    "Shell"
+  end
+
 end

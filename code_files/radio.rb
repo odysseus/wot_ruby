@@ -16,4 +16,8 @@ class Radio < Module
     @@radios
   end
 
+  def self.to_s
+    "Radio"
+  end
+
 end

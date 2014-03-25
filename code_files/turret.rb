@@ -30,4 +30,8 @@ class Turret < Module
     @@turrets
   end
 
+  def self.to_s
+    "Turret"
+  end
+
 end
