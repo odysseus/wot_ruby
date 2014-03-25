@@ -293,4 +293,72 @@ class Tank
     self.turret.rearArmor
   end
 
+  # Database and Statistical Methods
+  
+  # Sketching out what will be included in the TankScore calculations
+  # Gun:
+  #   0 - Penetration
+  #   1 - Damage
+  #   2 - Accuracy
+  #   3 - Aim Time
+  #   4 - Rate of Fire
+  #   5 - Damage Per Minute
+  #   6 - Gun Depression
+  #   7 - Gun Elevation
+  #   8 - Dummy Variable for Autoloaders
+  # Hull:
+  #   9 - Hitpoints
+  #   10 - Weight
+  #   11 - Frontal Hull
+  #   12 - Side Hull
+  #   13 - Rear Hull
+  #   14 - Camo Value Stationary
+  #   15 - Camo Value Moving
+  #   16 - Camo Value Shooting
+  #   17 - View Range
+  #   18 - Gun Arc
+  # Turret:
+  #   19 - Frontal Turret
+  #   20 - Side Turret
+  #   21 - Rear Turret
+  # Engine:
+  #   22 - Specific Power
+  #   23 - Fire Chance
+  # Radio
+  #   24 - Signal Range
+  # Suspension
+  #   25 - Hull Traverse
+  #   26 - Speed Limit
+  #   27 - Hard Terrain Resistance
+  #   28 - Medium Terrain Resistance
+  #   29 - Soft Terrain Resistance
+
+  def sql_string_for_tank
+    sql = <<-SQL
+      insert into tanks values(
+      #{self.name},
+      #{self.weight},
+      #{self.frontalHullArmor},
+      #{self.sideHullArmor},
+      #{self.rearHullArmor},
+      #{self.camoValueStationary},
+      #{self.camoValueMoving},
+      #{self.camoValueShooting},
+      #{self.viewRange},
+      #{self.gunArc},
+      #{self.frontalTurretArmor},
+      #{self.sideTurretArmor},
+      #{self.rearTurretArmor},
+      #{self.specificPower},
+      #{self.fireChance},
+      #{self.signalRange},
+      #{self.hullTraverse},
+      #{self.speedLimit},
+      #{self.hardTerrainResistance},
+      #{self.mediumTerrainResistance},
+      #{self.softTerrainResistance}
+      );
+      SQL
+  end
+
 end

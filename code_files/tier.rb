@@ -10,6 +10,13 @@ class Tier
     @heavyTanks = TankGroup.new(dict["heavyTank"]) if dict["heavyTank"]
     @tankDestroyers = TankGroup.new(dict["AT-SPG"]) if dict["AT-SPG"]
     @SPGs = TankGroup.new(dict["SPG"]) if dict["SPG"]
+
+    @types = []
+    @types.push(@lightTanks) if @lightTanks
+    @types.push(@mediumTanks) if @mediumTanks
+    @types.push(@heavyTanks) if @heavyTanks
+    @types.push(@tankDestroyers) if @tankDestroyers
+    @types.push(@SPGs) if @SPGs
   end
 
   types = [:lightTanks, :mediumTanks, :heavyTanks, :tankDestroyers, :SPGs]
