@@ -1,5 +1,5 @@
-require './module.rb'
-require './gun.rb'
+require_relative './module.rb'
+require_relative './gun.rb'
 
 class Hull 
 
@@ -19,7 +19,7 @@ class Hull
       available_guns_data.each do |key, value|
         @availableGuns.push(Gun.new(value))
       end
-      @viewRange = dict[:viewRange]
+      @viewRange = dict[:viewRange.to_s]
     end
     @@hulls += 1
   end

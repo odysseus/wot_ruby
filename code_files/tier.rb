@@ -1,8 +1,9 @@
-require './tank_group.rb'
+require_relative './tank_group.rb'
 
 class Tier
 
-  attr_reader :lightTanks, :mediumTanks, :heavyTanks, :tankDestroyers, :SPGs
+  attr_reader :lightTanks, :mediumTanks, :heavyTanks, :tankDestroyers, :SPGs,
+    :types
 
   def initialize dict
     @lightTanks = TankGroup.new(dict["lightTank"]) if dict["lightTank"]

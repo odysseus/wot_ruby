@@ -1,5 +1,5 @@
-require './module.rb'
-require './armor.rb'
+require_relative './module.rb'
+require_relative './armor.rb'
 
 class Turret < Module
 

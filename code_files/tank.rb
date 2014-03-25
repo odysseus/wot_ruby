@@ -1,13 +1,13 @@
 require 'json'
-require './module.rb'
-require './hull.rb'
-require './turret.rb'
-require './gun.rb'
-require './engine.rb'
-require './suspension.rb'
-require './radio.rb'
-require './armor.rb'
-require './shell.rb'
+require_relative './module.rb'
+require_relative './hull.rb'
+require_relative './turret.rb'
+require_relative './gun.rb'
+require_relative './engine.rb'
+require_relative './suspension.rb'
+require_relative './radio.rb'
+require_relative './armor.rb'
+require_relative './shell.rb'
 
 class Tank
 
@@ -67,7 +67,6 @@ class Tank
     end
     set_weights
     set_all_values_top
-    validate
 
     @@count += 1
   end
@@ -126,7 +125,9 @@ class Tank
 
   def set_weights
     set_all_values_stock
-    self.hull.weight = self.stockWeight - self.gun.weight - self.engine.weight
+    self.hull.weight = (self.stockWeight * 1000) - self.gun.weight - 
+      self.engine.weight - self.radio.weight - self.suspension.weight
+    self.hull.weight -= self.turret.weight if @hasTurret
   end
 
   def to_s
@@ -220,7 +221,7 @@ class Tank
   end
 
   def hullTraverse
-    self.hull.traverseSpeed
+    self.suspension.traverseSpeed
   end
 
   def turretTraverse
@@ -248,9 +249,10 @@ class Tank
   end
 
   def weight
-    final = @hull.weight + @gun.weight + @suspension.weight + 
-      @radio.weight + @engine.weight
-    final += @turret.weight if @hasTurret
+    final = self.hull.weight + self.gun.weight + self.suspension.weight + 
+      self.radio.weight + self.engine.weight
+    final += self.turret.weight if @hasTurret
+    final /= 1000.0
   end
 
   def specificPower
@@ -334,31 +336,40 @@ class Tank
   #   29 - Soft Terrain Resistance
 
   def sql_string_for_tank
-    sql = <<-SQL
-      insert into tanks values(
-      #{self.name},
-      #{self.weight},
-      #{self.frontalHullArmor},
-      #{self.sideHullArmor},
-      #{self.rearHullArmor},
-      #{self.camoValueStationary},
-      #{self.camoValueMoving},
-      #{self.camoValueShooting},
-      #{self.viewRange},
-      #{self.gunArc},
-      #{self.frontalTurretArmor},
-      #{self.sideTurretArmor},
-      #{self.rearTurretArmor},
-      #{self.specificPower},
-      #{self.fireChance},
-      #{self.signalRange},
-      #{self.hullTraverse},
-      #{self.speedLimit},
-      #{self.hardTerrainResistance},
-      #{self.mediumTerrainResistance},
-      #{self.softTerrainResistance}
-      );
-      SQL
+    sql = "
+      insert into 'tanks' 
+        values(
+          '#{self.name}',
+          #{self.weight},
+          #{self.frontalHullArmor.thickness},
+          #{self.sideHullArmor.thickness},
+          #{self.rearHullArmor.thickness},
+          #{self.camoValueStationary},
+          #{self.camoValueMoving},
+          #{self.camoValueShooting},
+          #{self.viewRange},
+          #{self.gunArc},
+          #{self.specificPower},
+          #{self.fireChance},
+          #{self.signalRange},
+          #{self.hullTraverse},
+          #{self.speedLimit},
+          #{self.hardTerrainResistance},
+          #{self.mediumTerrainResistance},
+          #{self.softTerrainResistance},"
+      if @hasTurret 
+        sql << "
+          #{self.frontalTurretArmor.thickness},
+          #{self.sideTurretArmor.thickness},
+          #{self.rearTurretArmor.thickness}"
+      else
+        sql << "
+          null,
+          null,
+          null"
+      end
+      sql << ");"
+      return sql
   end
 
 end

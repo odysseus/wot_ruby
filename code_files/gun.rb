@@ -1,5 +1,5 @@
-require './module.rb'
-require './shell.rb'
+require_relative './module.rb'
+require_relative './shell.rb'
 
 class Gun < Module
 

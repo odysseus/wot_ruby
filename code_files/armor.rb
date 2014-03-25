@@ -8,4 +8,8 @@ class Armor
     @angle = arr[1]
   end
 
+  def to_s
+    @thickness
+  end
+
 end

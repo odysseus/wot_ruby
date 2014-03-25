@@ -263,7 +263,7 @@
           }
         }
       },
-      "GerAT-STGWaffenträgerAufE100.json": {
+      "GerAT-STGWaffenträgerAufE100.json": {
         "available": true,
         "name": "Waffenträger auf E 100",
         "nation": "germany",
@@ -4421,7 +4421,7 @@
         "speedLimit": 55.0,
         "reverseSpeed": 20.0,
         "crewLevel": 100,
-        "stockWeight": 0,
+        "stockWeight": 26.0,
         "camoValues": [
           0,
           0,

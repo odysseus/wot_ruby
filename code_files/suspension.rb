@@ -1,4 +1,4 @@
-require './module.rb'
+require_relative './module.rb'
 
 class Suspension < Module
 
@@ -11,10 +11,11 @@ class Suspension < Module
     super
     @loadLimit = dict[:loadLimit.to_s]
     @traverseSpeed = dict[:traverseSpeed.to_s]
+    # Terrain resistance number array
     terrain_resist = dict[:terrainResistance.to_s]
     @hardTerrainResistance = terrain_resist[0]
     @mediumTerrainResistance = terrain_resist[1]
-    @hardTerrainResistance = terrain_resist[2]
+    @softTerrainResistance = terrain_resist[2]
     
     @@suspensions += 1
   end

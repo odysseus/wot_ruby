@@ -1,4 +1,4 @@
-require './tank.rb'
+require_relative './tank.rb'
 
 class TankGroup
 

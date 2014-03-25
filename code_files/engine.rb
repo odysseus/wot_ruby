@@ -1,4 +1,4 @@
-require './module.rb'
+require_relative './module.rb'
 
 class Engine < Module
 

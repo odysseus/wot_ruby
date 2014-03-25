@@ -1,14 +1,15 @@
 require 'fileutils'
 require 'singleton'
 require 'json'
-require './tier.rb'
-require './tank.rb'
 require 'sqlite3'
+require_relative './tier.rb'
+require_relative './tank.rb'
 
 class TankStore
   include Singleton
 
   attr_reader :tiers
+  attr_accessor :db
 
   def initialize
     @tiers = []
@@ -42,9 +43,6 @@ class TankStore
         camo_shooting float,
         view_range int,
         gun_arc int,
-        frontal_turret int,
-        side_turret int,
-        rear_turret int,
         specific_power float,
         fire_chance float,
         signal_range int,
@@ -52,7 +50,10 @@ class TankStore
         speed_limit int,
         hard_terrain_resist float,
         medium_terrain_resist float,
-        soft_terrain_resist float
+        soft_terrain_resist float,
+        frontal_turret int,
+        side_turret int,
+        rear_turret int
       );
       SQL
   end
@@ -62,6 +63,7 @@ class TankStore
     tanks.tiers.each do |tier|
       tier.types.each do |type|
         type.group.each do |tank|
+          puts tank.sql_string_for_tank
           @db.execute(tank.sql_string_for_tank)
         end
       end
@@ -83,12 +85,9 @@ puts "Modules: #{Module.count}"
 puts "\n"
 
 test = tanks.tier8.mediumTanks.first
-puts test
-puts test.radio
-puts test.gun
-puts test.engine
-puts test.suspension
-puts test.turret
 
-test.db_create
-test.db_populate
+# DON'T TOUCH! THE DATABASE IS GOOD NOW!
+#tanks.db_create
+#tanks.db_populate
+
+puts tanks.db.execute("select count(*) from tanks")
