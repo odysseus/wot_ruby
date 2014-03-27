@@ -1,7 +1,7 @@
 
 class Module
 
-  attr_accessor :name, :weight, :stockModule, :topModule, :tier
+  attr_accessor :name, :weight, :stockModule, :topModule, :tier, :db
 
   @@count = 0
 

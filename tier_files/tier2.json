@@ -50,7 +50,7 @@
               "topModule": false,
               "cost": 3000,
               "dispersion": {
-                "turretRotation": 0.08,
+                "gunMovement": 0.08,
                 "afterShot": 2.5,
                 "gunDamaged": 2.0
               },
@@ -89,7 +89,7 @@
               "topModule": false,
               "cost": 3000,
               "dispersion": {
-                "turretRotation": 0.08,
+                "gunMovement": 0.08,
                 "afterShot": 2.5,
                 "gunDamaged": 2.0
               },
@@ -128,7 +128,7 @@
               "topModule": true,
               "cost": 8400,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -177,7 +177,7 @@
               "topModule": false,
               "cost": 6500,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 2.0,
                 "gunDamaged": 2.0
               },
@@ -264,7 +264,8 @@
               1.4,
               2.5
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": true,
             "topModule": false,
             "cost": 240,
@@ -282,7 +283,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": false,
             "topModule": true,
             "cost": 560,
@@ -339,7 +341,7 @@
               "topModule": false,
               "cost": 2730,
               "dispersion": {
-                "turretRotation": 0.08,
+                "gunMovement": 0.08,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -385,7 +387,7 @@
               "topModule": true,
               "cost": 3460,
               "dispersion": {
-                "turretRotation": 0.08,
+                "gunMovement": 0.08,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -489,7 +491,8 @@
               1.4,
               2.5
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": true,
             "topModule": false,
             "cost": 280,
@@ -507,7 +510,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": false,
             "topModule": true,
             "cost": 570,
@@ -564,7 +568,7 @@
               "topModule": false,
               "cost": 2000,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -610,7 +614,7 @@
               "topModule": false,
               "cost": 3000,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 4.0,
                 "gunDamaged": 2.0
               },
@@ -656,7 +660,7 @@
               "topModule": true,
               "cost": 25000,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 4.0,
                 "gunDamaged": 2.0
               },
@@ -760,7 +764,8 @@
               1.5,
               2.8
             ],
-            "dispersion": 0.36,
+            "movementDispersion": 0.36,
+            "rotationDispersion": 0.36,
             "stockModule": true,
             "topModule": false,
             "cost": 280,
@@ -778,7 +783,8 @@
               1.4,
               2.6
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": false,
             "topModule": true,
             "cost": 580,
@@ -835,7 +841,7 @@
               "topModule": false,
               "cost": 8350,
               "dispersion": {
-                "turretRotation": 0.08,
+                "gunMovement": 0.08,
                 "afterShot": 3.0,
                 "gunDamaged": 2.0
               },
@@ -881,7 +887,7 @@
               "topModule": true,
               "cost": 26000,
               "dispersion": {
-                "turretRotation": 0.16,
+                "gunMovement": 0.16,
                 "afterShot": 4.0,
                 "gunDamaged": 2.0
               },
@@ -920,7 +926,7 @@
               "topModule": false,
               "cost": 17200,
               "dispersion": {
-                "turretRotation": 0.12,
+                "gunMovement": 0.12,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -1025,7 +1031,8 @@
               1.7,
               2.7
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": true,
             "topModule": false,
             "cost": 270,
@@ -1043,7 +1050,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": false,
             "topModule": true,
             "cost": 580,
@@ -1100,7 +1108,7 @@
               "topModule": false,
               "cost": 2710,
               "dispersion": {
-                "turretRotation": 0.1,
+                "gunMovement": 0.1,
                 "afterShot": 3.0,
                 "gunDamaged": 2.0
               },
@@ -1146,7 +1154,7 @@
               "topModule": false,
               "cost": 10310,
               "dispersion": {
-                "turretRotation": 0.16,
+                "gunMovement": 0.16,
                 "afterShot": 4.0,
                 "gunDamaged": 2.0
               },
@@ -1192,7 +1200,7 @@
               "topModule": false,
               "cost": 2750,
               "dispersion": {
-                "turretRotation": 0.1,
+                "gunMovement": 0.1,
                 "afterShot": 3.0,
                 "gunDamaged": 2.0
               },
@@ -1238,7 +1246,7 @@
               "topModule": true,
               "cost": 22910,
               "dispersion": {
-                "turretRotation": 0.16,
+                "gunMovement": 0.16,
                 "afterShot": 3.5,
                 "gunDamaged": 2.0
               },
@@ -1343,7 +1351,8 @@
               1.6,
               2.6
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": true,
             "topModule": false,
             "cost": 560,
@@ -1361,7 +1370,8 @@
               1.4,
               2.4
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": false,
             "topModule": true,
             "cost": 1790,
@@ -1445,7 +1455,7 @@
                 "topModule": true,
                 "cost": 1500,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -1491,7 +1501,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -1563,7 +1573,7 @@
                 "topModule": false,
                 "cost": 1500,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -1609,7 +1619,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -1655,7 +1665,7 @@
                 "topModule": false,
                 "cost": 2530,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -1704,7 +1714,7 @@
                 "topModule": true,
                 "cost": 20000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -1809,7 +1819,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": true,
             "topModule": false,
             "cost": 340,
@@ -1827,7 +1838,8 @@
               1.2,
               2.1
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": false,
             "topModule": true,
             "cost": 620,
@@ -1909,7 +1921,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -1955,7 +1967,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -2001,7 +2013,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2073,7 +2085,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -2119,7 +2131,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -2165,7 +2177,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2270,7 +2282,8 @@
               1.1,
               2.1
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": true,
             "topModule": false,
             "cost": 600,
@@ -2288,7 +2301,8 @@
               1.0,
               1.9
             ],
-            "dispersion": 0.24,
+            "movementDispersion": 0.24,
+            "rotationDispersion": 0.24,
             "stockModule": false,
             "topModule": true,
             "cost": 810,
@@ -2370,7 +2384,7 @@
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2416,7 +2430,7 @@
                 "topModule": true,
                 "cost": 2320,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -2455,7 +2469,7 @@
                 "topModule": false,
                 "cost": 1890,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2550,7 +2564,8 @@
               1.4,
               2.7
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": true,
             "topModule": false,
             "cost": 250,
@@ -2568,7 +2583,8 @@
               1.3,
               2.5
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": false,
             "topModule": true,
             "cost": 560,
@@ -2650,7 +2666,7 @@
                 "topModule": true,
                 "cost": 3390,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2724,7 +2740,8 @@
               1.26,
               1.71
             ],
-            "dispersion": 0.23,
+            "movementDispersion": 0.23,
+            "rotationDispersion": 0.23,
             "stockModule": true,
             "topModule": true,
             "cost": 1030,
@@ -2806,7 +2823,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2855,7 +2872,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -2894,7 +2911,7 @@
                 "topModule": true,
                 "cost": 2730,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -2943,7 +2960,7 @@
                 "topModule": false,
                 "cost": 3160,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3008,7 +3025,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -3057,7 +3074,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -3096,7 +3113,7 @@
                 "topModule": true,
                 "cost": 2730,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -3145,7 +3162,7 @@
                 "topModule": false,
                 "cost": 3160,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3243,7 +3260,8 @@
               1.6,
               2.9
             ],
-            "dispersion": 0.38,
+            "movementDispersion": 0.38,
+            "rotationDispersion": 0.38,
             "stockModule": true,
             "topModule": false,
             "cost": 360,
@@ -3261,7 +3279,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": false,
             "topModule": true,
             "cost": 630,
@@ -3346,7 +3365,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -3388,7 +3407,7 @@
                 "topModule": false,
                 "cost": 1920,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3430,7 +3449,7 @@
                 "topModule": true,
                 "cost": 3160,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3498,7 +3517,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -3540,7 +3559,7 @@
                 "topModule": false,
                 "cost": 1920,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3582,7 +3601,7 @@
                 "topModule": true,
                 "cost": 3160,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3691,7 +3710,8 @@
               1.7,
               2.9
             ],
-            "dispersion": 0.31,
+            "movementDispersion": 0.31,
+            "rotationDispersion": 0.31,
             "stockModule": true,
             "topModule": false,
             "cost": 300,
@@ -3709,7 +3729,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": false,
             "topModule": true,
             "cost": 600,
@@ -3794,7 +3815,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -3836,7 +3857,7 @@
                 "topModule": false,
                 "cost": 1920,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3878,7 +3899,7 @@
                 "topModule": true,
                 "cost": 1970,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -3946,7 +3967,7 @@
                 "topModule": false,
                 "cost": 1910,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -3988,7 +4009,7 @@
                 "topModule": false,
                 "cost": 1920,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -4030,7 +4051,7 @@
                 "topModule": true,
                 "cost": 1970,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.2,
                   "gunDamaged": 2.0
                 },
@@ -4139,7 +4160,8 @@
               1.4,
               2.5
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": true,
             "topModule": false,
             "cost": 300,
@@ -4157,7 +4179,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.29,
+            "movementDispersion": 0.29,
+            "rotationDispersion": 0.29,
             "stockModule": false,
             "topModule": true,
             "cost": 600,
@@ -4239,7 +4262,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -4285,7 +4308,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -4331,7 +4354,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -4403,7 +4426,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -4449,7 +4472,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -4495,7 +4518,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -4600,7 +4623,8 @@
               1.1,
               2.1
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": true,
             "topModule": false,
             "cost": 600,
@@ -4618,7 +4642,8 @@
               1.0,
               1.9
             ],
-            "dispersion": 0.24,
+            "movementDispersion": 0.24,
+            "rotationDispersion": 0.24,
             "stockModule": false,
             "topModule": true,
             "cost": 810,
@@ -4700,7 +4725,7 @@
                 "topModule": false,
                 "cost": 6000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -4749,7 +4774,7 @@
                 "topModule": true,
                 "cost": 20000,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -4821,7 +4846,7 @@
                 "topModule": false,
                 "cost": 6000,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -4870,7 +4895,7 @@
                 "topModule": true,
                 "cost": 20000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -4975,7 +5000,8 @@
               1.4,
               2.0
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": true,
             "topModule": false,
             "cost": 330,
@@ -4993,7 +5019,8 @@
               1.2,
               1.8
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": false,
             "topModule": true,
             "cost": 600,
@@ -5078,7 +5105,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -5110,7 +5137,7 @@
                 "topModule": false,
                 "cost": 6000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -5159,7 +5186,7 @@
                 "topModule": true,
                 "cost": 20000,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -5234,7 +5261,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -5266,7 +5293,7 @@
                 "topModule": false,
                 "cost": 6000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -5315,7 +5342,7 @@
                 "topModule": true,
                 "cost": 20000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -5430,7 +5457,8 @@
               1.4,
               2.0
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": true,
             "topModule": false,
             "cost": 330,
@@ -5448,7 +5476,8 @@
               1.2,
               1.8
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": false,
             "topModule": true,
             "cost": 610,
@@ -5530,7 +5559,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -5576,7 +5605,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -5622,7 +5651,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -5694,7 +5723,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -5740,7 +5769,7 @@
                 "topModule": true,
                 "cost": 2450,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -5786,7 +5815,7 @@
                 "topModule": false,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -5891,7 +5920,8 @@
               1.1,
               2.1
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": true,
             "topModule": false,
             "cost": 600,
@@ -5909,7 +5939,8 @@
               1.0,
               1.9
             ],
-            "dispersion": 0.24,
+            "movementDispersion": 0.24,
+            "rotationDispersion": 0.24,
             "stockModule": false,
             "topModule": true,
             "cost": 810,
@@ -5994,7 +6025,7 @@
                 "topModule": true,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.0,
                   "gunDamaged": 2.0
                 },
@@ -6068,7 +6099,8 @@
               1.3,
               2.4
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": true,
             "topModule": true,
             "cost": 240,
@@ -6153,7 +6185,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -6188,7 +6220,7 @@
                 "topModule": true,
                 "cost": 2600,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -6256,7 +6288,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -6291,7 +6323,7 @@
                 "topModule": false,
                 "cost": 2600,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -6330,7 +6362,7 @@
                 "topModule": true,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -6446,7 +6478,8 @@
               1.5,
               3.4
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": true,
             "topModule": false,
             "cost": 330,
@@ -6464,7 +6497,8 @@
               1.5,
               3.4
             ],
-            "dispersion": 0.25,
+            "movementDispersion": 0.25,
+            "rotationDispersion": 0.25,
             "stockModule": false,
             "topModule": true,
             "cost": 620,
@@ -6549,7 +6583,7 @@
                 "topModule": true,
                 "cost": 2600,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -6616,7 +6650,8 @@
               1.37,
               2.29
             ],
-            "dispersion": 0.25,
+            "movementDispersion": 0.25,
+            "rotationDispersion": 0.25,
             "stockModule": true,
             "topModule": true,
             "cost": 600,
@@ -6701,7 +6736,7 @@
                 "topModule": true,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -6761,7 +6796,8 @@
               1.5,
               3.4
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": true,
             "topModule": true,
             "cost": 600,
@@ -6843,7 +6879,7 @@
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -6889,7 +6925,7 @@
                 "topModule": false,
                 "cost": 1950,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -6938,7 +6974,7 @@
                 "topModule": false,
                 "cost": 2380,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -6980,7 +7016,7 @@
                 "topModule": true,
                 "cost": 2750,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -7045,7 +7081,7 @@
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7091,7 +7127,7 @@
                 "topModule": false,
                 "cost": 1950,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7140,7 +7176,7 @@
                 "topModule": false,
                 "cost": 2380,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -7182,7 +7218,7 @@
                 "topModule": false,
                 "cost": 2750,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -7221,7 +7257,7 @@
                 "topModule": true,
                 "cost": 4250,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7267,7 +7303,7 @@
                 "topModule": false,
                 "cost": 2530,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7362,7 +7398,8 @@
               1.4,
               2.5
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": true,
             "topModule": false,
             "cost": 260,
@@ -7380,7 +7417,8 @@
               1.1,
               2.3
             ],
-            "dispersion": 0.29,
+            "movementDispersion": 0.29,
+            "rotationDispersion": 0.29,
             "stockModule": false,
             "topModule": true,
             "cost": 520,
@@ -7465,7 +7503,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -7500,7 +7538,7 @@
                 "topModule": false,
                 "cost": 2200,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -7542,7 +7580,7 @@
                 "topModule": true,
                 "cost": 2380,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -7610,7 +7648,7 @@
                 "topModule": false,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -7645,7 +7683,7 @@
                 "topModule": false,
                 "cost": 2200,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -7687,7 +7725,7 @@
                 "topModule": false,
                 "cost": 2380,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -7726,7 +7764,7 @@
                 "topModule": true,
                 "cost": 4250,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7821,7 +7859,8 @@
               1.3,
               2.3
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": true,
             "topModule": false,
             "cost": 290,
@@ -7839,7 +7878,8 @@
               1.2,
               2.1
             ],
-            "dispersion": 0.28,
+            "movementDispersion": 0.28,
+            "rotationDispersion": 0.28,
             "stockModule": false,
             "topModule": true,
             "cost": 550,
@@ -7921,7 +7961,7 @@
                 "topModule": false,
                 "cost": 1950,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -7967,7 +8007,7 @@
                 "topModule": false,
                 "cost": 2530,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8016,7 +8056,7 @@
                 "topModule": false,
                 "cost": 2750,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -8055,7 +8095,7 @@
                 "topModule": true,
                 "cost": 4250,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8127,7 +8167,7 @@
                 "topModule": false,
                 "cost": 1950,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8173,7 +8213,7 @@
                 "topModule": false,
                 "cost": 2530,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8222,7 +8262,7 @@
                 "topModule": false,
                 "cost": 2750,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -8261,7 +8301,7 @@
                 "topModule": true,
                 "cost": 4250,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8367,7 +8407,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.25,
+            "movementDispersion": 0.25,
+            "rotationDispersion": 0.25,
             "stockModule": true,
             "topModule": false,
             "cost": 340,
@@ -8385,7 +8426,8 @@
               1.1,
               2.1
             ],
-            "dispersion": 0.22,
+            "movementDispersion": 0.22,
+            "rotationDispersion": 0.22,
             "stockModule": false,
             "topModule": true,
             "cost": 680,
@@ -8467,7 +8509,7 @@
                 "topModule": true,
                 "cost": 20150,
                 "dispersion": {
-                  "turretRotation": 0.16,
+                  "gunMovement": 0.16,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8541,7 +8583,8 @@
               1.37,
               2.51
             ],
-            "dispersion": 0.29,
+            "movementDispersion": 0.29,
+            "rotationDispersion": 0.29,
             "stockModule": true,
             "topModule": true,
             "cost": 600,
@@ -8628,7 +8671,7 @@
                 "topModule": false,
                 "cost": 1500,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.1,
                   "gunDamaged": 2.0
                 },
@@ -8667,7 +8710,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -8713,7 +8756,7 @@
                 "topModule": true,
                 "cost": 2800,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -8818,7 +8861,8 @@
               1.2,
               2.1
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": true,
             "topModule": false,
             "cost": 600,
@@ -8836,7 +8880,8 @@
               1.1,
               1.9
             ],
-            "dispersion": 0.32,
+            "movementDispersion": 0.32,
+            "rotationDispersion": 0.32,
             "stockModule": false,
             "topModule": true,
             "cost": 820,
@@ -8918,7 +8963,7 @@
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -8964,7 +9009,7 @@
                 "topModule": true,
                 "cost": 3000,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9036,7 +9081,7 @@
                 "topModule": false,
                 "cost": 0,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9082,7 +9127,7 @@
                 "topModule": false,
                 "cost": 3000,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9128,7 +9173,7 @@
                 "topModule": false,
                 "cost": 3100,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9174,7 +9219,7 @@
                 "topModule": true,
                 "cost": 25000,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9290,7 +9335,8 @@
               1.3,
               2.4
             ],
-            "dispersion": 0.36,
+            "movementDispersion": 0.36,
+            "rotationDispersion": 0.36,
             "stockModule": true,
             "topModule": false,
             "cost": 330,
@@ -9308,7 +9354,8 @@
               1.2,
               2.2
             ],
-            "dispersion": 0.34,
+            "movementDispersion": 0.34,
+            "rotationDispersion": 0.34,
             "stockModule": false,
             "topModule": true,
             "cost": 620,
@@ -9393,7 +9440,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -9442,7 +9489,7 @@
                 "topModule": true,
                 "cost": 2200,
                 "dispersion": {
-                  "turretRotation": 0.12,
+                  "gunMovement": 0.12,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -9491,7 +9538,7 @@
                 "topModule": false,
                 "cost": 2600,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.4,
                   "gunDamaged": 2.0
                 },
@@ -9559,7 +9606,7 @@
                 "topModule": false,
                 "cost": 1900,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -9608,7 +9655,7 @@
                 "topModule": false,
                 "cost": 2200,
                 "dispersion": {
-                  "turretRotation": 0.1,
+                  "gunMovement": 0.1,
                   "afterShot": 3.5,
                   "gunDamaged": 2.0
                 },
@@ -9654,7 +9701,7 @@
                 "topModule": true,
                 "cost": 2000,
                 "dispersion": {
-                  "turretRotation": 0.14,
+                  "gunMovement": 0.14,
                   "afterShot": 4.0,
                   "gunDamaged": 2.0
                 },
@@ -9703,7 +9750,7 @@
                 "topModule": false,
                 "cost": 2600,
                 "dispersion": {
-                  "turretRotation": 0.08,
+                  "gunMovement": 0.08,
                   "afterShot": 1.3,
                   "gunDamaged": 2.0
                 },
@@ -9801,7 +9848,8 @@
               1.4,
               2.7
             ],
-            "dispersion": 0.27,
+            "movementDispersion": 0.27,
+            "rotationDispersion": 0.27,
             "stockModule": true,
             "topModule": false,
             "cost": 340,
@@ -9819,7 +9867,8 @@
               1.2,
               2.3
             ],
-            "dispersion": 0.25,
+            "movementDispersion": 0.25,
+            "rotationDispersion": 0.25,
             "stockModule": false,
             "topModule": true,
             "cost": 650,
@@ -9878,7 +9927,7 @@
               "topModule": true,
               "cost": 2830,
               "dispersion": {
-                "turretRotation": 0.34,
+                "gunMovement": 0.34,
                 "afterShot": 6.0,
                 "gunDamaged": 2.0
               },
@@ -9976,7 +10025,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.33,
+            "movementDispersion": 0.33,
+            "rotationDispersion": 0.33,
             "stockModule": true,
             "topModule": false,
             "cost": 250,
@@ -9994,7 +10044,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.3,
+            "movementDispersion": 0.3,
+            "rotationDispersion": 0.3,
             "stockModule": false,
             "topModule": true,
             "cost": 560,
@@ -10051,7 +10102,7 @@
               "topModule": true,
               "cost": 13900,
               "dispersion": {
-                "turretRotation": 0.6,
+                "gunMovement": 0.6,
                 "afterShot": 6.0,
                 "gunDamaged": 2.0
               },
@@ -10138,7 +10189,8 @@
               1.6,
               2.7
             ],
-            "dispersion": 0.64,
+            "movementDispersion": 0.64,
+            "rotationDispersion": 0.64,
             "stockModule": true,
             "topModule": false,
             "cost": 240,
@@ -10156,7 +10208,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.58,
+            "movementDispersion": 0.58,
+            "rotationDispersion": 0.58,
             "stockModule": false,
             "topModule": true,
             "cost": 580,
@@ -10213,7 +10266,7 @@
               "topModule": true,
               "cost": 2800,
               "dispersion": {
-                "turretRotation": 0.6,
+                "gunMovement": 0.6,
                 "afterShot": 6.0,
                 "gunDamaged": 2.0
               },
@@ -10303,7 +10356,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.52,
+            "movementDispersion": 0.52,
+            "rotationDispersion": 0.52,
             "stockModule": true,
             "topModule": false,
             "cost": 270,
@@ -10321,7 +10375,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.48,
+            "movementDispersion": 0.48,
+            "rotationDispersion": 0.48,
             "stockModule": false,
             "topModule": true,
             "cost": 550,
@@ -10378,7 +10433,7 @@
               "topModule": true,
               "cost": 2780,
               "dispersion": {
-                "turretRotation": 0.52,
+                "gunMovement": 0.52,
                 "afterShot": 6.0,
                 "gunDamaged": 2.0
               },
@@ -10475,7 +10530,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.6,
+            "movementDispersion": 0.6,
+            "rotationDispersion": 0.6,
             "stockModule": true,
             "topModule": false,
             "cost": 270,
@@ -10493,7 +10549,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.54,
+            "movementDispersion": 0.54,
+            "rotationDispersion": 0.54,
             "stockModule": false,
             "topModule": true,
             "cost": 550,
@@ -10550,7 +10607,7 @@
               "topModule": true,
               "cost": 2830,
               "dispersion": {
-                "turretRotation": 0.28,
+                "gunMovement": 0.28,
                 "afterShot": 6.0,
                 "gunDamaged": 2.0
               },
@@ -10658,7 +10715,8 @@
               1.5,
               2.5
             ],
-            "dispersion": 0.26,
+            "movementDispersion": 0.26,
+            "rotationDispersion": 0.26,
             "stockModule": true,
             "topModule": false,
             "cost": 270,
@@ -10676,7 +10734,8 @@
               1.4,
               2.3
             ],
-            "dispersion": 0.24,
+            "movementDispersion": 0.24,
+            "rotationDispersion": 0.24,
             "stockModule": false,
             "topModule": true,
             "cost": 540,

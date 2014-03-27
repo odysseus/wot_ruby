@@ -4,7 +4,7 @@ require_relative './gun.rb'
 class Hull 
 
   attr_accessor :frontArmor, :sideArmor, :rearArmor, :gun, :viewRange,
-    :availableGuns, :weight
+    :availableGuns, :weight, :db
 
   @@hulls = 0
 
@@ -17,7 +17,9 @@ class Hull
       @availableGuns = []
       available_guns_data = dict["availableGuns"]
       available_guns_data.each do |key, value|
-        @availableGuns.push(Gun.new(value))
+        gun = Gun.new(value)
+        gun.db = @db
+        @availableGuns.push(gun)
       end
       @viewRange = dict[:viewRange.to_s]
     end

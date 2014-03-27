@@ -15,7 +15,8 @@ class Tank
     :availableEngines, :availableRadios, :availableTurrets, :gun, 
     :availableSuspensions, :hasTurret, :premiumTank, :available, :gunArc, 
     :crewLevel, :speedLimit, :baseHitpoints, :nation, :tier, :type, 
-    :stockWeight, :camoValueStationary, :camoValueMoving, :camoValueShooting
+    :stockWeight, :camoValueStationary, :camoValueMoving, :camoValueShooting,
+    :db
 
   @@count = 0
 
@@ -35,13 +36,16 @@ class Tank
 
     # Hull
     @hull = Hull.new(dict["hull"])
+    @hull.db = @db
 
     # Turrets
     if @hasTurret
       @availableTurrets = []
       turrets_data = dict["turrets"]
       turrets_data.each do |k,v|
-        @availableTurrets.push(Turret.new(v))
+        turret = Turret.new(v)
+        turret.db = @db
+        @availableTurrets.push(turret)
       end
     end
 
@@ -49,21 +53,27 @@ class Tank
     @availableEngines = []
     engines_data = dict["engines"]
     engines_data.each do |k,v|
-      @availableEngines.push(Engine.new(v))
+      engine = Engine.new(v)
+      engine.db = @db
+      @availableEngines.push(engine)
     end
 
     # Radios
     @availableRadios = []
     radios_data = dict["radios"]
     radios_data.each do |k,v|
-      @availableRadios.push(Radio.new(v))
+      radio = Radio.new(v)
+      radio.db = @db
+      @availableRadios.push(radio)
     end
 
     # Suspensions
     @availableSuspensions = []
     suspensions_data = dict["suspensions"]
     suspensions_data.each do |k,v|
-      @availableSuspensions.push(Suspension.new(v))
+      suspension = Suspension.new(v)
+      suspension.db = @db
+      @availableSuspensions.push(suspension)
     end
     set_weights
     set_all_values_top

@@ -21,7 +21,9 @@ class Turret < Module
     @availableGuns = []
     guns_data = dict["availableGuns"]
     guns_data.each do |key,value|
-      @availableGuns.push(Gun.new(value))
+      gun = Gun.new(value)
+      gun.db = @db
+      @availableGuns.push(gun)
     end
     @@turrets += 1
   end

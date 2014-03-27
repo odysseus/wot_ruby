@@ -23,7 +23,9 @@ class Gun < Module
     @shells = []
     shells_data = dict["shells"]
     shells_data.each do |s|
-      @shells.push(Shell.new(s))
+      shell = Shell.new(s)
+      shell.db = @db
+      @shells.push(shell)
     end
     @shell = @shells[0]
     @@guns += 1

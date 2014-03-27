@@ -12,14 +12,15 @@ class TankStore
   attr_accessor :db
 
   def initialize
+    @db = SQLite3::Database.new("tanks.db")
     @tiers = []
     (1..10).each do |t|
       path = "../tier_files/tier#{t}.json"
       tier_json = JSON.parse(IO.read(path))["tier#{t}"]
       tier = Tier.new(tier_json)
+      tier.db = @db
       @tiers.push(tier)
     end
-    @db = SQLite3::Database.new("tanks.db")
   end
 
   # Using define_method to dynamically create the instance.tier1,

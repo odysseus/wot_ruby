@@ -1,6 +1,7 @@
 class Shell
 
   attr_reader :shellType, :penetration, :damage, :cost
+  attr_accessor :db
 
   @@shells = 0
 
