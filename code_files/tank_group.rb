@@ -17,4 +17,8 @@ class TankGroup
     @group.first
   end
 
+  def each
+    @group.each { |tank| yield tank }
+  end
+
 end

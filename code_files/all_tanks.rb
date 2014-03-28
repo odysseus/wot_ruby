@@ -19,6 +19,7 @@ class TankStore
       tier_json = JSON.parse(IO.read(path))["tier#{t}"]
       tier = Tier.new(tier_json)
       tier.db = @db
+      tier.name = "Tier #{t}"
       @tiers.push(tier)
     end
   end
@@ -35,10 +36,30 @@ class TankStore
     "TankStore"
   end
 
+  def each
+    (1..10).each do |i|
+      yield @tiers[i-1]
+    end
+  end
+
+  def each_tank &block
+    self.each do |tier|
+      tier.each do |type|
+        type.each do |tank|
+          yield tank
+        end
+      end
+    end
+  end
+
   def db_create
+    @db = nil
+    File.delete("tanks.db")
+    @db = SQLite3::Database.new("tanks.db")
     @db.execute <<-SQL
       create table if not exists tanks (
         name varchar(140),
+        tier int,
         weight float,
         hitpoints int,
         penetration int,
@@ -70,22 +91,16 @@ class TankStore
         side_turret int,
         rear_turret int
       );
-      SQL
+    SQL
   end
 
   def db_populate
     tanks = TankStore.instance
-    tanks.tiers.each do |tier|
-      tier.types.each do |type|
-        type.group.each do |tank|
-          puts tank.sql_string_for_tank
-          @db.execute(tank.sql_string_for_tank)
-        end
-      end
-    end
+    tanks.each_tank { |t| @db.execute(t.sql_string_for_tank) }
   end
 
 end
+
 
 tanks = TankStore.instance
 
@@ -95,15 +110,14 @@ puts "Turret: #{Turret.count}"
 puts "Guns: #{Gun.count}"
 puts "Engines: #{Engine.count}"
 puts "Radios: #{Radio.count}"
-puts "Suspenstions: #{Suspension.count}"
+puts "Suspensions: #{Suspension.count}"
 puts "Modules: #{Module.count}"
 puts "\n"
 
 test = tanks.tier8.mediumTanks.first
 
-# DON'T TOUCH! THE DATABASE IS GOOD NOW!
 #tanks.db_create
 #tanks.db_populate
 
-query = tanks.db.execute("select name, penetration from tanks order by penetration desc")
-puts query.to_s
+#query = tanks.db.execute("select name, tier, camo_stationary from tanks order by camo_stationary desc limit 15")
+#query.each { |i| puts "#{i[2]}: #{i[0]}(#{i[1]})" }

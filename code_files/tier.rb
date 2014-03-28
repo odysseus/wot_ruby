@@ -4,7 +4,7 @@ class Tier
 
   attr_reader :lightTanks, :mediumTanks, :heavyTanks, :tankDestroyers, :SPGs,
     :types
-  attr_accessor :db
+  attr_accessor :db, :name
 
   def initialize dict
     @lightTanks = TankGroup.new(dict["lightTank"]) if dict["lightTank"]
@@ -32,6 +32,14 @@ class Tier
     define_method(type) do
       instance_variable_get("@#{type}").group
     end
+  end
+
+  def to_s
+    @name
+  end
+
+  def each
+    @types.each { |type| yield type }
   end
 
 end

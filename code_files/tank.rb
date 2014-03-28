@@ -133,6 +133,14 @@ class Tank
     end
   end
 
+  def equipment permutations
+    set_all_values_stock
+    if @hasTurret
+      modules = [@availableTurrets, @availableEngines, 
+                 @availableSuspensions, @availableRadios]
+    end
+  end
+
   def set_weights
     set_all_values_stock
     self.hull.weight = (self.stockWeight * 1000) - self.gun.weight - 
@@ -354,6 +362,7 @@ class Tank
       insert into 'tanks' 
         values(
           '#{self.name}',
+          #{self.tier},
           #{self.weight},
           #{self.hitpoints},
           #{self.penetration},
