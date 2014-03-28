@@ -121,6 +121,12 @@ class TankStore
     end
   end
 
+  def fetch_unique_values_for(key, order)
+    @db.execute("select #{key} from tanks 
+                group by #{key} 
+                order by #{key} #{order}").flatten
+  end
+
 end
 
 
@@ -138,13 +144,12 @@ puts "\n"
 
 test = tanks.tier8.mediumTanks.first
 
-#tanks.db_create
-#tanks.db_populate_all_configs
+rows = tanks.db.execute("select count(*) from tanks")[0][0]
+puts "Rows in db: #{rows}"
 
-key = "damage"
-order = "desc"
-query = tanks.db.execute("select name, #{key} from tanks group by #{key} order by #{key} #{order} limit 10")
+query = tanks.fetch_unique_values_for("signal_range", "desc")
 puts query.to_s
+puts query.count
 
 
 #query = tanks.db.execute("select name, tier, camo_stationary from tanks order by camo_stationary desc limit 15")
