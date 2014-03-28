@@ -62,6 +62,7 @@ class TankStore
         tier int,
         weight float,
         hitpoints int,
+        shell_type varchar(140),
         penetration int,
         damage int,
         accuracy float,
@@ -94,9 +95,30 @@ class TankStore
     SQL
   end
 
-  def db_populate
+  def db_populate_stock_configs
     tanks = TankStore.instance
-    tanks.each_tank { |t| @db.execute(t.sql_string_for_tank) }
+    tanks.each_tank do |tank|
+      tank.set_all_values_stock
+      @db.execute(tank.sql_string_for_tank)
+    end
+  end
+      
+  def db_populate_top_configs
+    tanks = TankStore.instance
+    tanks.each_tank do |tank|
+      tank.set_all_values_top
+      @db.execute(tank.sql_string_for_tank)
+    end
+  end
+
+  def db_populate_all_configs
+    tanks = TankStore.instance
+    tanks.each_tank do |tank|
+      puts tank
+      tank.each_config do |config|
+        @db.execute(config.sql_string_for_tank)
+      end
+    end
   end
 
 end
@@ -117,7 +139,13 @@ puts "\n"
 test = tanks.tier8.mediumTanks.first
 
 #tanks.db_create
-#tanks.db_populate
+#tanks.db_populate_all_configs
+
+key = "damage"
+order = "desc"
+query = tanks.db.execute("select name, #{key} from tanks group by #{key} order by #{key} #{order} limit 10")
+puts query.to_s
+
 
 #query = tanks.db.execute("select name, tier, camo_stationary from tanks order by camo_stationary desc limit 15")
 #query.each { |i| puts "#{i[2]}: #{i[0]}(#{i[1]})" }

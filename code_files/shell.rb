@@ -27,4 +27,14 @@ class Shell
     "Shell"
   end
 
+  def to_s
+    if @shellType == :gold
+      "Gold"
+    elsif @shellType == :he
+      "HE"
+    else
+      "Normal"
+    end
+  end
+
 end

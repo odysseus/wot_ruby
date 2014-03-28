@@ -38,6 +38,10 @@ class Tier
     @name
   end
 
+  def self.to_s
+    "Tier"
+  end
+
   def each
     @types.each { |type| yield type }
   end

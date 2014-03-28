@@ -81,6 +81,18 @@ class Tank
     @@count += 1
   end
 
+  def to_s
+    "#{@name}"
+  end
+
+  def self.count
+    @@count
+  end
+
+  def self.to_s
+    "Tank"
+  end
+
   def set_all_values_top
     @availableEngines.each do |eng|
       @engine = eng if eng.topModule 
@@ -148,16 +160,36 @@ class Tank
     self.hull.weight -= self.turret.weight if @hasTurret
   end
 
-  def to_s
-    "#{@name}"
-  end
-
-  def self.count
-    @@count
-  end
-
-  def self.to_s
-    "Tank"
+  def each_config
+    @availableRadios.each do |radio|
+      @radio = radio
+      @availableSuspensions.each do |suspension|
+        @suspension = suspension
+        @availableEngines.each do |engine|
+          @engine = engine
+          if @hasTurret
+            @availableTurrets.each do |turret|
+              @turret = turret
+              turret.availableGuns.each do |gun|
+                turret.gun = gun
+                turret.gun.each_shell do |shell|
+                  turret.gun.shell = shell
+                  yield self if self.weight < @suspension.loadLimit
+                end
+              end
+            end
+          else
+            @hull.availableGuns.each do |gun|
+              hull.gun = gun
+              hull.gun.each_shell do |shell|
+                hull.gun.shell = shell
+                yield self if self.weight < @suspension.loadLimit
+              end
+            end
+          end
+        end
+      end
+    end
   end
 
   # Pass-Thru and Calculated Properties
@@ -365,6 +397,7 @@ class Tank
           #{self.tier},
           #{self.weight},
           #{self.hitpoints},
+          '#{self.gun.shell}',
           #{self.penetration},
           #{self.alphaDamage},
           #{self.accuracy},

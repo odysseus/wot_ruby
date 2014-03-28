@@ -13,6 +13,10 @@ class TankGroup
     end
   end
 
+  def self.to_s
+    "TankGroup"
+  end
+
   def first
     @group.first
   end

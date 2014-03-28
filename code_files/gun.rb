@@ -31,6 +31,12 @@ class Gun < Module
     @@guns += 1
   end
 
+  def each_shell
+    @shells.each do |s|
+      yield s
+    end
+  end
+
   def self.count
     @@guns
   end
