@@ -2,6 +2,7 @@ require 'fileutils'
 require 'singleton'
 require 'json'
 require 'sqlite3'
+require_relative './tanks_db.rb'
 require_relative './tier.rb'
 require_relative './tank.rb'
 
@@ -12,7 +13,7 @@ class TankStore
   attr_accessor :db
 
   def initialize
-    @db = SQLite3::Database.new("tanks.db")
+    @db = SQLite3::Database.new("../db/stats.db")
     @tiers = []
     (1..10).each do |t|
       path = "../tier_files/tier#{t}.json"
@@ -52,105 +53,4 @@ class TankStore
     end
   end
 
-  def db_create
-    @db = nil
-    File.delete("tanks.db")
-    @db = SQLite3::Database.new("tanks.db")
-    @db.execute <<-SQL
-      create table if not exists tanks (
-        name varchar(140),
-        tier int,
-        weight float,
-        hitpoints int,
-        shell_type varchar(140),
-        penetration int,
-        damage int,
-        accuracy float,
-        aim_time float,
-        rate_of_fire float,
-        damage_per_minute int,
-        gun_depression int,
-        gun_elevation int,
-        autoloader boolean,
-        frontal_hull int,
-        side_hull int,
-        rear_hull int,
-        camo_stationary float,
-        camo_moving float,
-        camo_shooting float,
-        view_range int,
-        gun_arc int,
-        specific_power float,
-        fire_chance float,
-        signal_range int,
-        hull_traverse int,
-        speed_limit int,
-        hard_terrain_resist float,
-        medium_terrain_resist float,
-        soft_terrain_resist float,
-        frontal_turret int,
-        side_turret int,
-        rear_turret int
-      );
-    SQL
-  end
-
-  def db_populate_stock_configs
-    tanks = TankStore.instance
-    tanks.each_tank do |tank|
-      tank.set_all_values_stock
-      @db.execute(tank.sql_string_for_tank)
-    end
-  end
-      
-  def db_populate_top_configs
-    tanks = TankStore.instance
-    tanks.each_tank do |tank|
-      tank.set_all_values_top
-      @db.execute(tank.sql_string_for_tank)
-    end
-  end
-
-  def db_populate_all_configs
-    tanks = TankStore.instance
-    tanks.each_tank do |tank|
-      puts tank
-      tank.each_config do |config|
-        @db.execute(config.sql_string_for_tank)
-      end
-    end
-  end
-
-  def fetch_unique_values_for(key, order)
-    @db.execute("select #{key} from tanks 
-                group by #{key} 
-                order by #{key} #{order}").flatten
-  end
-
 end
-
-
-tanks = TankStore.instance
-
-puts "Tanks: #{Tank.count}"
-puts "Hulls: #{Hull.count}"
-puts "Turret: #{Turret.count}"
-puts "Guns: #{Gun.count}"
-puts "Engines: #{Engine.count}"
-puts "Radios: #{Radio.count}"
-puts "Suspensions: #{Suspension.count}"
-puts "Modules: #{Module.count}"
-puts "\n"
-
-test = tanks.tier8.mediumTanks.first
-
-rows = tanks.db.execute("select count(*) from tanks")[0][0]
-puts "Rows in db: #{rows}"
-
-query = tanks.fetch_unique_values_for("signal_range", "desc")
-puts query.to_s
-puts query.count
-
-
-#query = tanks.db.execute("select name, tier, camo_stationary from tanks order by camo_stationary desc limit 15")
-#query.each { |i| puts "#{i[2]}: #{i[0]}(#{i[1]})" }
