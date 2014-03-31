@@ -2,9 +2,10 @@ require_relative './tank.rb'
 
 class TankGroup
 
-  attr_accessor :group, :db
+  attr_accessor :group, :db, :name
 
   def initialize dict
+    @db = TankStore.db
     @group = []
     dict.each do |k,v|
       tank = Tank.new(v)

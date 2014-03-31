@@ -4,7 +4,7 @@ require 'json'
 require 'sqlite3'
 require_relative './tier.rb'
 require_relative './tank.rb'
-require_relative './all_tanks.rb'
+require_relative './tank_store.rb'
 
 class TanksDB
   include Singleton
@@ -14,34 +14,38 @@ class TanksDB
   def initialize
     @db = SQLite3::Database.new("../db/stats.db")
     @stats = [
-      ["hitpoints", "desc"],
-      ["penetration", "desc"],
-      ["damage", "desc"],
-      ["accuracy", "asc"],
-      ["aim_time", "asc"],
-      ["rate_of_fire", "desc"],
-      ["damage_per_minute", "desc"],
-      ["gun_depression", "asc"],
-      ["gun_elevation", "desc"],
-      ["frontal_hull", "desc"],
-      ["side_hull", "desc"],
-      ["rear_hull", "desc"],
-      ["camo_stationary", "desc"],
-      ["camo_moving", "desc"],
-      ["camo_shooting", "desc"],
-      ["view_range", "desc"],
-      ["gun_arc", "desc"],
-      ["specific_power", "desc"],
-      ["fire_chance", "asc"],
-      ["signal_range", "desc"],
-      ["hull_traverse", "desc"],
-      ["speed_limit", "desc"],
-      ["hard_terrain_resist", "asc"],
-      ["medium_terrain_resist", "asc"],
-      ["soft_terrain_resist", "asc"],
-      ["frontal_turret", "desc"],
-      ["side_turret", "desc"],
-      ["rear_turret", "desc"]
+      ["hitpoints", "desc", "hitpoints"],
+      ["penetration", "desc", "penetration"],
+      ["damage", "desc", "alphaDamage"],
+      ["accuracy", "asc", "accuracy"],
+      ["aim_time", "asc", "aimTime"],
+      ["rate_of_fire", "desc", "rateOfFire"],
+      ["damage_per_minute", "desc", "damagePerMinute"],
+      ["gun_depression", "asc", "gunDepression"],
+      ["gun_elevation", "desc", "gunElevation"],
+      ["movement_dispersion_gun", "asc", "movementDispersionGun"],
+      ["frontal_hull", "desc", "frontallHullArmor"],
+      ["side_hull", "desc", "sideHullArmor"],
+      ["rear_hull", "desc", "rearHullArmor"],
+      ["camo_stationary", "desc", "camoValueStationary"],
+      ["camo_moving", "desc", "camoValueMoving"],
+      ["camo_shooting", "desc", "camoValueShooting"],
+      ["view_range", "desc", "viewRange"],
+      ["gun_arc", "desc", "gunTraverseArc"],
+      ["specific_power", "desc", "specificPower"],
+      ["fire_chance", "asc", "fireChance"],
+      ["signal_range", "desc", "signalRange"],
+      ["hull_traverse", "desc", "hullTraverse"],
+      ["speed_limit", "desc", "speedLimit"],
+      ["hard_terrain_resist", "asc", "hardTerrainResistance"],
+      ["medium_terrain_resist", "asc", "mediumTerrainResistance"],
+      ["soft_terrain_resist", "asc", "softTerrainResistance"],
+      ["average_terrain_resist", "asc", "avgTerrainResistance"],
+      ["movement_dispersion_suspension", "asc", "movementDispersionSuspension"],
+      ["frontal_turret", "desc", "frontalTurretArmor"],
+      ["side_turret", "desc", "sideTurretArmor"],
+      ["rear_turret", "desc", "rearTurretArmor"],
+      ["turret_traverse", "desc", "turretTraverse"]
     ]
   end
 
@@ -66,6 +70,7 @@ class TanksDB
         damage_per_minute int,
         gun_depression int,
         gun_elevation int,
+        movement_dispersion_gun float,
         autoloader boolean,
         frontal_hull int,
         side_hull int,
@@ -83,9 +88,12 @@ class TanksDB
         hard_terrain_resist float,
         medium_terrain_resist float,
         soft_terrain_resist float,
+        average_terrain_resist float,
+        movement_dispersion_suspension float,
         frontal_turret int,
         side_turret int,
-        rear_turret int
+        rear_turret int,
+        turret_traverse int
       );
     SQL
   end
@@ -160,6 +168,31 @@ class TanksDB
                     ('#{p[0]}', #{p[1]});")
       end
     end
+  end
+
+  def all_percentiles_hash
+    final = {}
+    @stats.each do |s|
+      stat = s[0]
+      name = s[2]
+      final[name] = {}
+      query = @db.execute("select * from #{stat}_percentiles")
+      query.each do |q|
+        final[name][q[0].to_s] = q[1]
+      end
+    end
+    return final
+  end
+
+  def all_percentiles_json
+    JSON.pretty_generate(all_percentiles_hash)
+  end
+
+  def write_percentiles_json
+    File.open("../db/percentiles.json", "w") do |file|
+      file.write(all_percentiles_json)
+    end
+    puts "Percentile JSON written"
   end
 
 end

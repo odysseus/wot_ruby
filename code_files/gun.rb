@@ -5,16 +5,18 @@ class Gun < Module
 
   attr_accessor :shells, :round, :rateOfFire, :accuracy, :aimTime,
     :gunDepression, :gunElevation, :autoloader, :roundsInDrum,
-    :timeBetweenShots, :shell
+    :timeBetweenShots, :shell, :movementDispersionGun
 
   @@guns = 0
 
   def initialize dict
     super
-    mass_assign = [:rateOfFire, :accuracy, :aimTime, :gunDepression, :gunElevation]
+    mass_assign = [:rateOfFire, :accuracy, :aimTime, :gunDepression, 
+                   :gunElevation]
     mass_assign.each do |att|
       instance_variable_set("@#{att}", dict[att.to_s])
     end
+    @movementDispersionGun = dict["dispersion"]["gunMovement"].to_f
     if dict["autoloader"]
       @autoloader = 1
     else

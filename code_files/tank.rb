@@ -1,4 +1,5 @@
 require 'json'
+require_relative './tank_store.rb'
 require_relative './module.rb'
 require_relative './hull.rb'
 require_relative './turret.rb'
@@ -11,7 +12,7 @@ require_relative './shell.rb'
 
 class Tank
 
-  attr_accessor :name, :hull, :turret, :engine, :radio, :suspension, 
+  attr_accessor :name, :hull, :type, :turret, :engine, :radio, :suspension, 
     :availableEngines, :availableRadios, :availableTurrets, :gun, 
     :availableSuspensions, :hasTurret, :premiumTank, :available, :gunArc, 
     :crewLevel, :speedLimit, :baseHitpoints, :nation, :tier, :type, 
@@ -145,14 +146,6 @@ class Tank
     end
   end
 
-  def equipment permutations
-    set_all_values_stock
-    if @hasTurret
-      modules = [@availableTurrets, @availableEngines, 
-                 @availableSuspensions, @availableRadios]
-    end
-  end
-
   def set_weights
     set_all_values_stock
     self.hull.weight = (self.stockWeight * 1000) - self.gun.weight - 
@@ -189,6 +182,31 @@ class Tank
           end
         end
       end
+    end
+  end
+
+  # Converts stat weighting to sum up to 1.00 for consistency
+  def converted_weights
+    dict = TankStore.instance.weights[@type.to_s]
+    total = 0.0
+    final = {}
+    dict.each do |k,v|
+      total += v
+    end
+    dict.each do |k,v|
+      final[k] = (v / total.to_f)
+    end
+    return final
+  end
+
+  def percentile_for key
+    TankStore.instance.percentiles[key][eval("self.#{key}").to_s]
+  end
+
+  def tank_score
+    score = 0
+    converted_weights.each do |k,v|
+      score += percentile_for(k) * v * 100
     end
   end
 
@@ -349,6 +367,36 @@ class Tank
     self.turret.rearArmor
   end
 
+  def averageTerrainResistance
+    self.suspension.average_terrain_resistance
+  end
+
+  def maxTraverseSpeed
+    if @hasTurret
+      self.suspension.traverseSpeed + self.turret.traverseSpeed
+    else
+      self.suspension.traverseSpeed
+    end
+  end
+
+  def movementDispersionGun
+    self.gun.movementDispersionGun
+  end
+
+  def movementDispersionSuspension
+    self.suspension.movementDispersionSuspension
+  end
+
+  def combinedTerrainResistPercentile
+    (percentile_for("softTerrainResistance") +
+     percentile_for("mediumTerrainResistance") +
+     percentile_for("hardTerrainResistance")) / 3.0
+  end
+
+  def avgTerrainResistance
+    (softTerrainResistance + mediumTerrainResistance + hardTerrainResistance) / 3.0
+  end
+
   # Database and Statistical Methods
 
   def sql_string_for_tank
@@ -368,6 +416,7 @@ class Tank
           #{self.damagePerMinute},
           #{self.gunDepression},
           #{self.gunElevation},
+          #{self.movementDispersionGun},
           #{self.autoloader},
           #{self.frontalHullArmor.thickness},
           #{self.sideHullArmor.thickness},
@@ -384,14 +433,18 @@ class Tank
           #{self.speedLimit},
           #{self.hardTerrainResistance},
           #{self.mediumTerrainResistance},
-          #{self.softTerrainResistance},"
+          #{self.softTerrainResistance},
+          #{self.avgTerrainResistance},
+          #{self.movementDispersionSuspension},"
       if @hasTurret 
         sql << "
           #{self.frontalTurretArmor.thickness},
           #{self.sideTurretArmor.thickness},
-          #{self.rearTurretArmor.thickness}"
+          #{self.rearTurretArmor.thickness},
+          #{self.turretTraverse}"
       else
         sql << "
+          null,
           null,
           null,
           null"

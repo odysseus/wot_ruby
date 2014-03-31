@@ -3,7 +3,8 @@ require_relative './module.rb'
 class Suspension < Module
 
   attr_accessor :loadLimit, :traverseSpeed, :hardTerrainResistance, 
-    :mediumTerrainResistance, :softTerrainResistance
+    :mediumTerrainResistance, :softTerrainResistance, 
+    :movementDispersionSuspension
 
   @@suspensions = 0
 
@@ -16,7 +17,8 @@ class Suspension < Module
     @hardTerrainResistance = terrain_resist[0]
     @mediumTerrainResistance = terrain_resist[1]
     @softTerrainResistance = terrain_resist[2]
-    
+    @movementDispersionSuspension = dict["movementDispersion"]
+
     @@suspensions += 1
   end
 
@@ -26,6 +28,10 @@ class Suspension < Module
 
   def self.to_s
     "Suspension"
+  end
+
+  def average_terrain_resistance
+    (@hardTerrainResistance + @mediumTerrainResistance + @softTerrainResistance) / 3.0
   end
 
 end
