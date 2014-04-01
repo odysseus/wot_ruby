@@ -1,0 +1,343 @@
+Renault NC-31: 467
+Renault FT: 664
+Leichttraktor: 534
+Renault Otsu: 591
+MS-1: 443
+T1 Cunningham: 479
+Vickers Medium Mk. I: 368
+Vickers Mk. E Type B: 593
+D1: 842
+Hotchkiss H35: 693
+Pz.Kpfw. 38H 735 (f): 937
+Pz.Kpfw. 35 (t): 843
+Pz.Kpfw. II: 707
+Pz.Kpfw. I: 795
+Type 95 Ha-Go: 1153
+Cruiser Mk. I: 784
+Cruiser Mk. III: 1031
+Light Mk. VIC: 751
+T1E6: 699
+M2 Light Tank: 982
+T2 Light Tank: 1068
+T7 Combat Car: 573
+BT-2: 1021
+T-60: 773
+T-26: 697
+Tetrarch: 1023
+Chi-Ni: 950
+Vickers Medium Mk. II: 510
+T2 Medium Tank: 987
+Renault FT AC: 968
+Panzerjäger I: 1278
+Universal Carrier 2-pdr: 1198
+T18: 1092
+AT-1: 1024
+Renault FT 75 BS: 473
+G.Pz. Mk. VI (e): 939
+Loyd Gun Carriage: 789
+T57: 640
+SU-18: 498
+Type 2597 Chi-Ha: 1043
+AMX 38: 482
+Pz.Kpfw. 38 (t): 1244
+Pz.Kpfw. I Ausf. C: 1848
+Pz.Kpfw. II Ausf. G: 1231
+Pz.Kpfw. II Ausf. J: 850
+Pz.Kpfw. III Ausf. A: 1235
+Type 98 Ke-Ni: 1731
+Type 98 Ke-Ni Otsu: 1571
+Cruiser Mk. II: 626
+Cruiser Mk. IV: 1192
+M22 Locust: 1651
+M3 Stuart: 1534
+T-70: 988
+BT-7: 1676
+BT-SV: 1203
+LTP: 888
+M3 Light: 1004
+T-127: 857
+T-15: 1691
+T-46: 949
+D2: 683
+Pz.Kpfw. S35 739 (f): 1389
+Type 97 Chi-Ha: 1126
+Vickers Medium Mk. III: 1051
+M2 Medium Tank: 1050
+FCM 36 Pak 40: 1398
+Renault UE 57: 1474
+Marder II: 1398
+Valentine AT: 1559
+T82: 1291
+SU-76: 1539
+Lorraine 39L AM: 1130
+Sturmpanzer I Bison: 844
+Wespe: 1091
+Sexton I: 705
+Sexton II: 733
+M7 Priest: 1042
+SU-26: 785
+M5A1 Stuart: 1789
+AMX 40: 528
+Pz.Kpfw. 38 (t) n.A.: 1496
+Pz.Kpfw. II Luchs: 1305
+Type 5 Ke-Ho: 1936
+Covenanter: 1371
+Valentine: 1293
+M5 Stuart: 1913
+A-20: 1496
+T-50: 1370
+T-80: 1068
+Valentine II: 1395
+Pz.Kpfw. III: 1654
+VK 20.01 (D): 1344
+Type 1 Chi-He: 1392
+Matilda: 1488
+M3 Lee: 1026
+A-32: 1461
+T-28: 1292
+B1: 1161
+Durchbruchswagen 2: 1109
+Pz.Kpfw. B2 740 (f): 1481
+Somua SAu 40: 1059
+Hetzer: 1416
+Marder 38T: 1765
+Alecto: 1779
+M8A1: 1952
+T40: 1976
+SU-85B: 1835
+AMX 105 AM mle. 47: 1527
+Pz.Sfl. IVb: 1246
+Sturmpanzer II: 993
+Birch Gun: 1137
+M37: 1157
+SU-5: 1338
+ELC AMX: 2056
+VK 16.02 Leopard: 1743
+Crusader: 1665
+M24 Chaffee: 2544
+Type T-34: 1550
+Pz.Kpfw. III/IV: 1507
+Pz.Kpfw. IV: 1214
+T-25: 1233
+Type 3 Chi-Nu: 1494
+Type 3 Chi-Nu Kai: 1437
+Matilda Black Prince: 1416
+M4A2E4 Sherman: 1265
+M4 Sherman: 1423
+M7: 1965
+Ram II: 1420
+T-34: 1535
+Matilda IV: 1557
+BDR G1 B: 1181
+VK 30.01 (H): 1522
+T14: 1352
+Churchill I: 1749
+Excelsior: 1242
+T1 Heavy Tank: 1355
+Churchill III: 1605
+KV-220: 1208
+KV-1: 1276
+S35 CA: 1580
+StuG III: 2052
+Pz.Sfl. IVc: 1837
+AT 2: 1416
+M10 Wolverine: 1793
+T49: 2240
+SU-85: 1788
+SU-85I: 1174
+105 leFH18B2: 1196
+AMX 13 105 AM mle. 50: 1265
+Grille: 1868
+Bishop: 1333
+M41: 1856
+SU-122A: 2104
+59-16: 2322
+Type 64: 2485
+AMX 12 t: 2224
+VK 28.01: 1922
+T21: 2346
+MT-25: 2368
+Type 58: 2073
+Pz.Kpfw. IV Schmalturm: 1830
+Pz.Kpfw. V/IV: 1762
+VK 30.02 (M): 1849
+VK 30.01 (D): 1843
+VK 30.01 (P): 1585
+Type 4 Chi-To: 2098
+Cromwell: 2307
+M4A3E2 Sherman Jumbo: 1505
+M4A3E8 Sherman: 1869
+A-43: 2309
+T-34-85: 1939
+ARL 44: 2042
+VK 36.01 (H): 2038
+Churchill VII: 2270
+TOG II*: 2690
+M6: 2063
+KV-1S: 1971
+KV-2: 1715
+T-150: 1914
+ARL V39: 1931
+Nashorn: 2145
+Dicker Max: 1936
+Jagdpanzer IV: 2221
+AT 8: 2424
+Churchill Gun Carrier: 2160
+M18 Hellcat: 2429
+M36 Jackson: 2082
+SU-100: 2106
+SU-100Y: 1670
+AMX 13 F3 AM: 2315
+Hummel: 2042
+FV304: 1757
+M44: 2023
+SU-8: 2077
+Type 62: 3061
+WZ-131: 3454
+AMX 13 75: 3058
+Aufklärungspanzer Panther: 3055
+T71: 3101
+T-34-1: 2964
+Panther: 2837
+Panther/M10: 2415
+VK 30.02 (D): 2390
+Type 5 Chi-Ri: 2577
+Comet: 2776
+T20: 2784
+A-44: 2880
+KV-13: 2622
+T-43: 2579
+IS-2: 2717
+AMX M4 mle. 45: 2691
+Tiger (P): 3122
+Tiger I: 3172
+Black Prince: 3047
+T29: 3003
+IS: 2610
+KV-3: 2747
+AMX AC mle. 46: 2360
+E 25: 2955
+Jagdpanther: 2518
+Pz.Sfl. V: 2673
+AT 15A: 2415
+AT 7: 3408
+T25/2: 2523
+T25 AT: 2703
+SU-152: 2365
+SU-122-44: 2722
+SU-100M1: 2742
+Lorraine 155 mle. 50: 2212
+G.W. Panther: 2547
+Crusader 5.5-in. SP: 2359
+M12: 2427
+S-51: 2964
+SU-14-1: 3016
+WZ-132: 4059
+AMX 13 90: 3578
+T-34-2: 3405
+T-34-3: 3212
+Type 59: 3492
+Indien-Panzer: 3055
+Panther II: 3369
+STA-1: 3564
+Centurion Mk. I: 3447
+T26E4 SuperPershing: 2732
+T69: 2819
+M26 Pershing: 3044
+Object 416: 3956
+T-44: 3159
+110: 3691
+112: 3125
+AMX 50 100: 3237
+FCM 50 t: 3557
+Löwe: 3946
+Tiger II: 3867
+VK 45.02 (P) Ausf. A: 3469
+Caernarvon: 4017
+M6A2E1: 3172
+T32: 3649
+T34: 3783
+IS-3: 3761
+IS-6: 3058
+KV-4: 3837
+KV-5: 3547
+AMX AC mle. 48: 3164
+Jagdpanther II: 3700
+8,8 cm Pak 43 Jagdtiger: 3320
+Ferdinand: 3549
+Rhm.-Borsig Waffenträger: 3529
+AT 15: 3848
+T28: 3856
+T28 Prototype: 3659
+ISU-152: 3802
+SU-101: 3465
+Lorraine 155 mle. 51: 2653
+G.W. Tiger (P): 3072
+FV207: 2556
+M40/M43: 3035
+SU-14-2: 3042
+WZ-120: 4760
+Lorraine 40 t: 3955
+E 50: 4227
+Leopard Prototyp A: 4683
+Type 61: 4408
+Centurion Mk. 7/1: 4597
+M46 Patton: 3794
+T54E1: 3490
+Object 430 Version II: 4821
+T-54: 4256
+WZ-111 model 1-4: 4848
+AMX 50 120: 4343
+E 75: 4931
+VK 45.02 (P) Ausf. B: 4878
+Conqueror: 5134
+M103: 4823
+IS-8: 4815
+ST-I: 4776
+AMX 50 Foch: 4081
+Jagdtiger: 5045
+Waffenträger auf Pz. IV: 4123
+Tortoise: 5253
+T30: 4436
+T95: 5117
+SU-122-54: 4679
+Object 704: 4799
+Bat.-Châtillon 155 55: 2840
+G.W. Tiger: 3167
+FV3805: 3123
+M53/M55: 3388
+212A: 3073
+121: 5484
+Bat.-Châtillon 25 t: 5206
+E 50 Ausf. M: 5391
+Leopard 1: 5776
+STB-1: 5264
+FV4202: 5726
+M48A1 Patton: 5584
+Object 140: 6131
+Object 430: 6136
+Object 907: 5276
+T-62A: 6445
+113: 5432
+AMX 50 B: 5026
+E 100: 5467
+Maus: 5802
+VK 72.01 (K): 5246
+FV215b: 6277
+T110E5: 5586
+T57 Heavy Tank: 5437
+IS-4: 5639
+IS-7: 5282
+AMX 50 Foch (155): 4923
+Jagdpanzer E 100: 5661
+Waffenträger auf E 100: 5168
+FV215b (183): 5274
+T110E3: 5437
+T110E4: 5406
+Object 263: 5479
+Object 268: 5785
+Bat.-Châtillon 155 58: 3146
+G.W. E 100: 3262
+Conqueror Gun Carriage: 3411
+T92: 3496
+Object 261: 3005

@@ -200,14 +200,15 @@ class Tank
   end
 
   def percentile_for key
-    TankStore.instance.percentiles[key][eval("self.#{key}").to_s]
+    TankStore.instance.percentiles[key][eval("self.#{key}").to_f.to_s]
   end
 
   def tank_score
     score = 0
     converted_weights.each do |k,v|
-      score += percentile_for(k) * v * 100
+      score += (((self.percentile_for(k) * 100) ** 3) * (v * 100)) / 10000
     end
+    return score.round
   end
 
   # Pass-Thru and Calculated Properties
@@ -225,15 +226,19 @@ class Tank
   end
 
   def aimTime
-    self.gun.aimTime
+    self.gun.aimTime.round(2)
   end
 
   def accuracy
-    self.gun.accuracy
+    self.gun.accuracy.round(2)
   end
 
   def rateOfFire
-    self.gun.rateOfFire
+    self.gun.rateOfFire.round(2)
+  end
+
+  def gunTraverseArc
+    @gunArc
   end
 
   def gunDepression
@@ -297,7 +302,11 @@ class Tank
   end
 
   def turretTraverse
-    self.turret.traverseSpeed
+    if @hasTurret
+      self.turret.traverseSpeed
+    else
+      self.suspension.traverseSpeed
+    end
   end
 
   def hardTerrainResistance
@@ -328,15 +337,15 @@ class Tank
   end
 
   def specificPower
-    self.horsepower / self.weight
+    (self.horsepower / self.weight).round(2)
   end
 
   def damagePerMinute
-    self.gun.rateOfFire * self.gun.damage
+    (self.gun.rateOfFire * self.gun.damage).round
   end
 
   def reloadTime
-    60.0 / self.rateOfFire
+    (60.0 / self.rateOfFire).round(3)
   end
 
   def alphaDamage
@@ -344,27 +353,39 @@ class Tank
   end
 
   def frontalHullArmor
-    self.hull.frontArmor
+    self.hull.frontArmor.thickness
   end
 
   def sideHullArmor
-    self.hull.sideArmor
+    self.hull.sideArmor.thickness
   end
 
   def rearHullArmor
-    self.hull.rearArmor
+    self.hull.rearArmor.thickness
   end
 
   def frontalTurretArmor
-    self.turret.frontArmor
+    if @hasTurret
+      self.turret.frontArmor.thickness
+    else
+      self.hull.frontArmor.thickness
+    end
   end
 
   def sideTurretArmor
-    self.turret.sideArmor
+    if @hasTurret
+      self.turret.sideArmor.thickness
+    else
+      self.hull.sideArmor.thickness
+    end
   end
 
   def rearTurretArmor
-    self.turret.rearArmor
+    if @hasTurret
+      self.turret.rearArmor.thickness
+    else
+      self.hull.sideArmor.thickness
+    end
   end
 
   def averageTerrainResistance
@@ -418,9 +439,9 @@ class Tank
           #{self.gunElevation},
           #{self.movementDispersionGun},
           #{self.autoloader},
-          #{self.frontalHullArmor.thickness},
-          #{self.sideHullArmor.thickness},
-          #{self.rearHullArmor.thickness},
+          #{self.frontalHullArmor},
+          #{self.sideHullArmor},
+          #{self.rearHullArmor},
           #{self.camoValueStationary},
           #{self.camoValueMoving},
           #{self.camoValueShooting},
@@ -434,23 +455,12 @@ class Tank
           #{self.hardTerrainResistance},
           #{self.mediumTerrainResistance},
           #{self.softTerrainResistance},
-          #{self.avgTerrainResistance},
-          #{self.movementDispersionSuspension},"
-      if @hasTurret 
-        sql << "
-          #{self.frontalTurretArmor.thickness},
-          #{self.sideTurretArmor.thickness},
-          #{self.rearTurretArmor.thickness},
-          #{self.turretTraverse}"
-      else
-        sql << "
-          null,
-          null,
-          null,
-          null"
-      end
-      sql << ");"
-      return sql
+          #{self.movementDispersionSuspension},
+          #{self.frontalTurretArmor},
+          #{self.sideTurretArmor},
+          #{self.rearTurretArmor},
+          #{self.turretTraverse});"
+    return sql
   end
 
 end

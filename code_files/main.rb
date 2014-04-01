@@ -31,7 +31,8 @@ puts "\nRows in db: #{rows}\n"
 query = tanksDB.db.execute("select name from tanks group by name order by name asc")
 puts "Tanks in db: #{query.count}"
 
-tank = tanks.tier1.lightTanks.first
-tank.converted_weights.each do |k,v|
-  puts k, tank.percentile_for(k)
+File.open("scores.txt", "w") do |file|
+  tanks.each_tank do |t|
+    file.write("#{t}: #{t.tank_score}\n")
+  end
 end

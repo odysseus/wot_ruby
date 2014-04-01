@@ -13,9 +13,9 @@ class TankStore
   attr_accessor :db
 
   def initialize
-    @db = SQLite3::Database.new("../db/stats.db")
-    @percentiles = JSON.parse(File.read("../db/percentiles.json"))
-    @weights = JSON.parse(File.read("../db/weights.json"))
+    @db = SQLite3::Database.new("#{$path}/db/stats.db")
+    @percentiles = JSON.parse(File.read("#{$path}/db/percentiles.json"))
+    @weights = JSON.parse(File.read("#{$path}/db/weights.json"))
     @tiers = []
     (1..10).each do |t|
       path = "../tier_files/tier#{t}.json"

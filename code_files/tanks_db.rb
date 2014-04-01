@@ -2,6 +2,7 @@ require 'fileutils'
 require 'singleton'
 require 'json'
 require 'sqlite3'
+require 'pathname'
 require_relative './tier.rb'
 require_relative './tank.rb'
 require_relative './tank_store.rb'
@@ -10,9 +11,10 @@ class TanksDB
   include Singleton
 
   attr_accessor :db, :stats
+  $path = Pathname.new("/Users/ryan/Copy/code/ruby/wot_ruby/")
 
   def initialize
-    @db = SQLite3::Database.new("../db/stats.db")
+    @db = SQLite3::Database.new("#{$path}/db/stats.db")
     @stats = [
       ["hitpoints", "desc", "hitpoints"],
       ["penetration", "desc", "penetration"],
@@ -24,7 +26,7 @@ class TanksDB
       ["gun_depression", "asc", "gunDepression"],
       ["gun_elevation", "desc", "gunElevation"],
       ["movement_dispersion_gun", "asc", "movementDispersionGun"],
-      ["frontal_hull", "desc", "frontallHullArmor"],
+      ["frontal_hull", "desc", "frontalHullArmor"],
       ["side_hull", "desc", "sideHullArmor"],
       ["rear_hull", "desc", "rearHullArmor"],
       ["camo_stationary", "desc", "camoValueStationary"],
@@ -40,7 +42,6 @@ class TanksDB
       ["hard_terrain_resist", "asc", "hardTerrainResistance"],
       ["medium_terrain_resist", "asc", "mediumTerrainResistance"],
       ["soft_terrain_resist", "asc", "softTerrainResistance"],
-      ["average_terrain_resist", "asc", "avgTerrainResistance"],
       ["movement_dispersion_suspension", "asc", "movementDispersionSuspension"],
       ["frontal_turret", "desc", "frontalTurretArmor"],
       ["side_turret", "desc", "sideTurretArmor"],
@@ -88,7 +89,6 @@ class TanksDB
         hard_terrain_resist float,
         medium_terrain_resist float,
         soft_terrain_resist float,
-        average_terrain_resist float,
         movement_dispersion_suspension float,
         frontal_turret int,
         side_turret int,
